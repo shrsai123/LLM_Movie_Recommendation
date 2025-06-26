@@ -1,35 +1,0 @@
-/home/shrsai/LLM_Recommendation/llm_recommendation.py:119: SyntaxWarning: invalid escape sequence '\h'
-  template_prefix="""You are an expert movie recommender. For user queries about actors/directors/genres:
-/home/shrsai/LLM_Recommendation/llm_recommendation.py:19: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
-
->> from langchain.embeddings import HuggingFaceEmbeddings
-
-with new imports of:
-
->> from langchain_community.embeddings import HuggingFaceEmbeddings
-You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
-  from langchain.embeddings import HuggingFaceEmbeddings
-/home/shrsai/LLM_Recommendation/llm_recommendation.py:20: LangChainDeprecationWarning: Importing FAISS from langchain.vectorstores is deprecated. Please replace deprecated imports:
-
->> from langchain.vectorstores import FAISS
-
-with new imports of:
-
->> from langchain_community.vectorstores import FAISS
-You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/docs/versions/v0_2/>
-  from langchain.vectorstores import FAISS
-/home/shrsai/LLM_Recommendation/llm_recommendation.py:94: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
-  embeddings = HuggingFaceEmbeddings(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:18<00:18, 18.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 14.24s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 14.86s/it]
-Some parameters are on the meta device because they were offloaded to the cpu.
-Device set to use cuda:0
-/home/shrsai/LLM_Recommendation/llm_recommendation.py:116: LangChainDeprecationWarning: The class `HuggingFacePipeline` was deprecated in LangChain 0.0.37 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFacePipeline``.
-  llm = HuggingFacePipeline(pipeline=hf_pipeline)
-/home/shrsai/LLM_Recommendation/llm_recommendation.py:160: LangChainDeprecationWarning: Please see the migration guide at: https://python.langchain.com/docs/versions/migrating_memory/
-  chain_type_kwargs = {"prompt": PROMPT, "memory":ConversationBufferMemory(memory_key="chat_history", input_key="question")}
-/home/shrsai/pyspark-env/lib/python3.12/site-packages/gradio/chat_interface.py:322: UserWarning: The gr.ChatInterface was not provided with a type, so the type of the gr.Chatbot, 'messages', will be used.
-  warnings.warn(
-* Running on local URL:  http://127.0.0.1:7861
-* Running on public URL: https://6c19714128dd005be6.gradio.live
-
-This share link expires in 1 week. For free permanent hosting and GPU upgrades, run `gradio deploy` from the terminal in the working directory to deploy to Hugging Face Spaces (https://huggingface.co/spaces)

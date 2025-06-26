@@ -10,13 +10,13 @@ Original file is located at
 import ast
 import json
 import pandas as pd
-
+import os
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain.chains import RetrievalQA
 from transformers import AutoTokenizer, AutoModelForCausalLM,  BitsAndBytesConfig
 from huggingface_hub import login
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 import transformers
 import torch
@@ -90,10 +90,9 @@ docs = text_splitter.split_documents(documents=data)
 
 # Load embedding model
 embedding_model_name = "sentence-transformers/all-mpnet-base-v2"
-model_kwargs = {"device": "cuda"}
+#model_kwargs = {"device": "cuda"}
 embeddings = HuggingFaceEmbeddings(
-    model_name=embedding_model_name,
-    model_kwargs=model_kwargs
+    model_name=embedding_model_name
 )
 
 vectorstore = FAISS.from_documents(docs, embeddings)
@@ -104,7 +103,7 @@ persisted_vectorstore = FAISS.load_local("faiss_index_", embeddings, allow_dange
 retriever = persisted_vectorstore.as_retriever(search_kwargs={"k":3})
 
 
-login("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")
+login("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")
 model_id = "google/gemma-3-4b-it"
 
 hf_pipeline = pipeline(
@@ -196,5 +195,8 @@ demo= gr.ChatInterface(fn=handle_conversation, title="Movie Blasters", descripti
     theme=gr.themes.Soft(),
 
 )
-demo.launch(server_name="0.0.0.0", server_port=7862)
+
+
+port = int(os.environ.get("PORT", 8080))
+demo.launch(server_name="0.0.0.0", server_port=port, debug=True)
 
