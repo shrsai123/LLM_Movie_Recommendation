@@ -196,7 +196,5 @@ demo= gr.ChatInterface(fn=handle_conversation, title="Movie Blasters", descripti
 
 )
 
-
-port = int(os.environ.get("PORT", 8080))
-demo.launch(server_name="0.0.0.0", server_port=port, debug=True)
+demo.launch(server_name="0.0.0.0", server_port=7860, debug=True)
 

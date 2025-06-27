@@ -15,7 +15,7 @@ RUN python -m pip install --no-cache-dir --index-url https://pypi.org/simple acc
 RUN python -m pip install --no-cache-dir --index-url https://pypi.org/simple sentence-transformers
 RUN python -m pip install --no-cache-dir --index-url https://pypi.org/simple langchain-huggingface
 
-EXPOSE 8080
+EXPOSE 7860
 ENV GRADIO_SERVER_NAME="0.0.0.0"
 
 CMD ["python", "app.py"]
