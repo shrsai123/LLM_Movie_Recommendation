@@ -1,0 +1,30 @@
+# config.yaml
+
+model:
+  embedding: "all-MiniLM-L6-v2"
+  llm: "google/gemma-3-4b-it"
+
+data:
+  movies_path: "./data/tmdb_5000_movies.csv"
+  credits_path: "./data/tmdb_5000_credits.csv"
+  combined_csv_path: "./data/updated_movies.csv"
+
+retrieval:
+  top_k: 5
+  index_path: "indexes/faiss_index_"
+  chunk_size: 1000
+  chunk_overlap: 30
+  similarity_metric: "cosine"
+
+user:
+  age: 18
+  gender: "male"
+
+app:
+  host: "0.0.0.0"
+  port: 7860
+  max_history: 10
+
+mlflow:
+  tracking_uri: "http://localhost:5000"
+  experiment_name: "movie-recommender"

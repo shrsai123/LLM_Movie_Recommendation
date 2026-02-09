@@ -1,0 +1,12 @@
+gradio
+langchain
+langchain-community
+langchain-huggingface
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+transformers
+accelerate
+sentence-transformers
+faiss-cpu
+pandas
+requests
+pyyaml
