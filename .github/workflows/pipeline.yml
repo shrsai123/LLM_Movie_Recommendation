@@ -62,7 +62,9 @@ jobs:
 
       - name: Smoke test container
         run: |
-          docker run -d --name test-app -p 7860:7860 movie-recommender:test
+          docker run -d --name test-app -p 7860:7860 \
+            -e MLFLOW_DISABLED=true \
+            movie-recommender:test
           sleep 30
           for i in 1 2 3 4 5; do
             if curl -sf http://localhost:7860/ > /dev/null 2>&1; then
