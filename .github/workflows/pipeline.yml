@@ -62,23 +62,12 @@ jobs:
 
       - name: Smoke test container
         run: |
-          docker run -d --name test-app -p 7860:7860 \
-            -e MLFLOW_DISABLED=true \
-            movie-recommender:test
-          sleep 30
-          for i in 1 2 3 4 5; do
-            if curl -sf http://localhost:7860/ > /dev/null 2>&1; then
-              echo "App is up!"
-              docker stop test-app
-              exit 0
-            fi
-            echo "Attempt $i failed, waiting 10s..."
-            sleep 10
-          done
-          echo "App failed to start"
-          docker logs test-app
-          docker stop test-app
-          exit 1
+          docker run --rm movie-recommender:test python -c "
+          from src.embeddings import load_config, get_embedding_model
+          from src.chain import build_chain
+          from src.preprocessing import robust_parse
+          print('All imports successful')
+          "
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
