@@ -13,3 +13,4 @@ venv/
 .pytest_cache/
 dist/
 *.egg-info/mlflow.db
+mlflow.db
