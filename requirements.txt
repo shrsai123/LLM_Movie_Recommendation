@@ -12,6 +12,3 @@ pandas
 requests
 pyyaml
 mlflow
-pytest
-ruff
-pre-commit

@@ -18,9 +18,18 @@ jobs:
     permissions:
       contents: read
       packages: write
-
     steps:
       - uses: actions/checkout@v4
+
+      - name: Build Docker image locally
+        run: docker build -t movie-recommender:test .
+
+      - name: Smoke test container
+        run: |
+          docker run -d --name test-app -p 7860:7860 movie-recommender:test
+          sleep 15
+          curl -f http://localhost:7860/ || (docker logs test-app && exit 1)
+          docker stop test-app
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -32,31 +41,16 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract metadata
-        id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ${{ env.REGISTRY }}/${{ github.repository }}/${{ env.DOCKER_IMAGE }}
-          tags: |
-            type=sha
-            type=raw,value=latest
-
-      - name: Build and push Docker image
+      - name: Push to GHCR
         uses: docker/build-push-action@v6
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: |
+            ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.DOCKER_IMAGE }}:latest
+            ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.DOCKER_IMAGE }}:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-
-      - name: Smoke test container
-        run: |
-          docker run -d --name test-app -p 7860:7860 \
-            ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.DOCKER_IMAGE }}:${{ github.sha }}
-          sleep 15
-          curl -f http://localhost:7860/ || (docker logs test-app && exit 1)
-          docker stop test-app
 
   deploy:
     runs-on: ubuntu-latest
