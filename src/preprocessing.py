@@ -1,10 +1,11 @@
-import json
 import ast
+import json
 import logging
+
 import pandas as pd
-from langchain_community.document_loaders import CSVLoader
-from langchain_classic.text_splitter import CharacterTextSplitter
 from langchain_classic.schema import Document
+from langchain_classic.text_splitter import CharacterTextSplitter
+from langchain_community.document_loaders import CSVLoader
 
 logger = logging.getLogger(__name__)
 
@@ -42,9 +43,7 @@ def load_and_clean(movies_path: str, credits_path: str) -> pd.DataFrame:
 
     logger.info(f"Merged dataset: {len(df)} movies")
 
-    df["Genres"] = df["genres"].apply(
-        lambda x: ", ".join([i["name"] for i in robust_parse(x)])
-    )
+    df["Genres"] = df["genres"].apply(lambda x: ", ".join([i["name"] for i in robust_parse(x)]))
     df["Director"] = df["crew"].apply(get_director)
     df["Cast"] = df["cast"].apply(get_cast)
 

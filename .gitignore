@@ -1,11 +1,15 @@
-# .gitignore
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+.ipynb_checkpoints/
 .env
 .gradio/
 *.csv
 faiss_index_/
+indexes/
 mlruns/
 venv/
 .venv/
+.ruff_cache/
+.pytest_cache/
+dist/
+*.egg-info/mlflow.db

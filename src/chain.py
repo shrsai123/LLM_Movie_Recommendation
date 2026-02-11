@@ -1,24 +1,23 @@
-import torch
 import logging
-from transformers import pipeline
-from langchain_huggingface import HuggingFacePipeline
+
+import torch
 from langchain_classic.chains import RetrievalQA
-from langchain_classic.prompts import PromptTemplate
 from langchain_classic.memory import ConversationBufferMemory
-from src.retriever import load_retriever
+from langchain_classic.prompts import PromptTemplate
+from langchain_huggingface import HuggingFacePipeline
+from transformers import pipeline
 
 logger = logging.getLogger(__name__)
 
-def build_chain(retriever,config):
+
+def build_chain(retriever, config):
     logger.info("Building conversational chain")
     model_id = config["model"]["llm"]
     hf_pipeline = pipeline(
-    "text-generation",
-    model=model_id,
-    torch_dtype=torch.bfloat16,
-    device_map="auto")
+        "text-generation", model=model_id, torch_dtype=torch.bfloat16, device_map="auto"
+    )
     llm = HuggingFacePipeline(pipeline=hf_pipeline)
-    template_prefix="""You are an expert movie recommender. For user queries about actors/directors/genres:
+    template_prefix = r"""You are an expert movie recommender. For user queries about actors/directors/genres:
 1. Suggest exactly 3 SPECIFIC movies with YEAR and LEAD ACTORS
 2. Include 1 to 3-sentence descriptions
 3. Explain WHY they match the request
@@ -47,16 +46,26 @@ Age: {age}
 Gender: {gender}"""
     chat_history_part = """Chat History:
 {chat_history}"""
-    template_suffix= """Question: {question}
+    template_suffix = """Question: {question}
 Your response:"""
-    user_info=user_info.format(age=18, gender='male')
-    COMBINED_PROMPT = template_prefix +'\n'+ user_info +'\n'+ chat_history_part + "\n\n" + template_suffix
-    PROMPT=PromptTemplate(template=COMBINED_PROMPT, input_variables=["context", "age", "gender", "chat_history", "question"])
-    chain_type_kwargs = {"prompt": PROMPT, "memory":ConversationBufferMemory(memory_key="chat_history", input_key="question")}
-    qa = RetrievalQA.from_chain_type(llm=llm,
-    chain_type="stuff",
-    retriever=retriever,
-    return_source_documents=False,
-    chain_type_kwargs=chain_type_kwargs)
+    user_info = user_info.format(age=18, gender="male")
+    COMBINED_PROMPT = (
+        template_prefix + "\n" + user_info + "\n" + chat_history_part + "\n\n" + template_suffix
+    )
+    PROMPT = PromptTemplate(
+        template=COMBINED_PROMPT,
+        input_variables=["context", "age", "gender", "chat_history", "question"],
+    )
+    chain_type_kwargs = {
+        "prompt": PROMPT,
+        "memory": ConversationBufferMemory(memory_key="chat_history", input_key="question"),
+    }
+    qa = RetrievalQA.from_chain_type(
+        llm=llm,
+        chain_type="stuff",
+        retriever=retriever,
+        return_source_documents=False,
+        chain_type_kwargs=chain_type_kwargs,
+    )
     logger.info("Chain built successfully")
     return qa

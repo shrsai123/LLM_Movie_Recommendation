@@ -1,8 +1,11 @@
 import logging
-from src.embeddings import get_embedding_model, load_config
-from src.retriever import load_retriever
-from src.chain import build_chain
+
 import gradio as gr
+
+from src.chain import build_chain
+from src.embeddings import get_embedding_model, load_config
+from src.monitoring import init_mlflow, track_query
+from src.retriever import load_retriever
 
 logging.basicConfig(
     level=logging.INFO,
@@ -13,12 +16,14 @@ logger = logging.getLogger(__name__)
 # Initialize pipeline
 logger.info("Starting Movie Recommender")
 config = load_config()
+init_mlflow(config)
 embeddings = get_embedding_model(config)
 retriever = load_retriever(embeddings, config)
 qa = build_chain(retriever, config)
 logger.info("Pipeline ready")
 
 
+@track_query
 def handle_conversation(message, history):
     result = qa.invoke({"query": message})
     response = result["result"]
@@ -38,8 +43,7 @@ demo = gr.ChatInterface(
         value=[],
         height="calc(100vh - 200px)",
         container=True,
-    )
-
+    ),
 )
 
 if __name__ == "__main__":
