@@ -3,6 +3,7 @@ import logging
 import os
 import time
 from functools import wraps
+import mlflow
 
 logger = logging.getLogger(__name__)
 
@@ -26,8 +27,6 @@ def init_mlflow(config: dict):
         tracking_uri = config.get("mlflow", {}).get("tracking_uri", "http://localhost:5000")
         urllib.request.urlopen(tracking_uri, timeout=3)
 
-        import mlflow
-
         experiment_name = config.get("mlflow", {}).get("experiment_name", "movie-recommender")
         mlflow.set_tracking_uri(tracking_uri)
         mlflow.set_experiment(experiment_name)
@@ -42,14 +41,13 @@ def track_query(func):
     """Decorator to log each query to MLflow. Skips if MLflow is down."""
 
     @wraps(func)
-    def wrapper(message, history):
+    async def wrapper(message, history):
         start = time.perf_counter()
-        response = func(message, history)
+        response = await func(message, history)
         latency = time.perf_counter() - start
 
         if MLFLOW_AVAILABLE:
             try:
-                import mlflow
 
                 with mlflow.start_run(nested=True):
                     mlflow.log_param("query", message[:200])

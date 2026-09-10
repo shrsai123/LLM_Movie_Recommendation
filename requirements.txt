@@ -2,6 +2,7 @@
 torch
 gradio
 langchain
+langchain-classic
 langchain-community
 langchain-huggingface
 transformers
@@ -12,3 +13,6 @@ pandas
 requests
 pyyaml
 mlflow
+mcp[cli]>=2,<3
+httpx
+python-dotenv
