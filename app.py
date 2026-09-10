@@ -1,13 +1,13 @@
-import logging
 import asyncio
+import logging
 
 import gradio as gr
 
 from src.chain import build_chain
 from src.embeddings import get_embedding_model, load_config
+from src.hybrid_assistant import HybridMovieAssistant
 from src.monitoring import init_mlflow, track_query
 from src.retriever import load_retriever
-from src.hybrid_assistant import HybridMovieAssistant
 
 logging.basicConfig(
     level=logging.INFO,
@@ -45,7 +45,7 @@ async def get_assistant():
     return assistant
 
 
-'''@track_query
+"""@track_query
 def handle_conversation(message, history):
     result = qa.invoke({"query": message})
     response = result["result"]
@@ -54,7 +54,8 @@ def handle_conversation(message, history):
     if "Your response:" in response:
         response = response.split("Your response:")[-1].strip()
 
-    return response'''
+    return response"""
+
 
 @track_query
 async def handle_conversation(message, history):

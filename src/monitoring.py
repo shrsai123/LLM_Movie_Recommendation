@@ -3,6 +3,7 @@ import logging
 import os
 import time
 from functools import wraps
+
 import mlflow
 
 logger = logging.getLogger(__name__)
@@ -48,7 +49,6 @@ def track_query(func):
 
         if MLFLOW_AVAILABLE:
             try:
-
                 with mlflow.start_run(nested=True):
                     mlflow.log_param("query", message[:200])
                     mlflow.log_metric("latency_seconds", latency)

@@ -7,12 +7,13 @@ import httpx
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 
 
-
 class TMDBError(Exception):
     pass
 
+
 class MovieNotFoundError(TMDBError):
     pass
+
 
 class TMDBClient:
     def __init__(self, token: str | None = None):
@@ -20,10 +21,14 @@ class TMDBClient:
         if not self.token:
             raise ValueError("TMDB Bearer token is required. Please set it in the .env file.")
 
-    async def _get(self,path: str, params: dict[str, Any] | None=None,) -> dict[str, Any]:
+    async def _get(
+        self,
+        path: str,
+        params: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
         headers = {
             "Authorization": f"Bearer {self.token}",
-              "Accept": "application/json",
+            "Accept": "application/json",
         }
 
         async with httpx.AsyncClient(
@@ -35,21 +40,23 @@ class TMDBClient:
             response.raise_for_status()
             return response.json()
 
-    async def search_movies(self, query: str, year: int | None =None, limit: int=5) -> list[dict]:
-        params ={"query": query,"include_adult": "false",
+    async def search_movies(
+        self, query: str, year: int | None = None, limit: int = 5
+    ) -> list[dict]:
+        params = {
+            "query": query,
+            "include_adult": "false",
             "language": "en-US",
-            "page": 1,}
+            "page": 1,
+        }
         if year:
             params["year"] = year
 
         data = await self._get("/search/movie", params)
-        return [
-            self._compact_movie(movie)
-            for movie in data.get("results", [])[:limit]
-        ]
+        return [self._compact_movie(movie) for movie in data.get("results", [])[:limit]]
 
     async def resolve_movie(self, title: str, year: int | None = None) -> dict:
-        results = await self.search_movies(title,year)
+        results = await self.search_movies(title, year)
         if not results:
             raise MovieNotFoundError(f"No movie found for: {title}")
 
@@ -78,10 +85,7 @@ class TMDBClient:
             {"language": "en-US"},
         )
 
-        return [
-            self._compact_movie(movie)
-            for movie in data.get("results", [])[:limit]
-        ]
+        return [self._compact_movie(movie) for movie in data.get("results", [])[:limit]]
 
     async def get_similar_movies(
         self,
@@ -98,8 +102,7 @@ class TMDBClient:
         return {
             "source_movie": source_movie,
             "recommendations": [
-                self._compact_movie(movie)
-                for movie in data.get("results", [])[:limit]
+                self._compact_movie(movie) for movie in data.get("results", [])[:limit]
             ],
         }
 
@@ -128,11 +131,7 @@ class TMDBClient:
         release_date = movie.get("release_date") or ""
 
         poster_path = movie.get("poster_path")
-        poster_url = (
-            f"https://image.tmdb.org/t/p/w500{poster_path}"
-            if poster_path
-            else None
-        )
+        poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else None
 
         return {
             "id": movie.get("id"),
@@ -151,11 +150,7 @@ class TMDBClient:
         cast = movie.get("credits", {}).get("cast", [])
 
         director = next(
-            (
-                person.get("name")
-                for person in crew
-                if person.get("job") == "Director"
-            ),
+            (person.get("name") for person in crew if person.get("job") == "Director"),
             None,
         )
 
@@ -163,10 +158,7 @@ class TMDBClient:
             {
                 "director": director,
                 "cast": [person.get("name") for person in cast[:5]],
-                "genres": [
-                    genre.get("name")
-                    for genre in movie.get("genres", [])
-                ],
+                "genres": [genre.get("name") for genre in movie.get("genres", [])],
                 "runtime": movie.get("runtime"),
             }
         )
@@ -176,13 +168,9 @@ class TMDBClient:
     @staticmethod
     def _provider_names(providers: list[dict]) -> list[str]:
         return [
-            provider["provider_name"]
-            for provider in providers
-            if provider.get("provider_name")
+            provider["provider_name"] for provider in providers if provider.get("provider_name")
         ]
 
     @staticmethod
     def _normalize_title(title: str) -> str:
         return re.sub(r"[^a-z0-9]+", "", title.lower())
-
-    

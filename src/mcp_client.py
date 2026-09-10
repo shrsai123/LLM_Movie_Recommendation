@@ -11,10 +11,12 @@ class MovieMCPError(RuntimeError):
 
 
 class MovieMCPClient:
-    async def call_tool(self, tool_name: str, arguments: dict) -> dict|list:
-        parameters = StdioServerParameters(command=sys.executable,
+    async def call_tool(self, tool_name: str, arguments: dict) -> dict | list:
+        parameters = StdioServerParameters(
+            command=sys.executable,
             args=["-m", "mcp_server.server"],
-            env=os.environ.copy(),)
+            env=os.environ.copy(),
+        )
 
         async with Client(stdio_client(parameters)) as client:
             result = await client.call_tool(tool_name, arguments)
@@ -33,8 +35,6 @@ class MovieMCPClient:
     @staticmethod
     def _extract_text(result) -> str:
         text_blocks = [
-            block.text
-            for block in result.content
-            if getattr(block, "type", None) == "text"
+            block.text for block in result.content if getattr(block, "type", None) == "text"
         ]
         return "\n".join(text_blocks)

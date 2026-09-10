@@ -26,8 +26,8 @@ jobs:
 
       - name: Run linting
         run: |
-          ruff check src/ app.py scripts/
-          ruff format --check src/ app.py scripts/
+          ruff check src/ app.py scripts/ mcp_server/
+          ruff format --check src/ app.py scripts/ mcp_server/
 
   test:
     runs-on: ubuntu-latest

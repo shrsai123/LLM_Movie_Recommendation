@@ -15,25 +15,16 @@ class Intent(str, Enum):
 def classify_intent(query: str) -> Intent:
     normalized = query.lower().strip()
 
-    if any(
-        term in normalized
-        for term in ["trending", "popular today", "popular this week"]
-    ):
+    if any(term in normalized for term in ["trending", "popular today", "popular this week"]):
         return Intent.TRENDING
 
-    if any(
-        term in normalized
-        for term in ["where can i watch", "streaming on", "watch provider"]
-    ):
+    if any(term in normalized for term in ["where can i watch", "streaming on", "watch provider"]):
         return Intent.WATCH_PROVIDERS
 
     if any(term in normalized for term in ["similar to", "movies like"]):
         return Intent.SIMILAR_MOVIES
 
-    if any(
-        term in normalized
-        for term in ["details about", "cast of", "who directed"]
-    ):
+    if any(term in normalized for term in ["details about", "cast of", "who directed"]):
         return Intent.MOVIE_DETAILS
 
     return Intent.RAG
@@ -41,15 +32,9 @@ def classify_intent(query: str) -> Intent:
 
 def extract_title(query: str, intent: Intent) -> str | None:
     patterns = {
-        Intent.WATCH_PROVIDERS: (
-            r"(?:where can i watch|watch|streaming on)\s+(.+?)[?.]*$"
-        ),
-        Intent.SIMILAR_MOVIES: (
-            r"(?:similar to|movies like)\s+(.+?)[?.]*$"
-        ),
-        Intent.MOVIE_DETAILS: (
-            r"(?:details about|cast of|who directed)\s+(.+?)[?.]*$"
-        ),
+        Intent.WATCH_PROVIDERS: (r"(?:where can i watch|watch|streaming on)\s+(.+?)[?.]*$"),
+        Intent.SIMILAR_MOVIES: (r"(?:similar to|movies like)\s+(.+?)[?.]*$"),
+        Intent.MOVIE_DETAILS: (r"(?:details about|cast of|who directed)\s+(.+?)[?.]*$"),
     }
 
     pattern = patterns.get(intent)

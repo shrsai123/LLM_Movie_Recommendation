@@ -3,6 +3,7 @@ import asyncio
 from src.mcp_client import MovieMCPClient, MovieMCPError
 from src.router import Intent, classify_intent, extract_title, extract_year
 
+
 class HybridMovieAssistant:
     def __init__(self, qa_chain):
         self.qa_chain = qa_chain
@@ -86,8 +87,7 @@ class HybridMovieAssistant:
 
         if tool == "get_trending_movies":
             lines = [
-                f"- {movie['title']} ({movie.get('release_year', 'Unknown')})"
-                for movie in data
+                f"- {movie['title']} ({movie.get('release_year', 'Unknown')})" for movie in data
             ]
             return "Trending movies this week:\n" + "\n".join(lines)
 
@@ -142,10 +142,7 @@ class HybridMovieAssistant:
             if not recommendations:
                 return f"I couldn't find TMDB recommendations similar to {source}."
 
-            lines = [
-                f"- {HybridMovieAssistant._movie_label(movie)}"
-                for movie in recommendations
-            ]
+            lines = [f"- {HybridMovieAssistant._movie_label(movie)}" for movie in recommendations]
             return f"Movies similar to {source}:\n" + "\n".join(lines)
 
         return "I got a response, but I do not know how to format it yet."
