@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import time
 
 import gradio as gr
 
@@ -15,34 +16,38 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Initialize lightweight app config. The model pipeline is loaded lazily so the
-# Gradio UI can come up before the full LLM finishes loading.
+# Initialize lightweight app config. The RAG pipeline is loaded lazily so the
+# Gradio UI and TMDB-only tools can run before the full LLM finishes loading.
 logger.info("Starting Movie Recommender")
 config = load_config()
 init_mlflow(config)
 
 assistant = None
-assistant_lock = asyncio.Lock()
 
 
-def build_assistant():
-    logger.info("Loading recommendation pipeline")
+def build_qa_chain():
+    start = time.perf_counter()
+    logger.info("Loading RAG pipeline")
+
     embeddings = get_embedding_model(config)
+    logger.info("Embedding model ready in %.2fs", time.perf_counter() - start)
+
+    retriever_start = time.perf_counter()
     retriever = load_retriever(embeddings, config)
+    logger.info("FAISS retriever ready in %.2fs", time.perf_counter() - retriever_start)
+
+    chain_start = time.perf_counter()
     qa = build_chain(retriever, config)
-    logger.info("Pipeline ready")
-    return HybridMovieAssistant(qa)
+    logger.info("LLM chain ready in %.2fs", time.perf_counter() - chain_start)
+    logger.info("RAG pipeline ready in %.2fs", time.perf_counter() - start)
+    return qa
 
 
-async def get_assistant():
-    global assistant
+async def load_qa_chain():
+    return await asyncio.to_thread(build_qa_chain)
 
-    if assistant is None:
-        async with assistant_lock:
-            if assistant is None:
-                assistant = await asyncio.to_thread(build_assistant)
 
-    return assistant
+assistant = HybridMovieAssistant(qa_chain_loader=load_qa_chain)
 
 
 """@track_query
@@ -59,8 +64,7 @@ def handle_conversation(message, history):
 
 @track_query
 async def handle_conversation(message, history):
-    active_assistant = await get_assistant()
-    result = await active_assistant.answer(message)
+    result = await assistant.answer(message)
     return result["answer"]
 
 

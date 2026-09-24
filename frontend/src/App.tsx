@@ -125,6 +125,8 @@ function App() {
                     <span>
                       {message.metadata.route === 'rag'
                         ? 'Movie index + Gemma'
+                        : message.metadata.route === 'recommendation'
+                          ? 'TMDB + Movie index + diversity ranking'
                         : message.metadata.route === 'mcp'
                           ? 'Live TMDB'
                           : message.metadata.route === 'mcp_error'

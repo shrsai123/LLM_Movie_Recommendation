@@ -1,12 +1,9 @@
 import json
 import logging
 
-from dotenv import load_dotenv
 from mcp.server import MCPServer
 
 from mcp_server.tmdb_client import MovieNotFoundError, TMDBClient
-
-load_dotenv()
 
 logger = logging.getLogger(__name__)
 mcp = MCPServer("tmdb-movie-server")

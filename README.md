@@ -217,6 +217,19 @@ python -m ruff check src/ app.py scripts/
 python -m ruff format src/ app.py scripts/
 ```
 
+### Evaluate Similar-Movie Rankings
+
+Create one fixed TMDB candidate snapshot, then use a Gemini API judge to generate provisional relevance labels:
+
+```bash
+python scripts/evaluate_recommender.py prepare --out evaluation/runs/second
+$env:GEMINI_API_KEY="your_api_key"
+python scripts/evaluate_recommender.py auto-label --run evaluation/runs/second --provider gemini --model gemini-3.8-flash --passes 2
+python scripts/evaluate_recommender.py score --run evaluation/runs/second
+```
+
+The judge sees only each source and candidate's title, overview, and genre names. TMDB order and reranker scores are withheld. Gemini structured output uses a JSON Schema for the `relevance` and `reason` fields. `labels.csv` records the LLM label, reason, provider, model, prompt version, and any two-pass disagreement as `needs_review`. Existing non-empty labels are treated as manual overrides and are not overwritten unless `--refresh-llm` is used for labels previously created by the LLM. Review all `needs_review` rows and a random 20â€“30% sample before treating the results as evaluation data.
+
 ### Rebuild Index After Data Changes
 
 ```bash

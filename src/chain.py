@@ -13,8 +13,17 @@ logger = logging.getLogger(__name__)
 def build_chain(retriever, config):
     logger.info("Building conversational chain")
     model_id = config["model"]["llm"]
+    generation_config = {
+        "max_new_tokens": config["model"].get("max_new_tokens", 256),
+        "do_sample": config["model"].get("do_sample", False),
+        "return_full_text": False,
+    }
     hf_pipeline = pipeline(
-        "text-generation", model=model_id, torch_dtype=torch.bfloat16, device_map="auto"
+        "text-generation",
+        model=model_id,
+        dtype=torch.bfloat16,
+        device_map="auto",
+        **generation_config,
     )
     llm = HuggingFacePipeline(pipeline=hf_pipeline)
     template_prefix = r"""You are an expert movie recommender. For user queries about actors/directors/genres:

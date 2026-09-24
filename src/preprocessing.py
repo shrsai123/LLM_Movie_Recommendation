@@ -14,7 +14,7 @@ def robust_parse(s):
     """Parse stringified JSON/Python literals from TMDB columns."""
     try:
         return json.loads(s)
-    except json.JSONDecodeError:
+    except (json.JSONDecodeError, TypeError, ValueError):
         try:
             return ast.literal_eval(s)
         except Exception:
@@ -43,7 +43,19 @@ def load_and_clean(movies_path: str, credits_path: str) -> pd.DataFrame:
 
     logger.info(f"Merged dataset: {len(df)} movies")
 
-    df["Genres"] = df["genres"].apply(lambda x: ", ".join([i["name"] for i in robust_parse(x)]))
+    df["genre_data"] = df["genres"].apply(robust_parse)
+    df["keyword_data"] = df["keywords"].apply(robust_parse)
+    df["collection_data"] = (
+        df["belongs_to_collection"].apply(robust_parse)
+        if "belongs_to_collection" in df.columns
+        else [{} for _ in range(len(df))]
+    )
+    df["Genres"] = df["genre_data"].apply(
+        lambda values: ", ".join(item["name"] for item in values if item.get("name"))
+    )
+    df["Keywords"] = df["keyword_data"].apply(
+        lambda values: ", ".join(item["name"] for item in values if item.get("name"))
+    )
     df["Director"] = df["crew"].apply(get_director)
     df["Cast"] = df["cast"].apply(get_cast)
 
@@ -52,6 +64,7 @@ def load_and_clean(movies_path: str, credits_path: str) -> pd.DataFrame:
             f"Type: Movie, Title: {row['title']}, "
             f"Director: {row['Director']}, Cast: {row['Cast']}, "
             f"Released: {row['release_date']}, Genres: {row['Genres']}, "
+            f"Keywords: {row['Keywords']}, "
             f"Vote_Average: {row['vote_average']}, "
             f"Description: {row['overview']}"
         ),
@@ -60,6 +73,65 @@ def load_and_clean(movies_path: str, credits_path: str) -> pd.DataFrame:
 
     logger.info(f"Cleaned dataset: {len(df)} movies")
     return df
+
+
+def build_movie_documents(df: pd.DataFrame) -> list[Document]:
+    """Create one searchable FAISS document per movie with ranking metadata."""
+    documents = []
+
+    for _, row in df.iterrows():
+        collection = row.get("collection_data")
+        if not isinstance(collection, dict):
+            collection = {}
+
+        release_date = row.get("release_date")
+        release_year = (
+            str(release_date)[:4]
+            if pd.notna(release_date) and str(release_date).strip()
+            else None
+        )
+        overview = row.get("overview")
+        overview = str(overview) if pd.notna(overview) else ""
+
+        metadata = {
+            "id": int(row["id"]) if pd.notna(row.get("id")) else None,
+            "title": str(row["title"]),
+            "release_year": release_year,
+            "overview": overview,
+            "genre_ids": [
+                int(item["id"])
+                for item in row.get("genre_data", [])
+                if item.get("id") is not None
+            ],
+            "genres": [
+                item["name"]
+                for item in row.get("genre_data", [])
+                if item.get("name")
+            ],
+            "keyword_ids": [
+                int(item["id"])
+                for item in row.get("keyword_data", [])
+                if item.get("id") is not None
+            ],
+            "keywords": [
+                item["name"]
+                for item in row.get("keyword_data", [])
+                if item.get("name")
+            ],
+            "collection_id": collection.get("id"),
+            "collection_name": collection.get("name"),
+            "vote_average": (
+                float(row["vote_average"])
+                if pd.notna(row.get("vote_average"))
+                else None
+            ),
+            "ranking_metadata_available": True,
+            "candidate_sources": ["faiss"],
+        }
+        documents.append(Document(page_content=row["combined_info"], metadata=metadata))
+
+    logger.info("Created %s movie-level documents", len(documents))
+    return documents
 
 
 def save_combined_csv(df: pd.DataFrame, output_path: str):
@@ -86,15 +158,10 @@ def load_and_split_documents(
 
 
 def run_preprocessing(config: dict) -> list[Document]:
-    """Full preprocessing pipeline: load → clean → save → split."""
+    """Load the TMDB dataset and create structured movie-level documents."""
     df = load_and_clean(
         movies_path=config["data"]["movies_path"],
         credits_path=config["data"]["credits_path"],
     )
     save_combined_csv(df, config["data"]["combined_csv_path"])
-    docs = load_and_split_documents(
-        csv_path=config["data"]["combined_csv_path"],
-        chunk_size=config["retrieval"].get("chunk_size", 1000),
-        chunk_overlap=config["retrieval"].get("chunk_overlap", 30),
-    )
-    return docs
+    return build_movie_documents(df)

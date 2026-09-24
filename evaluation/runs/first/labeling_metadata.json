@@ -1,0 +1,6 @@
+{
+  "judge_model": "gemini-3.8-flash",
+  "provider": "gemini",
+  "prompt_version": "movie-relevance-v2",
+  "passes": 1
+}

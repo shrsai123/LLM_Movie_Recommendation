@@ -16,4 +16,16 @@ def test_config_has_required_keys():
     assert "llm" in config["model"]
     assert "retrieval" in config
     assert "top_k" in config["retrieval"]
+    assert set(config["ranking"]["weights"]) == {
+        "overview",
+        "keywords",
+        "genres",
+        "collection",
+    }
+    assert set(config["ranking"]["diversity"]) == {
+        "enabled",
+        "candidate_pool",
+        "relevance_weight",
+        "max_per_collection",
+    }
     assert "mlflow" in config

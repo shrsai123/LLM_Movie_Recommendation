@@ -3,6 +3,8 @@
 model:
   embedding: "all-MiniLM-L6-v2"
   llm: "google/gemma-3-4b-it"
+  max_new_tokens: 180
+  do_sample: false
 
 data:
   movies_path: "./data/tmdb_5000_movies.csv"
@@ -15,6 +17,24 @@ retrieval:
   chunk_size: 1000
   chunk_overlap: 30
   similarity_metric: "cosine"
+
+ranking:
+  weights:
+    overview: 0.60
+    keywords: 0.25
+    genres: 0.10
+    collection: 0.05
+
+  diversity:
+    enabled: true
+    candidate_pool: 15
+    relevance_weight: 0.85
+    max_per_collection: 2
+    
+  candidates:
+    tmdb: 20
+    faiss: 20
+    final: 5
 
 user:
   age: 18

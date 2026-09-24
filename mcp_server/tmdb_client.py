@@ -3,8 +3,11 @@ import re
 from typing import Any
 
 import httpx
+from dotenv import load_dotenv
 
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
+
+load_dotenv()
 
 
 class TMDBError(Exception):
@@ -94,16 +97,19 @@ class TMDBClient:
         limit: int = 5,
     ) -> dict:
         source_movie = await self.resolve_movie(title, year)
+        source_movie = (await self.enrich_movies([source_movie]))[0]
         data = await self._get(
             f"/movie/{source_movie['id']}/recommendations",
             {"language": "en-US"},
         )
+        recommendations = [
+            self._compact_movie(movie) for movie in data.get("results", [])[:limit]
+        ]
+        recommendations = await self.enrich_movies(recommendations)
 
         return {
             "source_movie": source_movie,
-            "recommendations": [
-                self._compact_movie(movie) for movie in data.get("results", [])[:limit]
-            ],
+            "recommendations": recommendations,
         }
 
     async def get_watch_providers(
@@ -126,20 +132,71 @@ class TMDBClient:
             "tmdb_link": region_data.get("link"),
         }
 
+    async def enrich_movies(self, movies: list[dict]) -> list[dict]:
+        """Fetch ranking metadata for known TMDB movie IDs."""
+        enriched = []
+        for movie in movies:
+            movie_id = movie.get("id")
+            if movie_id is None:
+                enriched.append(self._with_empty_ranking_metadata(movie))
+                continue
+
+            data = await self._get(
+                f"/movie/{movie_id}",
+                {"append_to_response": "keywords", "language": "en-US"},
+            )
+            enriched.append(
+                {
+                    **movie,
+                    **self._compact_movie(data),
+                    **self._ranking_metadata(data),
+                }
+            )
+        return enriched
+
     @staticmethod
     def _compact_movie(movie: dict) -> dict:
         release_date = movie.get("release_date") or ""
 
         poster_path = movie.get("poster_path")
         poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else None
+        genre_ids = movie.get("genre_ids")
+        if genre_ids is None:
+            genre_ids = [
+                genre["id"] for genre in movie.get("genres", []) if genre.get("id") is not None
+            ]
 
         return {
             "id": movie.get("id"),
             "title": movie.get("title"),
             "release_year": release_date[:4] or None,
             "overview": movie.get("overview"),
+            "genre_ids": genre_ids,
             "vote_average": movie.get("vote_average"),
             "poster_url": poster_url,
+        }
+
+    @staticmethod
+    def _ranking_metadata(movie: dict) -> dict:
+        keywords = movie.get("keywords", {}).get("keywords", [])
+        collection = movie.get("belongs_to_collection") or {}
+        return {
+            "keyword_ids": [keyword["id"] for keyword in keywords if keyword.get("id")],
+            "keywords": [keyword["name"] for keyword in keywords if keyword.get("name")],
+            "collection_id": collection.get("id"),
+            "collection_name": collection.get("name"),
+            "ranking_metadata_available": True,
+        }
+
+    @staticmethod
+    def _with_empty_ranking_metadata(movie: dict) -> dict:
+        return {
+            **movie,
+            "keyword_ids": movie.get("keyword_ids", []),
+            "keywords": movie.get("keywords", []),
+            "collection_id": movie.get("collection_id"),
+            "collection_name": movie.get("collection_name"),
+            "ranking_metadata_available": movie.get("ranking_metadata_available", False),
         }
 
     @classmethod

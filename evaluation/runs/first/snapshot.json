@@ -1,0 +1,3890 @@
+[
+  {
+    "source_id": "157336",
+    "source_title": "Interstellar",
+    "split": "development",
+    "source_movie": {
+      "id": 157336,
+      "title": "Interstellar",
+      "release_year": "2014",
+      "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+      "genre_ids": [
+        12,
+        18,
+        878
+      ],
+      "vote_average": 8.488,
+      "poster_url": "https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg"
+    },
+    "candidates": [
+      {
+        "id": 13001,
+        "title": "Stargate: The Ark of Truth",
+        "release_year": "2008",
+        "overview": "SG-1 searches for an ancient weapon which could help them defeat the Ori, and discover it may be in the Ori's own home galaxy. As the Ori prepare to send ships through to the Milky Way to attack Earth, SG-1 travels to the Ori galaxy aboard the Odyssey. The International Oversight committee have their own plans and SG-1 finds themselves in a distant galaxy fighting two powerful enemies.",
+        "genre_ids": [
+          28,
+          12,
+          878,
+          10770
+        ],
+        "vote_average": 7.062,
+        "poster_url": "https://image.tmdb.org/t/p/w500/kIqsCdZBmKYuPwaDnrFYzK1gqlM.jpg"
+      },
+      {
+        "id": 670292,
+        "title": "The Creator",
+        "release_year": "2023",
+        "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war—and mankind itself.",
+        "genre_ids": [
+          878,
+          28,
+          12
+        ],
+        "vote_average": 7.024,
+        "poster_url": "https://image.tmdb.org/t/p/w500/3dSivDtOuyxLDxPH4v2tcNG1fP7.jpg"
+      },
+      {
+        "id": 559581,
+        "title": "Stowaway",
+        "release_year": "2021",
+        "overview": "A three-person crew on a mission to Mars faces an impossible choice when an unplanned passenger jeopardizes the lives of everyone on board.",
+        "genre_ids": [
+          878,
+          18,
+          53
+        ],
+        "vote_average": 6.028,
+        "poster_url": "https://image.tmdb.org/t/p/w500/eFyRjhJfhNgM565U2mwEp5YUUOv.jpg"
+      },
+      {
+        "id": 13475,
+        "title": "Star Trek",
+        "release_year": "2009",
+        "overview": "The fate of the galaxy rests in the hands of bitter rivals. One, James Kirk, is a delinquent, thrill-seeking Iowa farm boy. The other, Spock, a Vulcan, was raised in a logic-based society that rejects all emotion. As fiery instinct clashes with calm reason, their unlikely but powerful partnership is the only thing capable of leading their crew through unimaginable danger, boldly going where no one has gone before. The human adventure has begun again.",
+        "genre_ids": [
+          878,
+          28,
+          12
+        ],
+        "vote_average": 7.436,
+        "poster_url": "https://image.tmdb.org/t/p/w500/lV5OpzAss1z06YNagOVap1I35mH.jpg"
+      },
+      {
+        "id": 1143128,
+        "title": "Omni Loop",
+        "release_year": "2024",
+        "overview": "Diagnosed with a black hole growing inside her chest and stuck in a loop reliving the last five days of her life, a 55-year-old wife and mother from Miami, Florida decides to solve time travel in order to go back and be the person she always intended to be.",
+        "genre_ids": [
+          878,
+          18
+        ],
+        "vote_average": 6.005,
+        "poster_url": "https://image.tmdb.org/t/p/w500/aKrwq3HeyFcl5MXb7tcsileoF9I.jpg"
+      },
+      {
+        "id": 2103,
+        "title": "Solaris",
+        "release_year": "2002",
+        "overview": "A troubled psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.",
+        "genre_ids": [
+          18,
+          878,
+          9648
+        ],
+        "vote_average": 5.955,
+        "poster_url": "https://image.tmdb.org/t/p/w500/drdrB1hEZmzFlK1xtW5HMxK3LUJ.jpg"
+      },
+      {
+        "id": 14337,
+        "title": "Primer",
+        "release_year": "2004",
+        "overview": "A group of fledgling inventors discover a complex method to manipulate reality. At first, they successfully game the stock market with it, but the consequences of the invention start to catch up with them.",
+        "genre_ids": [
+          878,
+          18,
+          53
+        ],
+        "vote_average": 6.751,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xEoq2WmDzpzxhkHEsmOYOg6BPg6.jpg"
+      },
+      {
+        "id": 777443,
+        "title": "The Electric State",
+        "release_year": "2025",
+        "overview": "An orphaned teen hits the road with a mysterious robot to find her long-lost brother, teaming up with a smuggler and his wisecracking sidekick.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 6.465,
+        "poster_url": "https://image.tmdb.org/t/p/w500/sI2NiMU8o65hmIMY0JI9CjJ0p7f.jpg"
+      },
+      {
+        "id": 75612,
+        "title": "Oblivion",
+        "release_year": "2013",
+        "overview": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack’s mission is nearly complete. His existence is brought crashing down when he rescues a beautiful  stranger from a downed spacecraft. Her arrival triggers a chain of events that  forces him to question everything he knows and puts the fate of humanity in his hands.",
+        "genre_ids": [
+          28,
+          878,
+          12,
+          9648
+        ],
+        "vote_average": 6.692,
+        "poster_url": "https://image.tmdb.org/t/p/w500/bYLM3GpNUZnoFElPXp1zlhDPdtv.jpg"
+      },
+      {
+        "id": 687163,
+        "title": "Project Hail Mary",
+        "release_year": "2026",
+        "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction.",
+        "genre_ids": [
+          878,
+          12
+        ],
+        "vote_average": 8.6,
+        "poster_url": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg"
+      },
+      {
+        "id": 644,
+        "title": "A.I. Artificial Intelligence",
+        "release_year": "2001",
+        "overview": "David, a robotic boy—the first of his kind programmed to love—is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David.",
+        "genre_ids": [
+          18,
+          878,
+          12
+        ],
+        "vote_average": 7.069,
+        "poster_url": "https://image.tmdb.org/t/p/w500/wnUAcUrMRGPPZUDroLeZhSjLkuu.jpg"
+      },
+      {
+        "id": 339964,
+        "title": "Valerian and the City of a Thousand Planets",
+        "release_year": "2017",
+        "overview": "In the 28th century, Valerian and Laureline are special operatives charged with keeping order throughout the human territories. On assignment from the Minister of Defense, the two undertake a mission to Alpha, an ever-expanding metropolis where species from across the universe have converged over centuries to share knowledge, intelligence, and cultures. At the center of Alpha is a mysterious dark force which threatens the peaceful existence of the City of a Thousand Planets, and Valerian and Laureline must race to identify the menace and safeguard not just Alpha, but the future of the universe.",
+        "genre_ids": [
+          12,
+          878,
+          28
+        ],
+        "vote_average": 6.655,
+        "poster_url": "https://image.tmdb.org/t/p/w500/vlc95gl3PtrjxSEuM8RhTtSm2xU.jpg"
+      },
+      {
+        "id": 871,
+        "title": "Planet of the Apes",
+        "release_year": "1968",
+        "overview": "Astronaut Taylor crash lands on a distant planet ruled by apes who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "genre_ids": [
+          878,
+          12,
+          18,
+          28
+        ],
+        "vote_average": 7.656,
+        "poster_url": "https://image.tmdb.org/t/p/w500/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg"
+      },
+      {
+        "id": 12914,
+        "title": "Stargate: Continuum",
+        "release_year": "2008",
+        "overview": "Ba'al travels back in time and prevents the Stargate program from being started. SG-1 must somehow restore history.",
+        "genre_ids": [
+          28,
+          12,
+          878,
+          10770
+        ],
+        "vote_average": 7.127,
+        "poster_url": "https://image.tmdb.org/t/p/w500/1rQUvblJHU8766FatqTtCMiRhph.jpg"
+      },
+      {
+        "id": 2164,
+        "title": "Stargate",
+        "release_year": "1994",
+        "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 7.034,
+        "poster_url": "https://image.tmdb.org/t/p/w500/4T6Po0XnZlevmhfPh3ZfEs5butR.jpg"
+      },
+      {
+        "id": 317182,
+        "title": "Doctor Who: Last Christmas",
+        "release_year": "2014",
+        "overview": "The Doctor and Clara face their Last Christmas. Trapped on an Arctic base, under attack from terrifying creatures, who are you going to call? Santa Claus!",
+        "genre_ids": [
+          878,
+          12,
+          18
+        ],
+        "vote_average": 7.723,
+        "poster_url": "https://image.tmdb.org/t/p/w500/a5XHo7MQgX3V7nNlEnl5gwZURDL.jpg"
+      },
+      {
+        "id": 20526,
+        "title": "TRON: Legacy",
+        "release_year": "2010",
+        "overview": "Sam Flynn, the tech-savvy and daring son of Kevin Flynn, investigates his father's disappearance and is pulled into The Grid. With the help of a mysterious program named Quorra, Sam quests to stop evil dictator Clu from crossing into the real world.",
+        "genre_ids": [
+          12,
+          28,
+          878
+        ],
+        "vote_average": 6.55,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xcO8Uun0mfmE3N9CaiCy0tvjpiu.jpg"
+      },
+      {
+        "id": 419704,
+        "title": "Ad Astra",
+        "release_year": "2019",
+        "overview": "The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown.",
+        "genre_ids": [
+          878,
+          18
+        ],
+        "vote_average": 6.137,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xBHvZcjRiWyobQ9kxBhO6B2dtRI.jpg"
+      },
+      {
+        "id": 157350,
+        "title": "Divergent",
+        "release_year": "2014",
+        "overview": "In a world divided into factions based on personality types, Tris learns that she's been classified as Divergent and won't fit in. When she discovers a plot to destroy Divergents, Tris and the mysterious Four must find out what makes Divergents dangerous before it's too late.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 6.901,
+        "poster_url": "https://image.tmdb.org/t/p/w500/aNh4Q3iuPKDMPi2SL7GgOpiLukX.jpg"
+      },
+      {
+        "id": 2114,
+        "title": "Final Fantasy: The Spirits Within",
+        "release_year": "2001",
+        "overview": "Led by a strange dream, scientist Aki Ross struggles to collect the eight spirits in the hope of creating a force powerful enough to protect the planet. With the aid of the Deep Eyes Squadron and her mentor, Dr. Sid, Aki must save the Earth from its darkest hate and unleash the spirits within.",
+        "genre_ids": [
+          28,
+          12,
+          16,
+          14,
+          878
+        ],
+        "vote_average": 6.199,
+        "poster_url": "https://image.tmdb.org/t/p/w500/47b1EwFqqSWxYna7NtUM7iML4oT.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      13001,
+      670292,
+      559581,
+      13475,
+      1143128,
+      2103,
+      14337,
+      777443,
+      75612,
+      687163,
+      644,
+      339964,
+      871,
+      12914,
+      2164,
+      317182,
+      20526,
+      419704,
+      157350,
+      2114
+    ],
+    "reranked_ids": [
+      419704,
+      871,
+      2164,
+      1143128,
+      14337,
+      559581,
+      2103,
+      687163,
+      20526,
+      13475,
+      777443,
+      13001,
+      670292,
+      157350,
+      317182,
+      12914,
+      644,
+      339964,
+      2114,
+      75612
+    ]
+  },
+  {
+    "source_id": "286217",
+    "source_title": "The Martian",
+    "split": "development",
+    "source_movie": {
+      "id": 286217,
+      "title": "The Martian",
+      "release_year": "2015",
+      "overview": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive.",
+      "genre_ids": [
+        878,
+        18,
+        12
+      ],
+      "vote_average": 7.708,
+      "poster_url": "https://image.tmdb.org/t/p/w500/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg"
+    },
+    "candidates": [
+      {
+        "id": 118340,
+        "title": "Guardians of the Galaxy",
+        "release_year": "2014",
+        "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
+        "genre_ids": [
+          28,
+          878,
+          12
+        ],
+        "vote_average": 7.9,
+        "poster_url": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg"
+      },
+      {
+        "id": 24428,
+        "title": "The Avengers",
+        "release_year": "2012",
+        "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+        "genre_ids": [
+          878,
+          28,
+          12
+        ],
+        "vote_average": 8.1,
+        "poster_url": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+      },
+      {
+        "id": 687163,
+        "title": "Project Hail Mary",
+        "release_year": "2026",
+        "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction.",
+        "genre_ids": [
+          878,
+          12
+        ],
+        "vote_average": 8.6,
+        "poster_url": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg"
+      },
+      {
+        "id": 49529,
+        "title": "John Carter",
+        "release_year": "2012",
+        "overview": "John Carter is a war-weary, former military captain who's inexplicably transported to the mysterious and exotic planet of Barsoom (Mars) and reluctantly becomes embroiled in an epic conflict. It's a world on the brink of collapse, and Carter rediscovers his humanity when he realizes the survival of Barsoom and its people rests in his hands.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 6.386,
+        "poster_url": "https://image.tmdb.org/t/p/w500/lCxz1Yus07QCQQCb6I0Dr3Lmqpx.jpg"
+      },
+      {
+        "id": 559581,
+        "title": "Stowaway",
+        "release_year": "2021",
+        "overview": "A three-person crew on a mission to Mars faces an impossible choice when an unplanned passenger jeopardizes the lives of everyone on board.",
+        "genre_ids": [
+          878,
+          18,
+          53
+        ],
+        "vote_average": 6.028,
+        "poster_url": "https://image.tmdb.org/t/p/w500/eFyRjhJfhNgM565U2mwEp5YUUOv.jpg"
+      },
+      {
+        "id": 75612,
+        "title": "Oblivion",
+        "release_year": "2013",
+        "overview": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack’s mission is nearly complete. His existence is brought crashing down when he rescues a beautiful  stranger from a downed spacecraft. Her arrival triggers a chain of events that  forces him to question everything he knows and puts the fate of humanity in his hands.",
+        "genre_ids": [
+          28,
+          878,
+          12,
+          9648
+        ],
+        "vote_average": 6.692,
+        "poster_url": "https://image.tmdb.org/t/p/w500/bYLM3GpNUZnoFElPXp1zlhDPdtv.jpg"
+      },
+      {
+        "id": 609681,
+        "title": "The Marvels",
+        "release_year": "2023",
+        "overview": "When her duties send her to an anomalous wormhole linked to a Kree revolutionary, Carol's powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol's estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
+        "genre_ids": [
+          878,
+          12,
+          28
+        ],
+        "vote_average": 5.9,
+        "poster_url": "https://image.tmdb.org/t/p/w500/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg"
+      },
+      {
+        "id": 80274,
+        "title": "Ender's Game",
+        "release_year": "2013",
+        "overview": "Based on the classic novel by Orson Scott Card, Ender's Game is the story of the Earth's most gifted children training to defend their homeplanet in the space wars of the future.",
+        "genre_ids": [
+          878,
+          28,
+          12
+        ],
+        "vote_average": 6.594,
+        "poster_url": "https://image.tmdb.org/t/p/w500/pVcRI5YKnkkgaAD876jBeKb189d.jpg"
+      },
+      {
+        "id": 72710,
+        "title": "The Host",
+        "release_year": "2013",
+        "overview": "A parasitic alien soul is injected into the body of Melanie Stryder. Instead of carrying out her race's mission of taking over the Earth, \"Wanda\" (as she comes to be called) forms a bond with her host and sets out to aid other free humans.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 6.296,
+        "poster_url": "https://image.tmdb.org/t/p/w500/1mfIZw6WgkCX310eoe0Ys14c3Fi.jpg"
+      },
+      {
+        "id": 2067,
+        "title": "Mission to Mars",
+        "release_year": "2000",
+        "overview": "When the first manned mission to Mars meets with a catastrophic and mysterious disaster after reporting an unidentified structure, a rescue mission is launched to investigate the tragedy and bring back any survivors.",
+        "genre_ids": [
+          878,
+          12,
+          9648
+        ],
+        "vote_average": 6.039,
+        "poster_url": "https://image.tmdb.org/t/p/w500/cTKWoBpN5Gvi0vpMb9mLtYlwXqT.jpg"
+      },
+      {
+        "id": 238603,
+        "title": "Earth to Echo",
+        "release_year": "2014",
+        "overview": "After a construction project begins digging in their neighbourhood, best friends Tuck, Munch and Alex inexplicably begin to receive strange, encoded messages on their cell phones. Convinced something bigger is going on, they go to their parents and the authorities. The three embark on a secret adventure to crack the code and follow it to its source, and discover a mysterious being from another world who desperately needs their help. The journey that follows will change all their lives forever.",
+        "genre_ids": [
+          10751,
+          12,
+          878
+        ],
+        "vote_average": 5.9,
+        "poster_url": "https://image.tmdb.org/t/p/w500/yiNPza51nLvVTWTB9q4ifzfUlml.jpg"
+      },
+      {
+        "id": 299687,
+        "title": "The 5th Wave",
+        "release_year": "2016",
+        "overview": "16-year-old Cassie Sullivan tries to survive in a world devastated by the waves of an alien invasion that has already decimated the population and knocked mankind back to the Stone Age.",
+        "genre_ids": [
+          878,
+          12,
+          28
+        ],
+        "vote_average": 5.946,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ja34BV577dtjWl2S5G1tB93IjYb.jpg"
+      },
+      {
+        "id": 299537,
+        "title": "Captain Marvel",
+        "release_year": "2019",
+        "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 6.771,
+        "poster_url": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+      },
+      {
+        "id": 95,
+        "title": "Armageddon",
+        "release_year": "1998",
+        "overview": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. who Harry thinks isn't good enough for his daughter, until the mission proves otherwise.",
+        "genre_ids": [
+          28,
+          878,
+          12
+        ],
+        "vote_average": 6.833,
+        "poster_url": "https://image.tmdb.org/t/p/w500/eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg"
+      },
+      {
+        "id": 141052,
+        "title": "Justice League",
+        "release_year": "2017",
+        "overview": "Fuelled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne and Diana Prince assemble a team of metahumans consisting of Barry Allen, Arthur Curry and Victor Stone to face the catastrophic threat of Steppenwolf and the Parademons who are on the hunt for three Mother Boxes on Earth.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 6.068,
+        "poster_url": "https://image.tmdb.org/t/p/w500/eifGNCSDuxJeS1loAXil5bIGgvC.jpg"
+      },
+      {
+        "id": 11935,
+        "title": "Capricorn One",
+        "release_year": "1977",
+        "overview": "In order to protect the reputation of the American space program, a team of NASA administrators turn the first Mars mission into a phony Mars landing. Under threat of harm to their families the astronauts play their part in the deception on a staged set in a deserted military base. But once the real ship returns to Earth and burns up on re-entry, the astronauts become liabilities. Now, with the help of a crusading reporter, they must battle a sinister conspiracy that will stop at nothing to keep the truth hidden.",
+        "genre_ids": [
+          18,
+          28,
+          53,
+          878
+        ],
+        "vote_average": 6.778,
+        "poster_url": "https://image.tmdb.org/t/p/w500/bxsCARg2rxQ2PzFW5ZsADLT9e9c.jpg"
+      },
+      {
+        "id": 447365,
+        "title": "Guardians of the Galaxy Vol. 3",
+        "release_year": "2023",
+        "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+        "genre_ids": [
+          878,
+          12,
+          28
+        ],
+        "vote_average": 7.9,
+        "poster_url": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg"
+      },
+      {
+        "id": 2103,
+        "title": "Solaris",
+        "release_year": "2002",
+        "overview": "A troubled psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.",
+        "genre_ids": [
+          18,
+          878,
+          9648
+        ],
+        "vote_average": 5.955,
+        "poster_url": "https://image.tmdb.org/t/p/w500/drdrB1hEZmzFlK1xtW5HMxK3LUJ.jpg"
+      },
+      {
+        "id": 127585,
+        "title": "X-Men: Days of Future Past",
+        "release_year": "2014",
+        "overview": "The ultimate X-Men ensemble fights a war for the survival of the species across two time periods as they join forces with their younger selves in an epic battle that must change the past – to save our future.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 7.536,
+        "poster_url": "https://image.tmdb.org/t/p/w500/tYfijzolzgoMOtegh1Y7j2Enorg.jpg"
+      },
+      {
+        "id": 188927,
+        "title": "Star Trek Beyond",
+        "release_year": "2016",
+        "overview": "The USS Enterprise crew explores the furthest reaches of uncharted space, where they encounter a mysterious new enemy who puts them and everything the Federation stands for to the test.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 6.791,
+        "poster_url": "https://image.tmdb.org/t/p/w500/wI5VghYNYLktDRPUa5rrVcVA1h7.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      118340,
+      24428,
+      687163,
+      49529,
+      559581,
+      75612,
+      609681,
+      80274,
+      72710,
+      2067,
+      238603,
+      299687,
+      299537,
+      95,
+      141052,
+      11935,
+      447365,
+      2103,
+      127585,
+      188927
+    ],
+    "reranked_ids": [
+      687163,
+      11935,
+      75612,
+      559581,
+      2067,
+      49529,
+      118340,
+      2103,
+      299687,
+      447365,
+      95,
+      238603,
+      24428,
+      188927,
+      609681,
+      72710,
+      80274,
+      141052,
+      299537,
+      127585
+    ]
+  },
+  {
+    "source_id": "155",
+    "source_title": "The Dark Knight",
+    "split": "development",
+    "source_movie": {
+      "id": 155,
+      "title": "The Dark Knight",
+      "release_year": "2008",
+      "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "vote_average": 8.535,
+      "poster_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+    },
+    "candidates": [
+      {
+        "id": 268,
+        "title": "Batman",
+        "release_year": "1989",
+        "overview": "Having witnessed his parents' brutal murder as a child, millionaire philanthropist Bruce Wayne fights crime in Gotham City disguised as Batman, a costumed hero who strikes fear into the hearts of villains. But when a deformed madman known as 'The Joker' seizes control of Gotham's criminal underworld, Batman must face his most ruthless nemesis ever while protecting both his identity and his love interest, reporter Vicki Vale.",
+        "genre_ids": [
+          14,
+          28,
+          80
+        ],
+        "vote_average": 7.234,
+        "poster_url": "https://image.tmdb.org/t/p/w500/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg"
+      },
+      {
+        "id": 272,
+        "title": "Batman Begins",
+        "release_year": "2005",
+        "overview": "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.",
+        "genre_ids": [
+          18,
+          80,
+          28
+        ],
+        "vote_average": 7.73,
+        "poster_url": "https://image.tmdb.org/t/p/w500/sPX89Td70IDDjVr85jdSBb4rWGr.jpg"
+      },
+      {
+        "id": 414906,
+        "title": "The Batman",
+        "release_year": "2022",
+        "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+        "genre_ids": [
+          80,
+          9648,
+          53
+        ],
+        "vote_average": 7.67,
+        "poster_url": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+      },
+      {
+        "id": 49026,
+        "title": "The Dark Knight Rises",
+        "release_year": "2012",
+        "overview": "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
+        "genre_ids": [
+          28,
+          80,
+          18,
+          53
+        ],
+        "vote_average": 7.798,
+        "poster_url": "https://image.tmdb.org/t/p/w500/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg"
+      },
+      {
+        "id": 232842,
+        "title": "The Flash",
+        "release_year": "1990",
+        "overview": "A laboratory accident endows a police scientist with the ability to move at superhuman speed which he uses to battle a menacing gang as a superhero.",
+        "genre_ids": [
+          28,
+          80,
+          878
+        ],
+        "vote_average": 6.494,
+        "poster_url": "https://image.tmdb.org/t/p/w500/v0c45VGHU5qxcfveQIjzL8nJBUR.jpg"
+      },
+      {
+        "id": 854467,
+        "title": "Indemnity",
+        "release_year": "2022",
+        "overview": "An ex-fireman with PTSD goes on the run when accused of a crime he doesn't even remember committing, leading him down a rabbit hole of conspiracy to the highest degree.",
+        "genre_ids": [
+          28,
+          53,
+          80
+        ],
+        "vote_average": 6.608,
+        "poster_url": "https://image.tmdb.org/t/p/w500/8y1rfKHot8DF0cQhGvKXtYsMjNx.jpg"
+      },
+      {
+        "id": 408648,
+        "title": "Batman and Harley Quinn",
+        "release_year": "2017",
+        "overview": "Batman and Nightwing are forced to team with the Joker's sometimes-girlfriend Harley Quinn to stop a global threat brought about by Poison Ivy and Jason Woodrue, the Floronic Man.",
+        "genre_ids": [
+          12,
+          16,
+          35,
+          80,
+          28
+        ],
+        "vote_average": 6.171,
+        "poster_url": "https://image.tmdb.org/t/p/w500/v3RP6pp6pfRdvch6QioeQvNdMJs.jpg"
+      },
+      {
+        "id": 242643,
+        "title": "Batman: Assault on Arkham",
+        "release_year": "2014",
+        "overview": "Batman works desperately to find a bomb planted by the Joker while Amanda Waller sends her newly-formed Suicide Squad to break into Arkham Asylum and recover vital information stolen by the Riddler.",
+        "genre_ids": [
+          53,
+          16,
+          28,
+          80
+        ],
+        "vote_average": 7.329,
+        "poster_url": "https://image.tmdb.org/t/p/w500/b9KxvIAZkl2f57kjObj8Z9z9LhL.jpg"
+      },
+      {
+        "id": 46529,
+        "title": "I Am Number Four",
+        "release_year": "2011",
+        "overview": "A teenage fugitive with an incredible secret races to stay one step ahead of the mysterious forces seeking destroy him. With three dead and one on the run, the race to find the elusive Number Four begins. Outwardly normal teen John Smith never gets too comfortable in the same identity, and along with his guardian, Henri, he is constantly moving from town to town. With each passing day, John gains a stronger grasp on his extraordinary new powers, and his bond to the beings that share his fantastic fate grows stronger.",
+        "genre_ids": [
+          28,
+          53,
+          878,
+          12
+        ],
+        "vote_average": 6.207,
+        "poster_url": "https://image.tmdb.org/t/p/w500/tPxc7Bb5ZTSFMlCjYxzVWOVy8gD.jpg"
+      },
+      {
+        "id": 823625,
+        "title": "Blacklight",
+        "release_year": "2022",
+        "overview": "Travis Block is a shadowy Government agent who specializes in removing operatives whose covers have been exposed. He then has to uncover a deadly conspiracy within his own ranks that reaches the highest echelons of power.",
+        "genre_ids": [
+          28,
+          53,
+          12
+        ],
+        "vote_average": 6.133,
+        "poster_url": "https://image.tmdb.org/t/p/w500/bv9dy8mnwftdY2j6gG39gCfSFpV.jpg"
+      },
+      {
+        "id": 32080,
+        "title": "The Seven-Ups",
+        "release_year": "1973",
+        "overview": "A tough detective who is part of an elite New York City unit is trying to find out who killed his partner, but uncovers a plot to kidnap mobsters for money.",
+        "genre_ids": [
+          53,
+          80,
+          9648
+        ],
+        "vote_average": 6.359,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xmpzuTWUEiVPsRz7kKXijNISUNq.jpg"
+      },
+      {
+        "id": 5174,
+        "title": "Rush Hour 3",
+        "release_year": "2007",
+        "overview": "After a botched assassination attempt, the mismatched duo finds themselves in Paris, struggling to retrieve a precious list of names, as the murderous crime syndicate's henchmen try their best to stop them. Once more, Lee and Carter must fight their way through dangerous gangsters; however, this time, the past has come back to haunt Lee. Will the boys get the job done once and for all?",
+        "genre_ids": [
+          28,
+          35,
+          80
+        ],
+        "vote_average": 6.5,
+        "poster_url": "https://image.tmdb.org/t/p/w500/mp9CzKxLa2i7yblMXUrzVfGqsCo.jpg"
+      },
+      {
+        "id": 21683,
+        "title": "Batman: Mystery of the Batwoman",
+        "release_year": "2003",
+        "overview": "As if the Penguin wasn't enough to contend with, a new vigilante has surfaced in Gotham City, and her strong-arm tactics give Batman cause for concern. Being the World's Greatest Detective and The Dark Knight, he sets out to uncover her identity while stopping a dangerous criminal plot.",
+        "genre_ids": [
+          14,
+          16,
+          12,
+          80,
+          28,
+          18
+        ],
+        "vote_average": 6.718,
+        "poster_url": "https://image.tmdb.org/t/p/w500/mlmhpUArJdpRPO211v3lETe3uzg.jpg"
+      },
+      {
+        "id": 5175,
+        "title": "Rush Hour 2",
+        "release_year": "2001",
+        "overview": "It's vacation time for Carter as he finds himself alongside Lee in Hong Kong wishing for more excitement. While Carter wants to party and meet the ladies, Lee is out to track down a Triad gang lord who may be responsible for killing two men at the American Embassy. Things get complicated as the pair stumble onto a counterfeiting plot. The boys are soon up to their necks in fist fights and life-threatening situations. A trip back to the U.S. may provide the answers about the bombing, the counterfeiting, and the true allegiance of sexy customs agent Isabella.",
+        "genre_ids": [
+          28,
+          35,
+          80
+        ],
+        "vote_average": 6.776,
+        "poster_url": "https://image.tmdb.org/t/p/w500/aBQf2vMiCINeVC9v6BGVYKXurTh.jpg"
+      },
+      {
+        "id": 262500,
+        "title": "Insurgent",
+        "release_year": "2015",
+        "overview": "Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart.",
+        "genre_ids": [
+          28,
+          878,
+          53
+        ],
+        "vote_average": 6.36,
+        "poster_url": "https://image.tmdb.org/t/p/w500/dP5Fb6YRfzmCQtRbHOr2kO7tJW9.jpg"
+      },
+      {
+        "id": 522016,
+        "title": "The 355",
+        "release_year": "2022",
+        "overview": "A group of top female agents from American, British, Chinese, Colombian, and German government agencies are drawn together to try and stop an organization from acquiring a deadly weapon to send the world into chaos.",
+        "genre_ids": [
+          28,
+          12,
+          53
+        ],
+        "vote_average": 6.006,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xef9Ht77B2igqZv754HNdW8qZCk.jpg"
+      },
+      {
+        "id": 46041,
+        "title": "The Quiller Memorandum",
+        "release_year": "1966",
+        "overview": "After two British Secret Intelligence Service agents are murdered at the hands of a cryptic neo-Nazi group known as Phoenix, the suave agent Quiller is sent to Berlin to investigate.",
+        "genre_ids": [
+          53,
+          18,
+          80
+        ],
+        "vote_average": 5.893,
+        "poster_url": "https://image.tmdb.org/t/p/w500/hWC6UXgbQZ7HNWbsD95F8gIoll5.jpg"
+      },
+      {
+        "id": 24528,
+        "title": "Killer Bean Forever",
+        "release_year": "2008",
+        "overview": "When things go bad in Beantown, top assassin Killer Bean is called to clean-up the mess. Detective Cromwell finds himself in the middle between Killer Bean and mob boss Cappuccino.",
+        "genre_ids": [
+          16,
+          28,
+          53,
+          35
+        ],
+        "vote_average": 7.185,
+        "poster_url": "https://image.tmdb.org/t/p/w500/qZTCweihd6H8IM2W1Bgk7M3HKrf.jpg"
+      },
+      {
+        "id": 404733,
+        "title": "Overdrive",
+        "release_year": "2017",
+        "overview": "Master car thieves square off against French gangsters in the South of France with money, women and lives all on the line.",
+        "genre_ids": [
+          53,
+          28,
+          9648
+        ],
+        "vote_average": 6.1,
+        "poster_url": "https://image.tmdb.org/t/p/w500/a0hTRjis1cxwmjOuBaS7WdDG3dj.jpg"
+      },
+      {
+        "id": 366924,
+        "title": "Batman: Bad Blood",
+        "release_year": "2016",
+        "overview": "When Batman goes missing, it takes the entire Bat \"family\" - including Batwoman and Batwing - to keep the peace in Gotham and unravel the mystery behind the Dark Knight's disappearance.",
+        "genre_ids": [
+          878,
+          28,
+          16,
+          12,
+          80
+        ],
+        "vote_average": 7.031,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ktjbGsGm5GKlHDvvwQajXvDW2BN.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      268,
+      272,
+      414906,
+      49026,
+      232842,
+      854467,
+      408648,
+      242643,
+      46529,
+      823625,
+      32080,
+      5174,
+      21683,
+      5175,
+      262500,
+      522016,
+      46041,
+      24528,
+      404733,
+      366924
+    ],
+    "reranked_ids": [
+      49026,
+      268,
+      414906,
+      272,
+      242643,
+      21683,
+      408648,
+      854467,
+      366924,
+      32080,
+      262500,
+      404733,
+      46041,
+      232842,
+      823625,
+      5174,
+      24528,
+      5175,
+      522016,
+      46529
+    ]
+  },
+  {
+    "source_id": "4348",
+    "source_title": "Pride & Prejudice",
+    "split": "development",
+    "source_movie": {
+      "id": 4348,
+      "title": "Pride & Prejudice",
+      "release_year": "2005",
+      "overview": "A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "vote_average": 8.051,
+      "poster_url": "https://image.tmdb.org/t/p/w500/o8UhmEbWPHmTUxP0lMuCoqNkbB3.jpg"
+    },
+    "candidates": [
+      {
+        "id": 8293,
+        "title": "Howards End",
+        "release_year": "1992",
+        "overview": "A saga of class relations and changing times in an Edwardian England on the brink of modernity, the film centers on liberal Margaret Schlegel, who, along with her sister Helen, becomes involved with two couples: wealthy, conservative industrialist Henry Wilcox and his wife Ruth, and the downwardly mobile working-class Leonard Bast and his mistress Jackie.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 7.001,
+        "poster_url": "https://image.tmdb.org/t/p/w500/1009nhfj28VhhQnVadtjkOacduX.jpg"
+      },
+      {
+        "id": 12184,
+        "title": "The Other Boleyn Girl",
+        "release_year": "2008",
+        "overview": "A sumptuous and sensual tale of intrigue, romance and betrayal set against the backdrop of a defining moment in European history: two beautiful sisters, Anne and Mary Boleyn, driven by their family's blind ambition, compete for the love of the handsome and passionate King Henry VIII.",
+        "genre_ids": [
+          18,
+          10749,
+          36
+        ],
+        "vote_average": 6.709,
+        "poster_url": "https://image.tmdb.org/t/p/w500/q2lgC8mmAltWTkbqPM8n5EYF4XL.jpg"
+      },
+      {
+        "id": 250734,
+        "title": "Far from the Madding Crowd",
+        "release_year": "2015",
+        "overview": "In Victorian England, the independent and headstrong Bathsheba Everdene attracts three very different suitors: Gabriel Oak, a hardworking young sheep farmer; Frank Troy, a handsome and reckless Sergeant; and William Boldwood, a prosperous and mature bachelor.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 7.026,
+        "poster_url": "https://image.tmdb.org/t/p/w500/cr4cctBPv9qHDtjDps4wi0kqI7h.jpg"
+      },
+      {
+        "id": 11121,
+        "title": "Tess",
+        "release_year": "1979",
+        "overview": "A strong-willed peasant girl is sent by her father to the estate of some local aristocrats to capitalize on a rumour that their families are from the same line. This fateful visit commences an epic narrative of sex, class, betrayal, and revenge.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 7.068,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xejUFnoAVxzvU95o2jlzG2USmY.jpg"
+      },
+      {
+        "id": 25147,
+        "title": "Jude",
+        "release_year": "1996",
+        "overview": "In late 19th-century England, Jude aspires to be an academic, but is hobbled by his blue-collar background. Instead, he works as a stonemason and is trapped in an unloving marriage to a farmer's daughter named Arabella. But when his wife leaves him, Jude sees an opportunity to improve himself. He moves to the city and begins an affair with his married cousin, Sue, courting tragedy every step of the way.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.305,
+        "poster_url": "https://image.tmdb.org/t/p/w500/pK7hcjrvgRisQC7i1XwiA1B97sJ.jpg"
+      },
+      {
+        "id": 11257,
+        "title": "A Room with a View",
+        "release_year": "1986",
+        "overview": "When Lucy Honeychurch and chaperon Charlotte Bartlett find themselves in Florence with rooms without views, fellow guests Mr Emerson and son George step in to remedy the situation. Meeting the Emersons could change Lucy's life forever but, once back in England, how will her experiences in Tuscany affect her marriage plans?",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.945,
+        "poster_url": "https://image.tmdb.org/t/p/w500/5xRAqywVo6tNUNQbAESGVP930la.jpg"
+      },
+      {
+        "id": 17127,
+        "title": "The Object of My Affection",
+        "release_year": "1998",
+        "overview": "A pregnant New York social worker begins to develop romantic feelings for her gay best friend, and decides she'd rather raise her child with him, much to the dismay of her overbearing boyfriend.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 5.825,
+        "poster_url": "https://image.tmdb.org/t/p/w500/2mA6QEdzhsftNIFV11SGsQLJvJR.jpg"
+      },
+      {
+        "id": 12783,
+        "title": "The Duchess",
+        "release_year": "2008",
+        "overview": "A chronicle of the life of 18th century aristocrat Georgiana, Duchess of Devonshire, who was reviled for her extravagant political and personal life.",
+        "genre_ids": [
+          18,
+          36,
+          10749
+        ],
+        "vote_average": 6.977,
+        "poster_url": "https://image.tmdb.org/t/p/w500/77ckyYrWmR12kl3qToqmDySnuwv.jpg"
+      },
+      {
+        "id": 9044,
+        "title": "Tristan & Isolde",
+        "release_year": "2006",
+        "overview": "An affair between the second in line to Britain's throne and the princess of the feuding Irish spells doom for the young lovers.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.7,
+        "poster_url": "https://image.tmdb.org/t/p/w500/r7TpY5hJ4jQGH7c8yzJgBnTwPH6.jpg"
+      },
+      {
+        "id": 25095,
+        "title": "Wuthering Heights",
+        "release_year": "1992",
+        "overview": "Young orphan Heathcliff is adopted by the wealthy Earnshaw family and moves into their estate, Wuthering Heights. Soon, the new resident falls for his compassionate foster sister, Cathy. The two share a remarkable bond that seems unbreakable until Cathy, feeling the pressure of social convention, suppresses her feelings and marries Edgar Linton, a man of means who befits her stature. Heathcliff vows to win her back.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.645,
+        "poster_url": "https://image.tmdb.org/t/p/w500/lV8zMPqaK8Qg39zKLzfvnYkiBiC.jpg"
+      },
+      {
+        "id": 423899,
+        "title": "Victoria & Abdul",
+        "release_year": "2017",
+        "overview": "Queen Victoria strikes up an unlikely friendship with a young Indian clerk named Abdul Karim.",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "vote_average": 6.9,
+        "poster_url": "https://image.tmdb.org/t/p/w500/uIzQ8zZ0rqjqqJUIpeeovtTryAa.jpg"
+      },
+      {
+        "id": 330483,
+        "title": "The Choice",
+        "release_year": "2016",
+        "overview": "Travis and Gabby first meet as neighbors in a small coastal town and wind up in a relationship that is tested by life's most defining events.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 7.204,
+        "poster_url": "https://image.tmdb.org/t/p/w500/6MF3cdAasnF17SG9bmeamQ066iJ.jpg"
+      },
+      {
+        "id": 22522,
+        "title": "Anne of the Thousand Days",
+        "release_year": "1969",
+        "overview": "Henry VIII of England discards his wife, Katharine of Aragon, who has failed to produce a male heir, in favor of the young and beautiful Anne Boleyn.",
+        "genre_ids": [
+          18,
+          36,
+          10749
+        ],
+        "vote_average": 7.165,
+        "poster_url": "https://image.tmdb.org/t/p/w500/u2p5SspAs1GqeuHXNXywryU3k37.jpg"
+      },
+      {
+        "id": 656968,
+        "title": "FX's A Christmas Carol",
+        "release_year": "2019",
+        "overview": "London, 1843. Ebenezer Scrooge, a bitter old man, despises the Christmas holiday. Over the course of Christmas Eve night he is visited by three ghosts to show him his past, present and future.",
+        "genre_ids": [
+          18,
+          14
+        ],
+        "vote_average": 7.235,
+        "poster_url": "https://image.tmdb.org/t/p/w500/Aml2ZwT2Om8o0uLEx8w7jQF5Jzu.jpg"
+      },
+      {
+        "id": 36194,
+        "title": "The Go-Between",
+        "release_year": "1971",
+        "overview": "British teenager Leo Colston spends a summer in the countryside, where he develops a crush on the beautiful young aristocrat Marian. Eager to impress her, Leo becomes the \"go-between\" for Marian, delivering secret romantic letters to Ted Burgess, a handsome neighboring farmer.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.825,
+        "poster_url": "https://image.tmdb.org/t/p/w500/61dXOIpDaiWCp7aIjBYkd6ujdXZ.jpg"
+      },
+      {
+        "id": 121674,
+        "title": "Great Expectations",
+        "release_year": "2012",
+        "overview": "Orphan Pip discovers through lawyer Mr. Jaggers that a mysterious benefactor wishes to ensure that he becomes a gentleman. Reunited with his childhood patron, Miss Havisham, and his first love, the beautiful but emotionally cold Estella, he discovers that the elderly spinster has gone mad from having been left at the altar as a young woman, and has made her charge into a warped, unfeeling heartbreaker.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.4,
+        "poster_url": "https://image.tmdb.org/t/p/w500/z9eLxcsNOtoq4dTMDJwr79QR3xd.jpg"
+      },
+      {
+        "id": 239571,
+        "title": "The Best of Me",
+        "release_year": "2014",
+        "overview": "A pair of former high school sweethearts reunite after many years when they return to visit their small hometown.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 7.475,
+        "poster_url": "https://image.tmdb.org/t/p/w500/gSr79jDrR073FmLjIrZWar1lFD2.jpg"
+      },
+      {
+        "id": 91745,
+        "title": "Romeo & Juliet",
+        "release_year": "2013",
+        "overview": "In Verona, bad blood between the Montague and Capulet families leads to much bitterness. Despite the hostility, Romeo Montague manages an invitation to a masked ball at the estate of the Capulets and meets Juliet, their daughter. The two are instantly smitten but dismayed to learn that their families are enemies. Romeo and Juliet figure out a way to pursue their romance, but Romeo is banished for his part in the slaying of Juliet's cousin, Tybalt.",
+        "genre_ids": [
+          10749,
+          18
+        ],
+        "vote_average": 6.71,
+        "poster_url": "https://image.tmdb.org/t/p/w500/9FZ3wTjY9rUvIoobJFv8ozoTwTT.jpg"
+      },
+      {
+        "id": 50512,
+        "title": "Anna Karenina",
+        "release_year": "1997",
+        "overview": "In Imperial Russia, Anna, wife of the officer Karenin, goes to Moscow to visit her brother. On the way, she meets charming cavalry officer Vronsky, to whom she's immediately attracted. But in St. Petersburg’s high society, a relationship like this could destroy a woman’s reputation.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.107,
+        "poster_url": "https://image.tmdb.org/t/p/w500/6YWh035E2jhiWs57A2LMg1c9mv4.jpg"
+      },
+      {
+        "id": 226857,
+        "title": "Endless Love",
+        "release_year": "2014",
+        "overview": "A privileged girl and a charismatic boy's instant desire sparks a love affair made only more reckless by parents trying to keep them apart.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.941,
+        "poster_url": "https://image.tmdb.org/t/p/w500/7WDqvNmy4p6IJx8JjvzOtaV2IRr.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      8293,
+      12184,
+      250734,
+      11121,
+      25147,
+      11257,
+      17127,
+      12783,
+      9044,
+      25095,
+      423899,
+      330483,
+      22522,
+      656968,
+      36194,
+      121674,
+      239571,
+      91745,
+      50512,
+      226857
+    ],
+    "reranked_ids": [
+      11121,
+      9044,
+      11257,
+      12184,
+      25095,
+      226857,
+      25147,
+      91745,
+      121674,
+      8293,
+      12783,
+      250734,
+      36194,
+      330483,
+      50512,
+      22522,
+      239571,
+      17127,
+      656968,
+      423899
+    ]
+  },
+  {
+    "source_id": "419430",
+    "source_title": "Get Out",
+    "split": "development",
+    "source_movie": {
+      "id": 419430,
+      "title": "Get Out",
+      "release_year": "2017",
+      "overview": "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
+      "genre_ids": [
+        9648,
+        53,
+        27
+      ],
+      "vote_average": 7.625,
+      "poster_url": "https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg"
+    },
+    "candidates": [
+      {
+        "id": 814800,
+        "title": "Goodnight Mommy",
+        "release_year": "2022",
+        "overview": "When twin brothers arrive home to find their mother’s demeanor altered and face covered in surgical bandages, they begin to suspect the woman beneath the gauze might not be their mother.",
+        "genre_ids": [
+          27,
+          53,
+          9648
+        ],
+        "vote_average": 6.298,
+        "poster_url": "https://image.tmdb.org/t/p/w500/oHhD5jD4S5ElPNNFCDKXJAzMZ5h.jpg"
+      },
+      {
+        "id": 101669,
+        "title": "Mother's Day",
+        "release_year": "2010",
+        "overview": "Crazed members of a sadistic family return to their childhood home to terrorize the new owners.",
+        "genre_ids": [
+          80,
+          27,
+          53
+        ],
+        "vote_average": 6.5,
+        "poster_url": "https://image.tmdb.org/t/p/w500/9tFAISreDP3Eepwsu7DtcnrCvsB.jpg"
+      },
+      {
+        "id": 840705,
+        "title": "Blink Twice",
+        "release_year": "2024",
+        "overview": "When tech billionaire Slater King meets cocktail waitress Frida at his fundraising gala, he invites her to join him and his friends on a dream vacation on his private island. But despite the epic setting, beautiful people, ever-flowing champagne, and late-night dance parties, Frida can sense that there’s something sinister hiding beneath the island’s lush façade.",
+        "genre_ids": [
+          27,
+          9648,
+          53
+        ],
+        "vote_average": 6.68,
+        "poster_url": "https://image.tmdb.org/t/p/w500/lZGOK0I2DJSRlEPNOAFTSNxSjDD.jpg"
+      },
+      {
+        "id": 10299,
+        "title": "Hush... Hush, Sweet Charlotte",
+        "release_year": "1964",
+        "overview": "An aging, reclusive Southern belle plagued by a horrifying family secret descends into madness after the arrival of a lost relative.",
+        "genre_ids": [
+          27,
+          9648,
+          53
+        ],
+        "vote_average": 7.304,
+        "poster_url": "https://image.tmdb.org/t/p/w500/hwVGNaVXFblluLwUjGcJ7RgW1rV.jpg"
+      },
+      {
+        "id": 8461,
+        "title": "Funny Games",
+        "release_year": "2008",
+        "overview": "When Ann, husband George, and son Georgie arrive at their holiday home they are visited by a pair of polite and seemingly pleasant young men. Armed with deceptively sweet smiles and some golf clubs, they proceed to terrorize and torture the tight-knit clan, giving them until the next day to survive.",
+        "genre_ids": [
+          53,
+          27
+        ],
+        "vote_average": 6.543,
+        "poster_url": "https://image.tmdb.org/t/p/w500/zs92sAOh3Q0kDIJkgaJFTBzSFka.jpg"
+      },
+      {
+        "id": 13937,
+        "title": "Raising Cain",
+        "release_year": "1992",
+        "overview": "Child psychologist Carter Nix is a loving and caring family man, but under this appearance lies a dark and troubled past. Grappling with the consequences of this past on his own psyche and the influence of his returning father and violent brother Cain, Carter becomes involved in a series of murders and kidnappings. Meanwhile, his wife Jenny rekindles an old love affair, placing herself in the crosshairs of her increasingly unstable husband.",
+        "genre_ids": [
+          27,
+          53
+        ],
+        "vote_average": 6.046,
+        "poster_url": "https://image.tmdb.org/t/p/w500/5vRn138vnZeUNFe32qTuPGKkVLR.jpg"
+      },
+      {
+        "id": 1083968,
+        "title": "Locked",
+        "release_year": "2025",
+        "overview": "When Eddie breaks into a luxury SUV, he steps into a deadly trap set by William, a self-proclaimed vigilante delivering his own brand of twisted justice. With no means of escape, Eddie must fight to survive in a ride where escape is an illusion, survival is a nightmare, and justice shifts into high gear.",
+        "genre_ids": [
+          27,
+          53
+        ],
+        "vote_average": 6.209,
+        "poster_url": "https://image.tmdb.org/t/p/w500/hhkiqXpfpufwxVrdSftzeKIANl3.jpg"
+      },
+      {
+        "id": 34583,
+        "title": "The Final",
+        "release_year": "2010",
+        "overview": "A group of high school outcasts get revenge on the students that torment them.",
+        "genre_ids": [
+          53,
+          27
+        ],
+        "vote_average": 6.01,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ff7UI8q51sOArKafaaAOQnnfpne.jpg"
+      },
+      {
+        "id": 536437,
+        "title": "Hypnotic",
+        "release_year": "2023",
+        "overview": "A detective becomes entangled in a mystery involving his missing daughter and a secret government program while investigating a string of reality-bending crimes.",
+        "genre_ids": [
+          9648,
+          878,
+          53
+        ],
+        "vote_average": 6.19,
+        "poster_url": "https://image.tmdb.org/t/p/w500/3IhGkkalwXguTlceGSl8XUJZOVI.jpg"
+      },
+      {
+        "id": 798362,
+        "title": "The Marsh King's Daughter",
+        "release_year": "2023",
+        "overview": "Helena, a woman living a seemingly ordinary life, hides a dark secret—her father is the infamous 'Marsh King', the man who kept her and her mother captive in the wilderness for years. After a lifetime of trying to escape her past, Helena is forced to face her demons when her father unexpectedly escapes from prison.",
+        "genre_ids": [
+          53,
+          80,
+          9648
+        ],
+        "vote_average": 6.436,
+        "poster_url": "https://image.tmdb.org/t/p/w500/bcuEjrwhp5HgEUnFe5lc4xpEqzt.jpg"
+      },
+      {
+        "id": 631843,
+        "title": "Old",
+        "release_year": "2021",
+        "overview": "A group of families on a tropical holiday discover that the secluded beach where they are staying is somehow causing them to age rapidly – reducing their entire lives into a single day.",
+        "genre_ids": [
+          53,
+          9648,
+          27
+        ],
+        "vote_average": 6.317,
+        "poster_url": "https://image.tmdb.org/t/p/w500/vclShucpUmPhdAOmKgf3B3Z4POD.jpg"
+      },
+      {
+        "id": 782936,
+        "title": "Nocebo",
+        "release_year": "2022",
+        "overview": "A fashion designer suffers from a mysterious illness that puzzles her doctors and frustrates her husband until help arrives in the form of a Filipino caregiver who uses traditional folk healing to reveal a horrifying truth.",
+        "genre_ids": [
+          9648,
+          53,
+          27,
+          14
+        ],
+        "vote_average": 6.038,
+        "poster_url": "https://image.tmdb.org/t/p/w500/3FPnDTlX0LsaU4VD5mc82BMbchA.jpg"
+      },
+      {
+        "id": 41966,
+        "title": "Pin",
+        "release_year": "1988",
+        "overview": "Pin, a plastic medical dummy, has been the fixation of Leon since youth. Now grown up and orphaned in an accident, Leon brings Pin home to live with him and his sister Ursula, much to her reluctance. Soon, however, Leon's fixation on Pin spirals out of control, and Ursula must face the devastating consequences.",
+        "genre_ids": [
+          27,
+          53
+        ],
+        "vote_average": 6.8,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ouUfJtdHPkRXFJ0zDLPvgbPHPjd.jpg"
+      },
+      {
+        "id": 13483,
+        "title": "Awake",
+        "release_year": "2007",
+        "overview": "While undergoing heart surgery, a man experiences a phenomenon called ‘anesthetic awareness’, which leaves him awake but paralyzed throughout the operation. As various obstacles present themselves, his wife must make life-altering decisions while wrestling with her own personal drama.",
+        "genre_ids": [
+          53,
+          80,
+          9648
+        ],
+        "vote_average": 6.6,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xqooV6lR1Kdx4Q52Sim0aGbDTYP.jpg"
+      },
+      {
+        "id": 207933,
+        "title": "Stonehearst Asylum",
+        "release_year": "2014",
+        "overview": "An Oxford Medical School graduate takes a position at a mental institution and soon becomes obsessed with a female mental patient, but he has no idea of a recent and horrifying staffing change.",
+        "genre_ids": [
+          53,
+          9648,
+          27
+        ],
+        "vote_average": 6.855,
+        "poster_url": "https://image.tmdb.org/t/p/w500/fZxGCCQ0NAtraevqULJ84wSSjo0.jpg"
+      },
+      {
+        "id": 1062215,
+        "title": "Afraid",
+        "release_year": "2024",
+        "overview": "Curtis Pike and his family are selected to test a new home device: a digital assistant called AIA. AIA observes the family's behaviors and begins to anticipate their needs. And she can – and will – make sure nothing – and no one – gets in her family's way.",
+        "genre_ids": [
+          27,
+          878,
+          53
+        ],
+        "vote_average": 5.895,
+        "poster_url": "https://image.tmdb.org/t/p/w500/gUREuXCnJLVHsvKXDH9fgIcfM6e.jpg"
+      },
+      {
+        "id": 13549,
+        "title": "Burnt Offerings",
+        "release_year": "1976",
+        "overview": "A family moves into a large old mansion in the countryside which seems to have a mysterious and sinister power over its new residents.",
+        "genre_ids": [
+          27,
+          53,
+          9648
+        ],
+        "vote_average": 6.476,
+        "poster_url": "https://image.tmdb.org/t/p/w500/2ipG69lXOjGMX7F7qxJQzUoiUsd.jpg"
+      },
+      {
+        "id": 24740,
+        "title": "The Entity",
+        "release_year": "1982",
+        "overview": "A single mom is raped by an invisible force. Her psychiatrist believes the experience stems from childhood trauma, while she knows something supernatural is at play.",
+        "genre_ids": [
+          27,
+          9648,
+          53
+        ],
+        "vote_average": 6.9,
+        "poster_url": "https://image.tmdb.org/t/p/w500/aUm4Jn9q55OhdHVzYWAUBXNY4G7.jpg"
+      },
+      {
+        "id": 18781,
+        "title": "The Haunting in Connecticut",
+        "release_year": "2009",
+        "overview": "When the Campbell family moves to upstate Connecticut, they soon learn that their charming Victorian home has a disturbing history: not only was the house a transformed funeral parlor where inconceivable acts occurred, but the owner's clairvoyant son Jonah served as a demonic messenger, providing a gateway for spiritual entities to crossover.",
+        "genre_ids": [
+          53,
+          27
+        ],
+        "vote_average": 6.172,
+        "poster_url": "https://image.tmdb.org/t/p/w500/dTfL0YbTa7S59vZYmWbk6UofHkI.jpg"
+      },
+      {
+        "id": 435615,
+        "title": "Possessor",
+        "release_year": "2020",
+        "overview": "Tasya Vos, an elite corporate assassin, uses brain-implant technology to take control of other people’s bodies to terminate high profile targets. As she sinks deeper into her latest assignment, Vos becomes trapped inside a mind that threatens to obliterate her.",
+        "genre_ids": [
+          27,
+          53,
+          878
+        ],
+        "vote_average": 6.376,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xC9GZeJZ3NagdkGg9nLQx0aPG6J.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      814800,
+      101669,
+      840705,
+      10299,
+      8461,
+      13937,
+      1083968,
+      34583,
+      536437,
+      798362,
+      631843,
+      782936,
+      41966,
+      13483,
+      207933,
+      1062215,
+      13549,
+      24740,
+      18781,
+      435615
+    ],
+    "reranked_ids": [
+      10299,
+      13937,
+      814800,
+      18781,
+      8461,
+      13549,
+      840705,
+      631843,
+      24740,
+      798362,
+      1062215,
+      1083968,
+      782936,
+      41966,
+      207933,
+      101669,
+      536437,
+      13483,
+      34583,
+      435615
+    ]
+  },
+  {
+    "source_id": "496243",
+    "source_title": "Parasite",
+    "split": "development",
+    "source_movie": {
+      "id": 496243,
+      "title": "Parasite",
+      "release_year": "2019",
+      "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+      "genre_ids": [
+        35,
+        53,
+        18
+      ],
+      "vote_average": 8.49,
+      "poster_url": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    },
+    "candidates": [
+      {
+        "id": 639988,
+        "title": "No Other Choice",
+        "release_year": "2025",
+        "overview": "After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.",
+        "genre_ids": [
+          35,
+          80,
+          53
+        ],
+        "vote_average": 7.5,
+        "poster_url": "https://image.tmdb.org/t/p/w500/vc2S0dvgpsM0XfSiXZDMVkRCSSU.jpg"
+      },
+      {
+        "id": 1161617,
+        "title": "Code 3",
+        "release_year": "2025",
+        "overview": "A burned-out paramedic tries to survive his last 24 hours on the job while training a new recruit.",
+        "genre_ids": [
+          35,
+          28,
+          18
+        ],
+        "vote_average": 7.094,
+        "poster_url": "https://image.tmdb.org/t/p/w500/gIAYMDb5mIAeCAj76q1sRsKjkzo.jpg"
+      },
+      {
+        "id": 27834,
+        "title": "CQ",
+        "release_year": "2001",
+        "overview": "A young filmmaker in 1960s Paris juggles directing a cheesy sci-fi debacle, directing his own personal art film, coping with his crumbling relationship with his girlfriend, and a new-found infatuation with the sci-fi film's starlet.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 5.9,
+        "poster_url": "https://image.tmdb.org/t/p/w500/qembyZYP4BSGoh9djmh8ga2nVfG.jpg"
+      },
+      {
+        "id": 480001,
+        "title": "The Art of Self-Defense",
+        "release_year": "2019",
+        "overview": "Casey is attacked at random on the street and enlists in a local dojo led by a charismatic and mysterious Sensei in an effort to learn how to defend himself. What he uncovers is a sinister world of fraternity, violence and hypermasculinity and a woman fighting for her place in it.",
+        "genre_ids": [
+          35,
+          53,
+          18,
+          9648
+        ],
+        "vote_average": 6.586,
+        "poster_url": "https://image.tmdb.org/t/p/w500/bTq793Qwl3tCXb94zrDPAwppbsC.jpg"
+      },
+      {
+        "id": 12520,
+        "title": "The Last Supper",
+        "release_year": "1995",
+        "overview": "A group of idealistic but frustrated liberals succumb to the temptation of murdering right-wing pundits for their political beliefs.",
+        "genre_ids": [
+          35,
+          53,
+          80,
+          18
+        ],
+        "vote_average": 6.523,
+        "poster_url": "https://image.tmdb.org/t/p/w500/oIgPiiM0qD1mCo1SYG3Sd0vmKTa.jpg"
+      },
+      {
+        "id": 973628,
+        "title": "A Normal Family",
+        "release_year": "2024",
+        "overview": "Jae-wan, a successful lawyer, takes on the case of a rich executive's son, who has purposely run over and killed a man and left his daughter seriously injured. It's Jae-wan's job to defend a murderer, just another rung on his career's golden-stepped ladder. His younger brother, on the contrary, is a scrupulous and upstanding paediatrician, who always puts the health of his patients over profit and money, often contravening the rules of the private clinic where he works. The brothers meet once a month with their wives for fine dining in expensive restaurants, but when an unexpected situation involving their teenage kids arises, their consciences are questioned and their usual dinner conversation takes an unexpected turn.",
+        "genre_ids": [
+          18,
+          53
+        ],
+        "vote_average": 6.947,
+        "poster_url": "https://image.tmdb.org/t/p/w500/pG49LvH6pcfw6oyhYX5iFEtaHS7.jpg"
+      },
+      {
+        "id": 475557,
+        "title": "Joker",
+        "release_year": "2019",
+        "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+        "genre_ids": [
+          80,
+          53,
+          18
+        ],
+        "vote_average": 8.116,
+        "poster_url": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+      },
+      {
+        "id": 41479,
+        "title": "The Joneses",
+        "release_year": "2010",
+        "overview": "A seemingly perfect family moves into a suburban neighborhood, but when it comes to the truth as to why they're living there, they don't exactly come clean with their neighbors.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.2,
+        "poster_url": "https://image.tmdb.org/t/p/w500/5YINGouZK9pmPdMPAHv158eQf3o.jpg"
+      },
+      {
+        "id": 601666,
+        "title": "I Care a Lot",
+        "release_year": "2021",
+        "overview": "A court-appointed legal guardian defrauds her older clients and traps them under her care. But her latest mark comes with some unexpected baggage.",
+        "genre_ids": [
+          80,
+          53,
+          18,
+          35
+        ],
+        "vote_average": 6.571,
+        "poster_url": "https://image.tmdb.org/t/p/w500/gKnhEsjNefpKnUdAkn7INzIFLSu.jpg"
+      },
+      {
+        "id": 829774,
+        "title": "Somewhere in Queens",
+        "release_year": "2023",
+        "overview": "Leo and Angela Russo live a simple life in Queens, surrounded by their overbearing Italian-American family. When their son finds success on his high school basketball team, Leo tears the family apart trying to make it happen.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.285,
+        "poster_url": "https://image.tmdb.org/t/p/w500/zXr6AziPii0NFpbTANNpLrOPxRP.jpg"
+      },
+      {
+        "id": 30309,
+        "title": "Real Women Have Curves",
+        "release_year": "2002",
+        "overview": "In East Los Angeles, an 18-year-old struggles between her ambitions of going to college and the desires of her domineering mother for her to get married, have children, and oversee the small, rundown family-owned textile factory.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.1,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ziemD3ATULYKt399FkO1ZhAwrOH.jpg"
+      },
+      {
+        "id": 419459,
+        "title": "Landline",
+        "release_year": "2017",
+        "overview": "A teenager living with her sister and parents in Manhattan during the 1990s discovers that her father is having an affair.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.162,
+        "poster_url": "https://image.tmdb.org/t/p/w500/p7RVsyi67S95RyNJjX99E1MaOsA.jpg"
+      },
+      {
+        "id": 32075,
+        "title": "A Dry White Season",
+        "release_year": "1989",
+        "overview": "During the 1976 Soweto uprising, a white school teacher's life and values are threatened when he asks questions about the death of a young black boy who died in police custody.",
+        "genre_ids": [
+          18,
+          53
+        ],
+        "vote_average": 6.697,
+        "poster_url": "https://image.tmdb.org/t/p/w500/6Wx9oZ7WUoootNLv70EDq6nyDqW.jpg"
+      },
+      {
+        "id": 1077280,
+        "title": "Die Hart",
+        "release_year": "2023",
+        "overview": "Kevin Hart - playing a version of himself - is on a death-defying quest to become an action star. And with a little help from John Travolta, Nathalie Emmanuel, and Josh Hartnett - he just might pull it off.",
+        "genre_ids": [
+          35,
+          28,
+          53
+        ],
+        "vote_average": 5.912,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ff9iMXJjtRdm58nRzM88sNr5CTu.jpg"
+      },
+      {
+        "id": 9583,
+        "title": "Divine Secrets of the Ya-Ya Sisterhood",
+        "release_year": "2002",
+        "overview": "In a sleepy Louisiana parish, a group of lifelong friends stage a rather unorthodox intervention to help a young playwright unravel the truth about her complicated mother and let go of her painful past.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.049,
+        "poster_url": "https://image.tmdb.org/t/p/w500/hI05FJ8wgPROHQgLtfJ4ZuH3l4b.jpg"
+      },
+      {
+        "id": 483435,
+        "title": "All About Nina",
+        "release_year": "2018",
+        "overview": "Nina Geld's passion and talent have made her a rising star in the comedy scene, but she's an emotional mess offstage. When a new professional opportunity coincides with a romantic one, she is forced to confront her own deeply troubled past.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 5.8,
+        "poster_url": "https://image.tmdb.org/t/p/w500/qcOV7ALpm0CiIyeTxP3Ncjrc7HA.jpg"
+      },
+      {
+        "id": 59058,
+        "title": "Riff-Raff",
+        "release_year": "1991",
+        "overview": "Stevie, fresh from prison in Scotland, finds a job on a London construction site. Working conditions are poor and most of the men are working under aliases, due to immigration status and to not conflict with unemployment. Some help Stevie secure housing, squatting in a council estate. Then Stevie meets Susan, from Ireland, an aspiring singer.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.723,
+        "poster_url": "https://image.tmdb.org/t/p/w500/4IMy908JxRDw9xYPuJ0OLFy0cjK.jpg"
+      },
+      {
+        "id": 308639,
+        "title": "Dope",
+        "release_year": "2015",
+        "overview": "Malcolm is carefully surviving life in a tough neighborhood in Los Angeles while juggling college applications, academic interviews, and the SAT. A chance invitation to an underground party leads him into an adventure that could allow him to go from being a geek, to being dope, to ultimately being himself.",
+        "genre_ids": [
+          80,
+          18,
+          35
+        ],
+        "vote_average": 7.04,
+        "poster_url": "https://image.tmdb.org/t/p/w500/n6u00imN7AX2NiyWUc5kTgHXmEf.jpg"
+      },
+      {
+        "id": 1029955,
+        "title": "Kinds of Kindness",
+        "release_year": "2024",
+        "overview": "A triptych fable following a man without choice who tries to take control of his own life; a policeman who is alarmed that his wife who was missing-at-sea has returned and seems a different person; and a woman determined to find a specific someone with a special ability, who is destined to become a prodigious spiritual leader.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.48,
+        "poster_url": "https://image.tmdb.org/t/p/w500/50lPmjIpDs8gKfgK7fPIeKzpllh.jpg"
+      },
+      {
+        "id": 253406,
+        "title": "10,000 Saints",
+        "release_year": "2015",
+        "overview": "A sweeping multigenerational story set against the backdrop of the raw, roaring New York City of the late 1980s; adoption, teen pregnancy, drugs, hardcore punk rock, the unbridled optimism and reckless stupidity of the young—and old—are all major elements in this heart-aching tale of the son of diehard hippies and his strange odyssey through the extremes of late 20th century youth culture.",
+        "genre_ids": [
+          35,
+          18,
+          10402
+        ],
+        "vote_average": 5.976,
+        "poster_url": "https://image.tmdb.org/t/p/w500/zZpQfrdXhNq5sqMMzDQkpqZQxXq.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      639988,
+      1161617,
+      27834,
+      480001,
+      12520,
+      973628,
+      475557,
+      41479,
+      601666,
+      829774,
+      30309,
+      419459,
+      32075,
+      1077280,
+      9583,
+      483435,
+      59058,
+      308639,
+      1029955,
+      253406
+    ],
+    "reranked_ids": [
+      41479,
+      973628,
+      59058,
+      480001,
+      253406,
+      308639,
+      1029955,
+      639988,
+      829774,
+      32075,
+      12520,
+      9583,
+      419459,
+      27834,
+      601666,
+      483435,
+      1077280,
+      30309,
+      475557,
+      1161617
+    ]
+  },
+  {
+    "source_id": "129",
+    "source_title": "Spirited Away",
+    "split": "development",
+    "source_movie": {
+      "id": 129,
+      "title": "Spirited Away",
+      "release_year": "2001",
+      "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+      "genre_ids": [
+        16,
+        10751,
+        14
+      ],
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+    },
+    "candidates": [
+      {
+        "id": 100271,
+        "title": "A Letter to Momo",
+        "release_year": "2012",
+        "overview": "A shy 11-year-old's life takes a strange turn when she discovers three hungry goblins living in the attic of her new house. She misses her old life. She misses her father so very much. Until she makes some new ghoulish friends.",
+        "genre_ids": [
+          35,
+          14,
+          16,
+          18,
+          10751
+        ],
+        "vote_average": 7.351,
+        "poster_url": "https://image.tmdb.org/t/p/w500/uH4c5t3Wzzv41Wq9ws2Q47N1Dzo.jpg"
+      },
+      {
+        "id": 573683,
+        "title": "The Wonderland",
+        "release_year": "2019",
+        "overview": "The story follows Akane, a girl with no self-confidence. On the day before her birthday, she meets a mysterious alchemist, Hippocrates, and his student, Pipo, who both tell her they're on a mission to save the world. Together, they set out from the basement for \"Wonderland,\" and Akane finds herself labelled Wonderland's savior.",
+        "genre_ids": [
+          16,
+          14,
+          10751
+        ],
+        "vote_average": 6.401,
+        "poster_url": "https://image.tmdb.org/t/p/w500/psWXyFQfIvcKYx1tzJaqVlHXXzH.jpg"
+      },
+      {
+        "id": 1358305,
+        "title": "A Tooth Fairy Tale",
+        "release_year": "2025",
+        "overview": "Van, the brave son of a tooth fairy leader, meets the goblins girl Gemma on his first mission. Despite the myths about ancient disputes between fairies and goblins, they share common values. When the greedy Spider Queen threatens both tribes, they must work together.",
+        "genre_ids": [
+          16,
+          14,
+          10751
+        ],
+        "vote_average": 8.576,
+        "poster_url": "https://image.tmdb.org/t/p/w500/wZDLyFkI9YtBg1lSL4G9RUtCYIg.jpg"
+      },
+      {
+        "id": 430447,
+        "title": "Mary and The Witch's Flower",
+        "release_year": "2017",
+        "overview": "Mary Smith, a young girl who lives with her great-aunt in the countryside, follows a mysterious cat into the nearby forest where she finds a strange flower and an old broom, none of which is as ordinary as it seems.",
+        "genre_ids": [
+          16,
+          12,
+          10751,
+          14
+        ],
+        "vote_average": 7.162,
+        "poster_url": "https://image.tmdb.org/t/p/w500/lq3OJQiJ8hlCr23LAdHbeU3eqBF.jpg"
+      },
+      {
+        "id": 683127,
+        "title": "Earwig and the Witch",
+        "release_year": "2021",
+        "overview": "A headstrong orphan discovers a world of spells and potions while living with a selfish witch.",
+        "genre_ids": [
+          16,
+          14,
+          10751,
+          10402,
+          35
+        ],
+        "vote_average": 5.891,
+        "poster_url": "https://image.tmdb.org/t/p/w500/9oK820JieICOcfUhI6mkpFrcA9m.jpg"
+      },
+      {
+        "id": 10882,
+        "title": "Sleeping Beauty",
+        "release_year": "1959",
+        "overview": "Cursed to die by the evil fairy Maleficent when she was a baby, Princess Aurora is sent into hiding under protection from three good fairies. As she grows up far away, Maleficent becomes increasingly determined to seal the princess's fate.",
+        "genre_ids": [
+          14,
+          16,
+          10749,
+          10751
+        ],
+        "vote_average": 6.946,
+        "poster_url": "https://image.tmdb.org/t/p/w500/pO9YMLSmj3essVSWSGygjGxX6Kw.jpg"
+      },
+      {
+        "id": 1231574,
+        "title": "My Oni Girl",
+        "release_year": "2024",
+        "overview": "A shy teenage boy's inability to say no is tested when a headstrong girl drags him on a mystical journey amid summer snow to find her missing mom.",
+        "genre_ids": [
+          16,
+          14,
+          12,
+          10751
+        ],
+        "vote_average": 7.2,
+        "poster_url": "https://image.tmdb.org/t/p/w500/k69kkwsipkPn7Nzq488kHGQTPo.jpg"
+      },
+      {
+        "id": 76492,
+        "title": "Hotel Transylvania",
+        "release_year": "2012",
+        "overview": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!",
+        "genre_ids": [
+          16,
+          35,
+          10751,
+          14
+        ],
+        "vote_average": 6.97,
+        "poster_url": "https://image.tmdb.org/t/p/w500/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg"
+      },
+      {
+        "id": 116711,
+        "title": "Epic",
+        "release_year": "2013",
+        "overview": "A teenager finds herself transported to a deep forest setting where a battle between the forces of good and the forces of evil is taking place. She bands together with a rag-tag group characters in order to save their world—and ours.",
+        "genre_ids": [
+          16,
+          12,
+          10751,
+          14
+        ],
+        "vote_average": 6.564,
+        "poster_url": "https://image.tmdb.org/t/p/w500/81cSsWzjTfR3cJSqnTiHwy1eyPK.jpg"
+      },
+      {
+        "id": 202575,
+        "title": "The House of Magic",
+        "release_year": "2013",
+        "overview": "Thunder, an abandoned young cat seeking shelter from a storm, stumbles into the strangest house imaginable, owned by an old magician and inhabited by a dazzling array of automatons and gizmos. Not everyone welcomes the new addition to the troupe as Jack Rabbit and Maggie Mouse plot to evict Thunder. The situation gets worse when the magician lands in hospital and his scheming nephew sees his chance to cash in by selling the mansion. Our young hero is determined to earn his place and so he enlists the help of some wacky magician's assistants to protect his magical new home.",
+        "genre_ids": [
+          10751,
+          14,
+          16,
+          12
+        ],
+        "vote_average": 6.301,
+        "poster_url": "https://image.tmdb.org/t/p/w500/3R13g2XgblynIrQGF8geFZJPNvR.jpg"
+      },
+      {
+        "id": 152042,
+        "title": "Puella Magi Madoka Magica the Movie Part I: Beginnings",
+        "release_year": "2012",
+        "overview": "Madoka Kaname, an ordinary middle-schooler, along with her best friend Sayaka Miki, are offered the chance to have any wish they want granted by the mysterious Kyubey, and become magical girls and fight witches. However, fellow magical girl Homura Akemi seems intent on stopping Madoka from becoming a magical girl at any cost. Puella Magi Madoka Magica the Movie Part I: Beginnings is a retelling of the first half of the TV anime series.",
+        "genre_ids": [
+          53,
+          16,
+          14
+        ],
+        "vote_average": 7.579,
+        "poster_url": "https://image.tmdb.org/t/p/w500/kJjtXLRR1mV7kEUuSnCKDEmN94G.jpg"
+      },
+      {
+        "id": 21481,
+        "title": "Twitches",
+        "release_year": "2005",
+        "overview": "Twins separated at birth, Camryn and Alex meet by chance for the first time on their 21st birthday and discover they're witches with the power to save their homeland of Coventry from the evil that threatens it. But when Camryn leaves Alex to face the darkness alone, will Coventry be doomed? Or will the sisters multiply their magic by standing together?",
+        "genre_ids": [
+          35,
+          18,
+          10751,
+          14,
+          10770
+        ],
+        "vote_average": 6.741,
+        "poster_url": "https://image.tmdb.org/t/p/w500/8ctDK5B0uR2gre2PxQSSkJZFmh.jpg"
+      },
+      {
+        "id": 15485,
+        "title": "Disney Princess Enchanted Tales: Follow Your Dreams",
+        "release_year": "2007",
+        "overview": "Princess Aurora and Princess Jasmine learn valuable life lessons in two short stories.",
+        "genre_ids": [
+          16,
+          10751,
+          14
+        ],
+        "vote_average": 6.45,
+        "poster_url": "https://image.tmdb.org/t/p/w500/8HTCBnWvdkS5kcff61tcQtDqFUq.jpg"
+      },
+      {
+        "id": 10144,
+        "title": "The Little Mermaid",
+        "release_year": "1989",
+        "overview": "This colorful adventure tells the story of an impetuous mermaid princess named Ariel who falls in love with the very human Prince Eric and puts everything on the line for the chance to be with him. Memorable songs and characters -- including the villainous sea witch Ursula.",
+        "genre_ids": [
+          16,
+          10751,
+          14
+        ],
+        "vote_average": 7.4,
+        "poster_url": "https://image.tmdb.org/t/p/w500/plcZXvI310FkbwIptvd6rqk63LP.jpg"
+      },
+      {
+        "id": 877957,
+        "title": "Drifting Home",
+        "release_year": "2022",
+        "overview": "One fateful summer, a group of elementary school kids set adrift on an abandoned apartment building must look within themselves to find a way back home.",
+        "genre_ids": [
+          16,
+          14,
+          12
+        ],
+        "vote_average": 7.364,
+        "poster_url": "https://image.tmdb.org/t/p/w500/iNf1wC8cK6e8zgNyuMUqWFT7Din.jpg"
+      },
+      {
+        "id": 79707,
+        "title": "Children Who Chase Lost Voices",
+        "release_year": "2011",
+        "overview": "The film centers on Asuna, a young girl who spends her solitary days listening to the mysterious music emanating from the crystal radio she received from her late father as a memento. One day while walking home she is attacked by a fearsome monster and saved by a mysterious boy named Shun. However, Shun disappears and Asuna embarks on a journey of adventure to the land of Agartha with her teacher Mr. Morisaki to meet a Shun again. Through her journey she comes to know the cruelty and beauty of the world, as well as loss.",
+        "genre_ids": [
+          16,
+          12,
+          14,
+          10751
+        ],
+        "vote_average": 7.239,
+        "poster_url": "https://image.tmdb.org/t/p/w500/8RE7Zz9oTzOeMcahqm74AWkOVpV.jpg"
+      },
+      {
+        "id": 57737,
+        "title": "Barbie: A Fairy Secret",
+        "release_year": "2011",
+        "overview": "Barbie realises that fairies secretly surround everybody. She, along with the help of her friends, Taylor and Carrie, sets out to rescue Ken. He is taken to the secret fairy city, Gloss Angeles.",
+        "genre_ids": [
+          16,
+          10751,
+          14
+        ],
+        "vote_average": 6.894,
+        "poster_url": "https://image.tmdb.org/t/p/w500/wn2aoYKOonwMNKkzfgO5y4ji8pB.jpg"
+      },
+      {
+        "id": 16859,
+        "title": "Kiki's Delivery Service",
+        "release_year": "1989",
+        "overview": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
+        "genre_ids": [
+          16,
+          10751,
+          14
+        ],
+        "vote_average": 7.84,
+        "poster_url": "https://image.tmdb.org/t/p/w500/Aufa4YdZIv4AXpR9rznwVA5SEfd.jpg"
+      },
+      {
+        "id": 8392,
+        "title": "My Neighbor Totoro",
+        "release_year": "1988",
+        "overview": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
+        "genre_ids": [
+          14,
+          16,
+          10751
+        ],
+        "vote_average": 8.1,
+        "poster_url": "https://image.tmdb.org/t/p/w500/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg"
+      },
+      {
+        "id": 454699,
+        "title": "Monster Family",
+        "release_year": "2017",
+        "overview": "The Wishbone family are far from happy. In an attempt to reconnect as a family, they plan a fun night out. However, the plan backfires when they are cursed and all turned into Monsters.",
+        "genre_ids": [
+          16,
+          10751,
+          14,
+          35
+        ],
+        "vote_average": 6.0,
+        "poster_url": "https://image.tmdb.org/t/p/w500/gjDbd43e7o2Ssn7P1l50Bv0rtIl.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      100271,
+      573683,
+      1358305,
+      430447,
+      683127,
+      10882,
+      1231574,
+      76492,
+      116711,
+      202575,
+      152042,
+      21481,
+      15485,
+      10144,
+      877957,
+      79707,
+      57737,
+      16859,
+      8392,
+      454699
+    ],
+    "reranked_ids": [
+      8392,
+      79707,
+      16859,
+      57737,
+      116711,
+      573683,
+      683127,
+      430447,
+      100271,
+      10144,
+      10882,
+      1231574,
+      152042,
+      1358305,
+      15485,
+      202575,
+      877957,
+      454699,
+      76492,
+      21481
+    ]
+  },
+  {
+    "source_id": "76",
+    "source_title": "Before Sunrise",
+    "split": "development",
+    "source_movie": {
+      "id": 76,
+      "title": "Before Sunrise",
+      "release_year": "1995",
+      "overview": "An unexpected meeting on a train leads two travelers to spend an evening wandering through Vienna. As the night unfolds, they share stories and conversations about life and love, exploring new ideas while a quiet intimacy grows between them, knowing it may be their only night together.",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "vote_average": 7.968,
+      "poster_url": "https://image.tmdb.org/t/p/w500/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg"
+    },
+    "candidates": [
+      {
+        "id": 1491,
+        "title": "The Illusionist",
+        "release_year": "2006",
+        "overview": "With his eye on a lovely aristocrat, a gifted illusionist named Eisenheim uses his powers to win her away from her betrothed, a crown prince. But Eisenheim's scheme creates tumult within the monarchy and ignites the suspicion of a dogged inspector.",
+        "genre_ids": [
+          14,
+          18,
+          53,
+          10749
+        ],
+        "vote_average": 7.302,
+        "poster_url": "https://image.tmdb.org/t/p/w500/1O9jUvqkHaGBMVRyOJz1AlkmALW.jpg"
+      },
+      {
+        "id": 946,
+        "title": "Letter from an Unknown Woman",
+        "release_year": "1948",
+        "overview": "A pianist about to flee from a duel receives a letter from a woman he cannot remember. As she tells the story of her lifelong love for him, he is forced to reinterpret his own past.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 7.771,
+        "poster_url": "https://image.tmdb.org/t/p/w500/gRGRW7DKyK8qBtKJTWguULMGbHG.jpg"
+      },
+      {
+        "id": 31507,
+        "title": "Dodsworth",
+        "release_year": "1936",
+        "overview": "A retired auto manufacturer and his wife take a long-planned European vacation only to find that they want very different things from life.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 7.113,
+        "poster_url": "https://image.tmdb.org/t/p/w500/qpd9P54mLYvzdC6rBz56is8aeDB.jpg"
+      },
+      {
+        "id": 15121,
+        "title": "The Sound of Music",
+        "release_year": "1965",
+        "overview": "In the years before World War II, a tomboyish postulant at an Austrian abbey is hired as a governess in the home of a widowed naval captain with seven children and brings a new love of life and music into the home.",
+        "genre_ids": [
+          18,
+          10751,
+          10402,
+          10749
+        ],
+        "vote_average": 7.729,
+        "poster_url": "https://image.tmdb.org/t/p/w500/c6CrUZypAsBCaRWX0M3RVRDbhNS.jpg"
+      },
+      {
+        "id": 435107,
+        "title": "A Royal Winter",
+        "release_year": "2017",
+        "overview": "While on a last-minute European holiday, a young woman finds herself in the middle of a real-life fairy tale when a chance meeting with a handsome local leads to something more. However, things get complicated when she learns that the \"local\" is actually a prince who is about to be crowned King, and whose mother is dead-set against her royal son's romance with the tourist.",
+        "genre_ids": [
+          10770,
+          10749
+        ],
+        "vote_average": 7.115,
+        "poster_url": "https://image.tmdb.org/t/p/w500/lxeJQe4lcW8AzDrRjzixOrlmihv.jpg"
+      },
+      {
+        "id": 1371185,
+        "title": "Song Sung Blue",
+        "release_year": "2025",
+        "overview": "Based on a true story, two down-on-their-luck musicians form a joyous Neil Diamond tribute band, proving it's never too late to find love and follow your dreams.",
+        "genre_ids": [
+          10402,
+          10749,
+          18
+        ],
+        "vote_average": 7.373,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xStmzLprgzqjzfvpBI7uTbcRpwQ.jpg"
+      },
+      {
+        "id": 251,
+        "title": "Ghost",
+        "release_year": "1990",
+        "overview": "After a young man is murdered, his spirit stays behind to warn his lover of impending danger, with the help of a reluctant psychic.",
+        "genre_ids": [
+          14,
+          10749,
+          53
+        ],
+        "vote_average": 7.247,
+        "poster_url": "https://image.tmdb.org/t/p/w500/w9RaPHov8oM5cnzeE27isnFMsvS.jpg"
+      },
+      {
+        "id": 152601,
+        "title": "Her",
+        "release_year": "2013",
+        "overview": "In the not so distant future, Theodore, a lonely writer, purchases a newly developed operating system designed to meet the user's every need. To Theodore's surprise, a romantic relationship develops between him and his operating system. This unconventional love story blends science fiction and romance in a sweet tale that explores the nature of love and the ways that technology isolates and connects us all.",
+        "genre_ids": [
+          10749,
+          878,
+          18
+        ],
+        "vote_average": 7.836,
+        "poster_url": "https://image.tmdb.org/t/p/w500/eCOtqtfvn7mxGl6nfmq4b1exJRc.jpg"
+      },
+      {
+        "id": 128133,
+        "title": "Museum Hours",
+        "release_year": "2012",
+        "overview": "A security guard working at an art museum in Vienna crosses paths with a Canadian woman in town to visit her ailing cousin.",
+        "genre_ids": [
+          18
+        ],
+        "vote_average": 6.759,
+        "poster_url": "https://image.tmdb.org/t/p/w500/6iiBrKR7FeBY7HuRNkkPNDs01yC.jpg"
+      },
+      {
+        "id": 239571,
+        "title": "The Best of Me",
+        "release_year": "2014",
+        "overview": "A pair of former high school sweethearts reunite after many years when they return to visit their small hometown.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 7.475,
+        "poster_url": "https://image.tmdb.org/t/p/w500/gSr79jDrR073FmLjIrZWar1lFD2.jpg"
+      },
+      {
+        "id": 686142,
+        "title": "The Lost Husband",
+        "release_year": "2020",
+        "overview": "Trying to put her life back together after the death of her husband, Libby and her children move to her estranged Aunt's goat farm in central Texas.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.753,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ouwKjq9SshrAzb2KIwa057O2I6N.jpg"
+      },
+      {
+        "id": 1241921,
+        "title": "A Big Bold Beautiful Journey",
+        "release_year": "2025",
+        "overview": "Sarah and David are single strangers who meet at a mutual friend’s wedding and soon, through a surprising twist of fate, find themselves on a funny, fantastical, sweeping adventure together where they get to re-live important moments from their respective pasts, illuminating how they got to where they are in the present... and possibly getting a chance to alter their futures.",
+        "genre_ids": [
+          10749,
+          14,
+          18
+        ],
+        "vote_average": 6.15,
+        "poster_url": "https://image.tmdb.org/t/p/w500/uMAkmQlKthQpTMiyPAKOYK3JnMs.jpg"
+      },
+      {
+        "id": 463158,
+        "title": "My Dinner with Hervé",
+        "release_year": "2018",
+        "overview": "An unlikely friendship evolves over one wild night in LA between a struggling journalist and actor Hervé Villechaize, the world's most famous gun-toting dwarf, resulting in life-changing consequences for both.",
+        "genre_ids": [
+          18,
+          10770
+        ],
+        "vote_average": 6.296,
+        "poster_url": "https://image.tmdb.org/t/p/w500/sb7Pr5mS4l37gWOWcwVaFNclhZh.jpg"
+      },
+      {
+        "id": 403300,
+        "title": "A Hidden Life",
+        "release_year": "2019",
+        "overview": "Austrian farmer Franz Jägerstätter faces the threat of execution for refusing to fight for the Nazis during World War II.",
+        "genre_ids": [
+          36,
+          18,
+          10752
+        ],
+        "vote_average": 7.171,
+        "poster_url": "https://image.tmdb.org/t/p/w500/taUkn5MsZIq5kpTABsF2563j5zp.jpg"
+      },
+      {
+        "id": 51384,
+        "title": "Lovely, Still",
+        "release_year": "2009",
+        "overview": "A holiday fable that tells the story of an elderly man discovering love for the first time.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.605,
+        "poster_url": "https://image.tmdb.org/t/p/w500/p5o2waFH3ioBOZuHKlx1kzk9Rdi.jpg"
+      },
+      {
+        "id": 47359,
+        "title": "Racing with the Moon",
+        "release_year": "1984",
+        "overview": "In a small coastal California town, Henry and Nicky are pals from blue collar families with only a short time before they ship off to World War II. Henry begins romancing new-to-town Caddie Winger, believing her to be wealthy. Mischievous and irresponsible, Nicky gets into trouble which forces the other two to become involved, testing their relationship, as well as the friendship between the boys.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.289,
+        "poster_url": "https://image.tmdb.org/t/p/w500/qanKEFnNtHCOFVqu3fEl2drrLWR.jpg"
+      },
+      {
+        "id": 41233,
+        "title": "Step Up 3D",
+        "release_year": "2010",
+        "overview": "A tight-knit group of New York City street dancers, including Luke and Natalie, team up with NYU freshman Moose, and find themselves pitted against the world's best hip-hop dancers in a high-stakes showdown that will change their lives forever.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 6.835,
+        "poster_url": "https://image.tmdb.org/t/p/w500/rPcqa5TZ7S63RNmCuY45ZizFBen.jpg"
+      },
+      {
+        "id": 5723,
+        "title": "Once",
+        "release_year": "2007",
+        "overview": "A vacuum repairman moonlights as a street musician and hopes for his big break. One day a Czech immigrant, who earns a living selling flowers, approaches him with the news that she is also an aspiring singer-songwriter. The pair decide to collaborate, and the songs that they compose reflect the story of their blossoming love.",
+        "genre_ids": [
+          18,
+          10402,
+          10749
+        ],
+        "vote_average": 7.419,
+        "poster_url": "https://image.tmdb.org/t/p/w500/7nW363kSYRCkr4VGOMvuSGwtzKs.jpg"
+      },
+      {
+        "id": 382399,
+        "title": "High Strung",
+        "release_year": "2016",
+        "overview": "When a hip hop violinist busking in the New York subway encounters a classical dancer on scholarship at the Manhattan Conservatory of the Arts, sparks fly. With the help of a hip hop dance crew they must find a common ground while preparing for a competition that could change their lives forever.",
+        "genre_ids": [
+          10402,
+          10749,
+          18
+        ],
+        "vote_average": 7.035,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xfj4Vomg8h3I1hBHj4GfpduUfkv.jpg"
+      },
+      {
+        "id": 454774,
+        "title": "The Girl from the Song",
+        "release_year": "2017",
+        "overview": "A young musician travels to Burning Man, a psychedelic festival in the middle of the Nevada desert, in an attempt to get the impetuous girl he has fallen in love with.",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "vote_average": 5.982,
+        "poster_url": "https://image.tmdb.org/t/p/w500/pkPhyfQzfKvQcEokZAyhYoQCC9o.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      1491,
+      946,
+      31507,
+      15121,
+      435107,
+      1371185,
+      251,
+      152601,
+      128133,
+      239571,
+      686142,
+      1241921,
+      463158,
+      403300,
+      51384,
+      47359,
+      41233,
+      5723,
+      382399,
+      454774
+    ],
+    "reranked_ids": [
+      946,
+      152601,
+      51384,
+      31507,
+      454774,
+      382399,
+      239571,
+      41233,
+      47359,
+      435107,
+      1241921,
+      1371185,
+      128133,
+      463158,
+      5723,
+      251,
+      686142,
+      1491,
+      15121,
+      403300
+    ]
+  },
+  {
+    "source_id": "76341",
+    "source_title": "Mad Max: Fury Road",
+    "split": "development",
+    "source_movie": {
+      "id": 76341,
+      "title": "Mad Max: Fury Road",
+      "release_year": "2015",
+      "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "vote_average": 7.639,
+      "poster_url": "https://image.tmdb.org/t/p/w500/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg"
+    },
+    "candidates": [
+      {
+        "id": 9355,
+        "title": "Mad Max Beyond Thunderdome",
+        "release_year": "1985",
+        "overview": "Mad Max becomes a pawn in a decadent oasis of a technological society, and when exiled, becomes the deliverer of a colony of children.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 6.215,
+        "poster_url": "https://image.tmdb.org/t/p/w500/jJlxcEVVUHnrUeEkQ0077VeHQpb.jpg"
+      },
+      {
+        "id": 507244,
+        "title": "Afterburn",
+        "release_year": "2025",
+        "overview": "Set against the backdrop of a postapocalyptic Earth whose Eastern Hemisphere was destroyed by a massive solar flare, leaving what life remains mutated from radiation and fallout. The story revolves around a group of treasure hunters who extract such objects as the Mona Lisa, the Rosetta Stone and the Crown Jewels while facing rival hunters, mutants and pirates.",
+        "genre_ids": [
+          28,
+          878,
+          35
+        ],
+        "vote_average": 6.2,
+        "poster_url": "https://image.tmdb.org/t/p/w500/fSXZFZVfJmC2v0TkW711QD5o76N.jpg"
+      },
+      {
+        "id": 8810,
+        "title": "Mad Max 2",
+        "release_year": "1981",
+        "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+        "genre_ids": [
+          28,
+          53,
+          878
+        ],
+        "vote_average": 7.39,
+        "poster_url": "https://image.tmdb.org/t/p/w500/l1KVEhkGDpWRzQ0VqIhZqDDuOim.jpg"
+      },
+      {
+        "id": 270771,
+        "title": "The Last Survivors",
+        "release_year": "2014",
+        "overview": "In the near future, society collapses and water becomes scarce. When a greedy water baron starts violently clearing out survivors, Kendal, a 17-year-old teenager, fights the baron's henchman to keep a well open.",
+        "genre_ids": [
+          53,
+          28,
+          878
+        ],
+        "vote_average": 6.071,
+        "poster_url": "https://image.tmdb.org/t/p/w500/1ssq3vz2fgHR2xTPDKxPJMcEvIs.jpg"
+      },
+      {
+        "id": 7737,
+        "title": "Resident Evil: Extinction",
+        "release_year": "2007",
+        "overview": "Years after the Racoon City catastrophe, survivors travel across the Nevada desert, hoping to make it to Alaska. Alice joins the caravan and their fight against hordes of zombies and the evil Umbrella Corp.",
+        "genre_ids": [
+          27,
+          28,
+          878
+        ],
+        "vote_average": 6.3,
+        "poster_url": "https://image.tmdb.org/t/p/w500/6yaLr7Ymg5cvbtSVi5hHwBKx35I.jpg"
+      },
+      {
+        "id": 294254,
+        "title": "Maze Runner: The Scorch Trials",
+        "release_year": "2015",
+        "overview": "Thomas and his fellow Gladers face their greatest challenge yet: searching for clues about the mysterious and powerful organization known as WCKD. Their journey takes them to the Scorch, a desolate landscape filled with unimaginable obstacles. Teaming up with resistance fighters, the Gladers take on WCKD’s vastly superior forces and uncover its shocking plans for them all.",
+        "genre_ids": [
+          878,
+          28,
+          53,
+          12
+        ],
+        "vote_average": 6.73,
+        "poster_url": "https://image.tmdb.org/t/p/w500/mYw7ZyejqSCPFlrT2jHZOESZDU3.jpg"
+      },
+      {
+        "id": 786892,
+        "title": "Furiosa: A Mad Max Saga",
+        "release_year": "2024",
+        "overview": "As the world falls, young Furiosa is snatched from the Green Place of Many Mothers into the hands of a great biker horde led by the warlord Dementus. Sweeping through the wasteland, they encounter the citadel presided over by Immortan Joe. The two tyrants wage war for dominance, and Furiosa must survive many trials as she puts together the means to find her way home.",
+        "genre_ids": [
+          28,
+          878,
+          12
+        ],
+        "vote_average": 7.444,
+        "poster_url": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg"
+      },
+      {
+        "id": 310135,
+        "title": "Turbo Kid",
+        "release_year": "2015",
+        "overview": "In a post-apocalyptic wasteland, an orphaned teen must battle a ruthless warlord to save the girl of his dreams.",
+        "genre_ids": [
+          28,
+          35,
+          878
+        ],
+        "vote_average": 6.491,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ArUqADkwycYtNVuXSoSXVrdJ8iJ.jpg"
+      },
+      {
+        "id": 1577,
+        "title": "Resident Evil: Apocalypse",
+        "release_year": "2004",
+        "overview": "As the city is locked down under quarantine, Alice finds out that the people that died from the previous incident at the Umbrella Corporation have turned into zombies. She then joins a small band of elite soldiers, who are enlisted to rescue the missing daughter of the creator of the mutating T-virus.  Once lack of luck and resources happen, they begin to wage an exhilarating battle to survive and escape before the Umbrella Corporation erases its experiment from the face of the earth.",
+        "genre_ids": [
+          27,
+          28,
+          878
+        ],
+        "vote_average": 6.369,
+        "poster_url": "https://image.tmdb.org/t/p/w500/way9dOm4dM2sm9UMcu2PEXMTX0q.jpg"
+      },
+      {
+        "id": 21512,
+        "title": "The Blood of Heroes",
+        "release_year": "1989",
+        "overview": "Set in a futuristic world where the only sport that has survived in a wasted society is the brutal game known as jugging. Sallow, the leader of a rag-tag team, has played in the main Leagues before, but was cast out because of indiscretions with a lady. Now joined by a talented newcomer, Kidda, an ambitious young peasant girl, he and his team find they have one last chance for glory.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 5.829,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ykdEyq2GCKRr8TsUBuVkRWuWkLj.jpg"
+      },
+      {
+        "id": 534,
+        "title": "Terminator Salvation",
+        "release_year": "2009",
+        "overview": "All grown up in post-apocalyptic 2018, John Connor must lead the resistance of humans against the increasingly dominating militaristic robots. But when Marcus Wright appears, his existence confuses the mission as Connor tries to determine whether Wright has come from the future or the past -- and whether he's friend or foe.",
+        "genre_ids": [
+          28,
+          878,
+          53
+        ],
+        "vote_average": 6.102,
+        "poster_url": "https://image.tmdb.org/t/p/w500/gw6JhlekZgtKUFlDTezq3j5JEPK.jpg"
+      },
+      {
+        "id": 13282,
+        "title": "Death Race 2000",
+        "release_year": "1975",
+        "overview": "In a boorish future, the government sponsors a popular, but bloody, cross-country race in which points are scored by mowing down pedestrians. Five teams, each comprised of a male and female, compete using cars equipped with deadly weapons. Frankenstein, the mysterious returning champion, has become America's hero, but this time he has a passenger from the underground resistance.",
+        "genre_ids": [
+          28,
+          878,
+          35
+        ],
+        "vote_average": 6.16,
+        "poster_url": "https://image.tmdb.org/t/p/w500/kwM8kkNGtv62gfPWVhD6qFxjDzg.jpg"
+      },
+      {
+        "id": 604,
+        "title": "The Matrix Reloaded",
+        "release_year": "2003",
+        "overview": "The Resistance builds in numbers as humans are freed from the Matrix and brought to the city of Zion. Neo discovers his superpowers, including the ability to see the code inside the Matrix. With machine sentinels digging to Zion in 72 hours, Neo, Morpheus and Trinity must find the Keymaker to ultimately reach the Source.",
+        "genre_ids": [
+          12,
+          28,
+          53,
+          878
+        ],
+        "vote_average": 7.085,
+        "poster_url": "https://image.tmdb.org/t/p/w500/8xEVAe84zlL9rkfYT6dZXero4KK.jpg"
+      },
+      {
+        "id": 1685,
+        "title": "Beneath the Planet of the Apes",
+        "release_year": "1970",
+        "overview": "The sole survivor of an interplanetary rescue mission lands on the planet of the apes, and uncovers a horrible secret beneath the surface.",
+        "genre_ids": [
+          12,
+          878,
+          9648
+        ],
+        "vote_average": 6.151,
+        "poster_url": "https://image.tmdb.org/t/p/w500/szHCeYwi4ubewuYnlnz0YGqWnQC.jpg"
+      },
+      {
+        "id": 156717,
+        "title": "Death Race: Inferno",
+        "release_year": "2013",
+        "overview": "Carl Lucas / Frankenstein has won four of his races and needs to win one more to win his freedom. Before his final race, Lucas and his team, car and all, are transferred to another prison where they will compete in a Death Race in the desert. Also, at the same time, Ceaser runs into a marketer who wants to franchise the Death Race program.",
+        "genre_ids": [
+          28,
+          878,
+          53
+        ],
+        "vote_average": 5.876,
+        "poster_url": "https://image.tmdb.org/t/p/w500/aRV4oC61nmBqypSaXtMXOk99dOM.jpg"
+      },
+      {
+        "id": 624860,
+        "title": "The Matrix Resurrections",
+        "release_year": "2021",
+        "overview": "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.",
+        "genre_ids": [
+          878,
+          28,
+          12
+        ],
+        "vote_average": 6.304,
+        "poster_url": "https://image.tmdb.org/t/p/w500/8c4a8kE7PizaGQQnditMmI1xbRp.jpg"
+      },
+      {
+        "id": 605,
+        "title": "The Matrix Revolutions",
+        "release_year": "2003",
+        "overview": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
+        "genre_ids": [
+          12,
+          28,
+          53,
+          878
+        ],
+        "vote_average": 6.758,
+        "poster_url": "https://image.tmdb.org/t/p/w500/qEWiBXJGXK28jGBAm8oFKKTB0WD.jpg"
+      },
+      {
+        "id": 37420,
+        "title": "Timescape",
+        "release_year": "1992",
+        "overview": "Before they can complete renovations on their new country inn, a widowed father and his young daughter are visited by a strange group of tourists. He soon makes a chilling discovery: they are disaster junkies from the future who visit the past to witness history's greatest catastrophes—and his small town is their next stop.",
+        "genre_ids": [
+          878,
+          12
+        ],
+        "vote_average": 6.5,
+        "poster_url": "https://image.tmdb.org/t/p/w500/snhE8XNzw1Av7yhJa986cnesobB.jpg"
+      },
+      {
+        "id": 496704,
+        "title": "Tremors: A Cold Day in Hell",
+        "release_year": "2018",
+        "overview": "Burt Gummer and Travis Welker find themselves in a fight for survival after investigating deadly giant worm attacks in the Canadian arctic.",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "vote_average": 5.835,
+        "poster_url": "https://image.tmdb.org/t/p/w500/aFOdiHaRjeTmHG67e5B7md2Q1cq.jpg"
+      },
+      {
+        "id": 760926,
+        "title": "Gold",
+        "release_year": "2022",
+        "overview": "In the not-too-distant future, two drifters traveling through the desert stumble across the biggest gold nugget ever found and the dream of immense wealth and greed takes hold. They hatch a plan to excavate their bounty, with one man leaving to secure the necessary tools while the other remains with the gold. The man who remains must endure harsh desert elements, ravenous wild dogs, and mysterious intruders, while battling the sinking suspicion that he has been abandoned to his fate.",
+        "genre_ids": [
+          28,
+          12,
+          53
+        ],
+        "vote_average": 6.171,
+        "poster_url": "https://image.tmdb.org/t/p/w500/c0r75XaNHA4QMlDcitEscQW2Fn6.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      9355,
+      507244,
+      8810,
+      270771,
+      7737,
+      294254,
+      786892,
+      310135,
+      1577,
+      21512,
+      534,
+      13282,
+      604,
+      1685,
+      156717,
+      624860,
+      605,
+      37420,
+      496704,
+      760926
+    ],
+    "reranked_ids": [
+      786892,
+      9355,
+      21512,
+      760926,
+      605,
+      310135,
+      7737,
+      507244,
+      8810,
+      624860,
+      294254,
+      604,
+      270771,
+      1577,
+      496704,
+      534,
+      1685,
+      37420,
+      13282,
+      156717
+    ]
+  },
+  {
+    "source_id": "862",
+    "source_title": "Toy Story",
+    "split": "holdout",
+    "source_movie": {
+      "id": 862,
+      "title": "Toy Story",
+      "release_year": "1995",
+      "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+      "genre_ids": [
+        10751,
+        35,
+        16,
+        12
+      ],
+      "vote_average": 7.989,
+      "poster_url": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+    },
+    "candidates": [
+      {
+        "id": 301528,
+        "title": "Toy Story 4",
+        "release_year": "2019",
+        "overview": "Woody has always been confident about his place in the world, devoted to taking care of his kid—whether that's Andy or Bonnie. But after Bonnie creates a reluctant new toy called \"Forky\", a road trip adventure alongside old and new friends challenges everything Woody believes about loyalty, purpose, and what it truly means to be a toy.",
+        "genre_ids": [
+          10751,
+          35,
+          16,
+          12
+        ],
+        "vote_average": 7.464,
+        "poster_url": "https://image.tmdb.org/t/p/w500/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg"
+      },
+      {
+        "id": 863,
+        "title": "Toy Story 2",
+        "release_year": "1999",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+        "genre_ids": [
+          16,
+          35,
+          10751
+        ],
+        "vote_average": 7.623,
+        "poster_url": "https://image.tmdb.org/t/p/w500/4rbcp3ng8n1MKHjpeqW0L7Fnpzz.jpg"
+      },
+      {
+        "id": 10193,
+        "title": "Toy Story 3",
+        "release_year": "2010",
+        "overview": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
+        "genre_ids": [
+          16,
+          10751,
+          35
+        ],
+        "vote_average": 7.817,
+        "poster_url": "https://image.tmdb.org/t/p/w500/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg"
+      },
+      {
+        "id": 1084244,
+        "title": "Toy Story 5",
+        "release_year": "2026",
+        "overview": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
+        "genre_ids": [
+          16,
+          10751,
+          35,
+          12
+        ],
+        "vote_average": 8.361,
+        "poster_url": "https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg"
+      },
+      {
+        "id": 137116,
+        "title": "Smurfs: The Lost Village",
+        "release_year": "2017",
+        "overview": "In this fully animated, all-new take on the Smurfs, a mysterious map sets Smurfette and her friends Brainy, Clumsy and Hefty on an exciting race through the Forbidden Forest leading to the discovery of the biggest secret in Smurf history.",
+        "genre_ids": [
+          10751,
+          35,
+          12,
+          16
+        ],
+        "vote_average": 6.363,
+        "poster_url": "https://image.tmdb.org/t/p/w500/swt9crREg1UcKgg3wGWfoFNlXOz.jpg"
+      },
+      {
+        "id": 1075794,
+        "title": "Leo",
+        "release_year": "2023",
+        "overview": "Jaded 74-year-old reptile Leo has been stuck in the same Florida classroom for decades with his terrarium-mate turtle. When he learns he only has one year left to live, he plans to escape to experience life on the outside but instead gets caught up in the problems of his anxious students — including an impossibly mean substitute teacher.",
+        "genre_ids": [
+          16,
+          35,
+          10751
+        ],
+        "vote_average": 7.347,
+        "poster_url": "https://image.tmdb.org/t/p/w500/gSOVog7ydsaF1YpgAqBqnKYFGY.jpg"
+      },
+      {
+        "id": 585,
+        "title": "Monsters, Inc.",
+        "release_year": "2001",
+        "overview": "Lovable Sulley and his wisecracking sidekick Mike Wazowski are the top scare team at Monsters, Inc., the scream-processing factory in Monstropolis. When a little girl named Boo wanders into their world, it's the monsters who are scared silly, and it's up to Sulley and Mike to keep her out of sight and get her back home.",
+        "genre_ids": [
+          16,
+          35,
+          10751,
+          14
+        ],
+        "vote_average": 7.857,
+        "poster_url": "https://image.tmdb.org/t/p/w500/wFSpyMsp7H0ttERbxY7Trlv8xry.jpg"
+      },
+      {
+        "id": 25475,
+        "title": "Tinker Bell and the Lost Treasure",
+        "release_year": "2009",
+        "overview": "A blue harvest moon will rise, allowing the fairies to use a precious moonstone to restore the Pixie Dust Tree, the source of all their magic. But when Tinker Bell accidentally puts all of Pixie Hollow in jeopardy, she must venture out across the sea on a secret quest to set things right.",
+        "genre_ids": [
+          16,
+          10751,
+          12,
+          14
+        ],
+        "vote_average": 6.838,
+        "poster_url": "https://image.tmdb.org/t/p/w500/hg1959yuBkHb4BKbIvETQSfxGCT.jpg"
+      },
+      {
+        "id": 13417,
+        "title": "Kronk's New Groove",
+        "release_year": "2005",
+        "overview": "After his adventures with Kuzco, Kronk opens his own diner, but struggling business and the impending visit from his father push him to hatch a risky plan for success. When the scheme explodes—literally—Kronk must rely on his many personalities to rediscover that true happiness comes from staying true to himself.",
+        "genre_ids": [
+          16,
+          35,
+          10751
+        ],
+        "vote_average": 6.41,
+        "poster_url": "https://image.tmdb.org/t/p/w500/kyMrt0RPVC8LDpdMrk1DjN6Gqdu.jpg"
+      },
+      {
+        "id": 412117,
+        "title": "The Secret Life of Pets 2",
+        "release_year": "2019",
+        "overview": "Max the terrier must cope with some major life changes when his owner gets married and has a baby. When the family takes a trip to the countryside, nervous Max has numerous run-ins with canine-intolerant cows, hostile foxes and a scary turkey. Luckily for Max, he soon catches a break when he meets Rooster, a gruff farm dog who tries to cure the lovable pooch of his neuroses.",
+        "genre_ids": [
+          16,
+          35,
+          10751,
+          12
+        ],
+        "vote_average": 6.951,
+        "poster_url": "https://image.tmdb.org/t/p/w500/s9xg4V5EDKiphgIksVJ9gewBM11.jpg"
+      },
+      {
+        "id": 1267,
+        "title": "Meet the Robinsons",
+        "release_year": "2007",
+        "overview": "Lewis, a brilliant young inventor, is keen on creating a time machine to find his mother, who abandoned him in an orphanage. Things take a turn when he meets Wilbur Robinson and his family.",
+        "genre_ids": [
+          16,
+          35,
+          10751,
+          878,
+          12
+        ],
+        "vote_average": 6.947,
+        "poster_url": "https://image.tmdb.org/t/p/w500/naya0zF4kT401Sx15AtwB9vpcJr.jpg"
+      },
+      {
+        "id": 385103,
+        "title": "Scoob!",
+        "release_year": "2020",
+        "overview": "In Scooby-Doo’s greatest adventure yet, see the never-before told story of how lifelong friends Scooby and Shaggy first met and how they joined forces with young detectives Fred, Velma, and Daphne to form the famous Mystery Inc. Now, with hundreds of cases solved, Scooby and the gang face their biggest, toughest mystery ever: an evil plot to unleash the ghost dog Cerberus upon the world. As they race to stop this global “dogpocalypse,” the gang discovers that Scooby has a secret legacy and an epic destiny greater than anyone ever imagined.",
+        "genre_ids": [
+          16,
+          35,
+          10751,
+          9648
+        ],
+        "vote_average": 6.977,
+        "poster_url": "https://image.tmdb.org/t/p/w500/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg"
+      },
+      {
+        "id": 137106,
+        "title": "The Lego Movie",
+        "release_year": "2014",
+        "overview": "An ordinary Lego mini-figure, mistakenly thought to be the extraordinary MasterBuilder, is recruited to join a quest to stop an evil Lego tyrant from conquering the universe.",
+        "genre_ids": [
+          16,
+          10751,
+          12,
+          35,
+          14
+        ],
+        "vote_average": 7.431,
+        "poster_url": "https://image.tmdb.org/t/p/w500/lbctonEnewCYZ4FYoTZhs8cidAl.jpg"
+      },
+      {
+        "id": 1022787,
+        "title": "Elio",
+        "release_year": "2025",
+        "overview": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.",
+        "genre_ids": [
+          16,
+          12,
+          878,
+          10751,
+          35
+        ],
+        "vote_average": 6.926,
+        "poster_url": "https://image.tmdb.org/t/p/w500/7z8jDiTZZco9moIKpTUImFtTy7o.jpg"
+      },
+      {
+        "id": 177572,
+        "title": "Big Hero 6",
+        "release_year": "2014",
+        "overview": "A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.",
+        "genre_ids": [
+          12,
+          10751,
+          16,
+          28,
+          35
+        ],
+        "vote_average": 7.725,
+        "poster_url": "https://image.tmdb.org/t/p/w500/2mxS4wUimwlLmI1xp6QW6NSU361.jpg"
+      },
+      {
+        "id": 21705,
+        "title": "The Barbie Diaries",
+        "release_year": "2006",
+        "overview": "Barbie is disheartened when Todd breaks her heart and goes back to his former girlfriend. But things change when she comes across a diary, which makes her wishes come true.",
+        "genre_ids": [
+          10751,
+          16
+        ],
+        "vote_average": 6.5,
+        "poster_url": "https://image.tmdb.org/t/p/w500/zSCQBfNWsdiKaqDj7LQUgxnSaFi.jpg"
+      },
+      {
+        "id": 499088,
+        "title": "Maya the Bee: The Honey Games",
+        "release_year": "2018",
+        "overview": "Following an unproductive harvest season, it’s up to Maya and her brave friends to save their hive by competing in a series of games.",
+        "genre_ids": [
+          35,
+          10751,
+          16,
+          12
+        ],
+        "vote_average": 6.6,
+        "poster_url": "https://image.tmdb.org/t/p/w500/yx4jdeTbDvZfmHPpd0D3L78VYDB.jpg"
+      },
+      {
+        "id": 335360,
+        "title": "My Little Pony: The Movie",
+        "release_year": "2017",
+        "overview": "A new dark force threatens Ponyville, and the Mane 6 – Twilight Sparkle, Applejack, Rainbow Dash, Pinkie Pie, Fluttershy and Rarity – embark on an unforgettable journey beyond Equestria where they meet new friends and exciting challenges on a quest to use the magic of friendship and save their home.",
+        "genre_ids": [
+          10751,
+          16,
+          12,
+          14
+        ],
+        "vote_average": 7.29,
+        "poster_url": "https://image.tmdb.org/t/p/w500/AiJRCzcZSVs9xPHoEKZRp80TyTA.jpg"
+      },
+      {
+        "id": 309809,
+        "title": "The Little Prince",
+        "release_year": "2015",
+        "overview": "Based on the best-seller book 'The Little Prince', the movie tells the story of a little girl that lives with resignation in a world where efficiency and work are the only dogmas. Everything will change when accidentally she discovers her neighbor that will tell her about the story of the Little Prince that he once met.",
+        "genre_ids": [
+          12,
+          16,
+          14,
+          10751
+        ],
+        "vote_average": 7.623,
+        "poster_url": "https://image.tmdb.org/t/p/w500/je5Z7gbFTzrs3FPHINo9yGiHoVo.jpg"
+      },
+      {
+        "id": 105864,
+        "title": "The Good Dinosaur",
+        "release_year": "2015",
+        "overview": "An epic journey into the world of dinosaurs where an Apatosaurus named Arlo makes an unlikely human friend.",
+        "genre_ids": [
+          12,
+          16,
+          10751
+        ],
+        "vote_average": 6.754,
+        "poster_url": "https://image.tmdb.org/t/p/w500/8RSkxOO80btfKjyiC5ZiTaCHIT8.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      301528,
+      863,
+      10193,
+      1084244,
+      137116,
+      1075794,
+      585,
+      25475,
+      13417,
+      412117,
+      1267,
+      385103,
+      137106,
+      1022787,
+      177572,
+      21705,
+      499088,
+      335360,
+      309809,
+      105864
+    ],
+    "reranked_ids": [
+      10193,
+      863,
+      301528,
+      1084244,
+      13417,
+      1022787,
+      177572,
+      499088,
+      25475,
+      412117,
+      137116,
+      21705,
+      309809,
+      1267,
+      385103,
+      1075794,
+      335360,
+      137106,
+      585,
+      105864
+    ]
+  },
+  {
+    "source_id": "329865",
+    "source_title": "Arrival",
+    "split": "holdout",
+    "source_movie": {
+      "id": 329865,
+      "title": "Arrival",
+      "release_year": "2016",
+      "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+      "genre_ids": [
+        18,
+        878,
+        9648
+      ],
+      "vote_average": 7.634,
+      "poster_url": "https://image.tmdb.org/t/p/w500/pEzNVQfdzYDzVK0XqxERIw2x2se.jpg"
+    },
+    "candidates": [
+      {
+        "id": 2103,
+        "title": "Solaris",
+        "release_year": "2002",
+        "overview": "A troubled psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.",
+        "genre_ids": [
+          18,
+          878,
+          9648
+        ],
+        "vote_average": 5.955,
+        "poster_url": "https://image.tmdb.org/t/p/w500/drdrB1hEZmzFlK1xtW5HMxK3LUJ.jpg"
+      },
+      {
+        "id": 17431,
+        "title": "Moon",
+        "release_year": "2009",
+        "overview": "With only three weeks left in his three-year contract, Sam Bell is eager to return to Earth. Stationed alone at a Moon-based facility with his computer assistant GERTY, an unexpected accident sets off a series of unsettling events that shake his isolation.",
+        "genre_ids": [
+          878,
+          18
+        ],
+        "vote_average": 7.562,
+        "poster_url": "https://image.tmdb.org/t/p/w500/35IU0Mq0zFsN1mYwDGts5mKc77n.jpg"
+      },
+      {
+        "id": 639771,
+        "title": "Cosmos",
+        "release_year": "2019",
+        "overview": "Three astronomers accidentally intercept what they believe to be a signal from a distant alien civilization, but the truth is even more incredible than any of them could have imagined.",
+        "genre_ids": [
+          878,
+          9648
+        ],
+        "vote_average": 5.929,
+        "poster_url": "https://image.tmdb.org/t/p/w500/kDAr2tO1hfZKeDBunuK6hnBFSPY.jpg"
+      },
+      {
+        "id": 9620,
+        "title": "Paycheck",
+        "release_year": "2003",
+        "overview": "Michael Jennings is a genius who's hired – and paid handsomely – by high-tech firms to work on highly sensitive projects, after which his short-term memory is erased so he's incapable of breaching security. But at the end of a three-year job, he's told he isn't getting a paycheck and instead receives a mysterious envelope. In it are clues he must piece together to find out why he wasn't paid – and why he's now in hot water.",
+        "genre_ids": [
+          28,
+          12,
+          9648,
+          878,
+          53
+        ],
+        "vote_average": 6.225,
+        "poster_url": "https://image.tmdb.org/t/p/w500/h0BWaPnWYXwbCXF69DxS0YWcVy2.jpg"
+      },
+      {
+        "id": 559581,
+        "title": "Stowaway",
+        "release_year": "2021",
+        "overview": "A three-person crew on a mission to Mars faces an impossible choice when an unplanned passenger jeopardizes the lives of everyone on board.",
+        "genre_ids": [
+          878,
+          18,
+          53
+        ],
+        "vote_average": 6.028,
+        "poster_url": "https://image.tmdb.org/t/p/w500/eFyRjhJfhNgM565U2mwEp5YUUOv.jpg"
+      },
+      {
+        "id": 522402,
+        "title": "Finch",
+        "release_year": "2021",
+        "overview": "On a post-apocalyptic Earth, a robot, built to protect the life of his dying creator's beloved dog, learns about life, love, friendship, and what it means to be human.",
+        "genre_ids": [
+          878,
+          18,
+          12
+        ],
+        "vote_average": 7.82,
+        "poster_url": "https://image.tmdb.org/t/p/w500/eEJtzD1F05xDipFEDY98CTH5yZn.jpg"
+      },
+      {
+        "id": 157336,
+        "title": "Interstellar",
+        "release_year": "2014",
+        "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+        "genre_ids": [
+          12,
+          18,
+          878
+        ],
+        "vote_average": 8.488,
+        "poster_url": "https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg"
+      },
+      {
+        "id": 644,
+        "title": "A.I. Artificial Intelligence",
+        "release_year": "2001",
+        "overview": "David, a robotic boy—the first of his kind programmed to love—is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David.",
+        "genre_ids": [
+          18,
+          878,
+          12
+        ],
+        "vote_average": 7.069,
+        "poster_url": "https://image.tmdb.org/t/p/w500/wnUAcUrMRGPPZUDroLeZhSjLkuu.jpg"
+      },
+      {
+        "id": 1143128,
+        "title": "Omni Loop",
+        "release_year": "2024",
+        "overview": "Diagnosed with a black hole growing inside her chest and stuck in a loop reliving the last five days of her life, a 55-year-old wife and mother from Miami, Florida decides to solve time travel in order to go back and be the person she always intended to be.",
+        "genre_ids": [
+          878,
+          18
+        ],
+        "vote_average": 6.005,
+        "poster_url": "https://image.tmdb.org/t/p/w500/aKrwq3HeyFcl5MXb7tcsileoF9I.jpg"
+      },
+      {
+        "id": 14337,
+        "title": "Primer",
+        "release_year": "2004",
+        "overview": "A group of fledgling inventors discover a complex method to manipulate reality. At first, they successfully game the stock market with it, but the consequences of the invention start to catch up with them.",
+        "genre_ids": [
+          878,
+          18,
+          53
+        ],
+        "vote_average": 6.75,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xEoq2WmDzpzxhkHEsmOYOg6BPg6.jpg"
+      },
+      {
+        "id": 75612,
+        "title": "Oblivion",
+        "release_year": "2013",
+        "overview": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack’s mission is nearly complete. His existence is brought crashing down when he rescues a beautiful  stranger from a downed spacecraft. Her arrival triggers a chain of events that  forces him to question everything he knows and puts the fate of humanity in his hands.",
+        "genre_ids": [
+          28,
+          878,
+          12,
+          9648
+        ],
+        "vote_average": 6.692,
+        "poster_url": "https://image.tmdb.org/t/p/w500/bYLM3GpNUZnoFElPXp1zlhDPdtv.jpg"
+      },
+      {
+        "id": 871,
+        "title": "Planet of the Apes",
+        "release_year": "1968",
+        "overview": "Astronaut Taylor crash lands on a distant planet ruled by apes who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "genre_ids": [
+          878,
+          12,
+          18,
+          28
+        ],
+        "vote_average": 7.656,
+        "poster_url": "https://image.tmdb.org/t/p/w500/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg"
+      },
+      {
+        "id": 2577,
+        "title": "Code 46",
+        "release_year": "2003",
+        "overview": "In a dystopian future, insurance fraud investigator William Gold arrives in Shanghai to investigate a forgery ring for \"papelles\", futuristic passports that record people's identities and genetics. Gold falls for Maria Gonzalez, the woman in charge of the forgeries. After a passionate affair, Gold returns home, having named a coworker as the culprit. But when one of Gonzalez's customers is found dead, Gold is sent back to Shanghai to complete the investigation.",
+        "genre_ids": [
+          18,
+          878,
+          53
+        ],
+        "vote_average": 6.155,
+        "poster_url": "https://image.tmdb.org/t/p/w500/ijayvLrCAwOVizi9OY8LZWq5SRW.jpg"
+      },
+      {
+        "id": 636,
+        "title": "THX 1138",
+        "release_year": "1971",
+        "overview": "People in the future live in a totalitarian society. A technician named THX 1138 lives a mundane life between work and taking a controlled consumption of drugs that the government uses to make puppets out of people. As THX is without drugs for the first time he has feelings for a woman and they start a secret relationship.",
+        "genre_ids": [
+          878,
+          18
+        ],
+        "vote_average": 6.44,
+        "poster_url": "https://image.tmdb.org/t/p/w500/pPyEXW7h2SJRjTsHZqrIlXxOgW9.jpg"
+      },
+      {
+        "id": 419704,
+        "title": "Ad Astra",
+        "release_year": "2019",
+        "overview": "The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown.",
+        "genre_ids": [
+          878,
+          18
+        ],
+        "vote_average": 6.137,
+        "poster_url": "https://image.tmdb.org/t/p/w500/xBHvZcjRiWyobQ9kxBhO6B2dtRI.jpg"
+      },
+      {
+        "id": 167,
+        "title": "K-PAX",
+        "release_year": "2001",
+        "overview": "Prot is a patient at a mental hospital who claims to be from a far away planet. His psychiatrist tries to help him, only to begin to doubt his own explanations.",
+        "genre_ids": [
+          878,
+          18,
+          9648
+        ],
+        "vote_average": 7.207,
+        "poster_url": "https://image.tmdb.org/t/p/w500/tafXZX0I6rso7EyoEzfygfTqxq6.jpg"
+      },
+      {
+        "id": 10514,
+        "title": "The Andromeda Strain",
+        "release_year": "1971",
+        "overview": "When virtually all of the residents of Piedmont, New Mexico are found dead after the return to Earth of a space satellite, the head of the US Air Force's Project Scoop declares an emergency. A group of eminent scientists led by Dr. Jeremy Stone scrambles to a secure laboratory and tries first to isolate the life form while determining why two people from Piedmont - an old alcoholic and a six-month-old baby - survived. The scientists methodically study the alien life form, unaware that it has already mutated and presents a far greater danger in the lab, which is equipped with a nuclear self-destruct device designed to prevent the escape of dangerous biological agents.",
+        "genre_ids": [
+          878,
+          53,
+          18
+        ],
+        "vote_average": 7.052,
+        "poster_url": "https://image.tmdb.org/t/p/w500/4FBSFz8wLpxd4o6hnvKOJJ8WSIz.jpg"
+      },
+      {
+        "id": 65294,
+        "title": "The Incredible Hulk",
+        "release_year": "1977",
+        "overview": "An accidental overdose of gamma radiation causes a mutation in scientist David Banner's DNA: now whenever he becomes angry, he metamorphoses into a seven-foot-tall, 330-pound, mindless muscular green creature.",
+        "genre_ids": [
+          28,
+          12,
+          878,
+          10770,
+          18
+        ],
+        "vote_average": 6.458,
+        "poster_url": "https://image.tmdb.org/t/p/w500/nCstm2LAXwT60QkejeU0fcYUSXS.jpg"
+      },
+      {
+        "id": 565743,
+        "title": "The Vast of Night",
+        "release_year": "2019",
+        "overview": "At the dawn of the space-race, two radio-obsessed teens discover a strange frequency over the airwaves in what becomes the most important night of their lives and in the history of their small town.",
+        "genre_ids": [
+          18,
+          9648,
+          878,
+          53
+        ],
+        "vote_average": 6.564,
+        "poster_url": "https://image.tmdb.org/t/p/w500/q2P9lYkctl5Ory71HEBMaFxbVlD.jpg"
+      },
+      {
+        "id": 49047,
+        "title": "Gravity",
+        "release_year": "2013",
+        "overview": "Dr Ryan Stone, an engineer on her first space mission, and Matt Kowalski, an astronaut on his final expedition, have to survive in space after they are hit by debris while spacewalking.",
+        "genre_ids": [
+          878,
+          53,
+          18
+        ],
+        "vote_average": 7.172,
+        "poster_url": "https://image.tmdb.org/t/p/w500/kZ2nZw8D681aphje8NJi8EfbL1U.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      2103,
+      17431,
+      639771,
+      9620,
+      559581,
+      522402,
+      157336,
+      644,
+      1143128,
+      14337,
+      75612,
+      871,
+      2577,
+      636,
+      419704,
+      167,
+      10514,
+      65294,
+      565743,
+      49047
+    ],
+    "reranked_ids": [
+      2103,
+      639771,
+      167,
+      10514,
+      522402,
+      157336,
+      419704,
+      75612,
+      636,
+      565743,
+      644,
+      2577,
+      871,
+      559581,
+      14337,
+      9620,
+      17431,
+      49047,
+      1143128,
+      65294
+    ]
+  },
+  {
+    "source_id": "120467",
+    "source_title": "The Grand Budapest Hotel",
+    "split": "holdout",
+    "source_movie": {
+      "id": 120467,
+      "title": "The Grand Budapest Hotel",
+      "release_year": "2014",
+      "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "vote_average": 8.026,
+      "poster_url": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg"
+    },
+    "candidates": [
+      {
+        "id": 1830,
+        "title": "Lord of War",
+        "release_year": "2005",
+        "overview": "Yuri Orlov is a globetrotting arms dealer and, through some of the deadliest war zones, he struggles to stay one step ahead of a relentless Interpol agent, his business rivals and even some of his customers who include many of the world's most notorious dictators. Finally, he must also face his own conscience.",
+        "genre_ids": [
+          80,
+          18,
+          53
+        ],
+        "vote_average": 7.347,
+        "poster_url": "https://image.tmdb.org/t/p/w500/3MGQD4yXokufNlW1AyRXdiy7ytP.jpg"
+      },
+      {
+        "id": 15723,
+        "title": "The Big Kahuna",
+        "release_year": "1999",
+        "overview": "Three salesmen working for a firm that makes industrial lubricants are waiting in the company's \"hospitality suite\" at a manufacturers' convention for a \"big kahuna\" named Dick Fuller to show up, in hopes they can persuade him to place an order that could salvage the company's flagging sales.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.8,
+        "poster_url": "https://image.tmdb.org/t/p/w500/sMhWWdW6V3HXFanELFA1oHdvboS.jpg"
+      },
+      {
+        "id": 42035,
+        "title": "Insignificance",
+        "release_year": "1985",
+        "overview": "Four 1950s icons meet in the same hotel room, and two of them discover more in common between them than they ever anticipated.",
+        "genre_ids": [
+          18,
+          35
+        ],
+        "vote_average": 6.403,
+        "poster_url": "https://image.tmdb.org/t/p/w500/priidLcX1Qxp0m0vaTa9vSwZ8ZZ.jpg"
+      },
+      {
+        "id": 1069905,
+        "title": "Jay Kelly",
+        "release_year": "2025",
+        "overview": "Famous movie actor Jay Kelly embarks on a journey of self-discovery, confronting both his past and present, accompanied by his devoted manager, Ron.",
+        "genre_ids": [
+          18,
+          35
+        ],
+        "vote_average": 6.132,
+        "poster_url": "https://image.tmdb.org/t/p/w500/lEXYpY9X17pGC7xYYy17Guv0L3J.jpg"
+      },
+      {
+        "id": 1415,
+        "title": "Party Monster",
+        "release_year": "2003",
+        "overview": "The New York club scene of the 80s and 90s was a world like no other. Into this candy-colored, mirror ball playground stepped Michael Alig, a wannabe from nowhere special. Under the watchful eye of veteran club kid James St. James, Alig quickly rose to the top... and there was no place to go but down.",
+        "genre_ids": [
+          35,
+          18,
+          80,
+          53
+        ],
+        "vote_average": 5.81,
+        "poster_url": "https://image.tmdb.org/t/p/w500/4DVWGtV1OA3W8kZxiimdNsepS6O.jpg"
+      },
+      {
+        "id": 23488,
+        "title": "Dorian Gray",
+        "release_year": "2009",
+        "overview": "Seduced into the decadent world of Lord Henry Wotton, handsome young aristocrat Dorian Gray becomes obsessed with maintaining his youthful appearance, and commissions a special portrait that will weather the winds of time while he remains forever young. When Gray's obsession spirals out of control, his desperate attempts to safeguard his secret turn his once-privileged life into a living hell.",
+        "genre_ids": [
+          14,
+          18,
+          53
+        ],
+        "vote_average": 6.045,
+        "poster_url": "https://image.tmdb.org/t/p/w500/uRKt8nYdy7EO4uqeKVVpZRmqrxF.jpg"
+      },
+      {
+        "id": 870518,
+        "title": "Sanctuary",
+        "release_year": "2023",
+        "overview": "Confined to a claustrophobic hotel room, the heir to a hotel empire and the dominatrix who has primed him for success become locked in a battle of wits and wills as he tries to end his relationship with her.",
+        "genre_ids": [
+          18,
+          53
+        ],
+        "vote_average": 6.099,
+        "poster_url": "https://image.tmdb.org/t/p/w500/yGQAZupyZgT2ESbBSMZ9R0OBToo.jpg"
+      },
+      {
+        "id": 34308,
+        "title": "Modigliani",
+        "release_year": "2004",
+        "overview": "Set in Paris in 1919, biopic centers on the life of late Italian artist Amedeo Modigliani, focusing on his last days as well as his rivalry with Pablo Picasso. Modigliani, a Jew, has fallen in love with Jeanne, a young and beautiful Catholic girl. The couple has an illegitimate child, and Jeanne's bigoted parents send the baby to a faraway convent to be raised by nuns.",
+        "genre_ids": [
+          18
+        ],
+        "vote_average": 7.0,
+        "poster_url": "https://image.tmdb.org/t/p/w500/dyvkjImdzdERJnRPwx5Tj39c8a0.jpg"
+      },
+      {
+        "id": 62630,
+        "title": "The Devil's Double",
+        "release_year": "2011",
+        "overview": "A chilling vision of the House of Saddam Hussein comes to life through the eyes of the man who was forced to become the double of Hussein's sadistic son.",
+        "genre_ids": [
+          18,
+          28,
+          53,
+          80,
+          10752
+        ],
+        "vote_average": 6.661,
+        "poster_url": "https://image.tmdb.org/t/p/w500/sDnnV0QbfvXthf8K4cYod4HVlug.jpg"
+      },
+      {
+        "id": 401743,
+        "title": "The Most Hated Woman in America",
+        "release_year": "2017",
+        "overview": "The true story of Madalyn Murray O'Hair -- iconoclast, opportunist, and outspoken atheist -- from her controversial rise to her untimely demise.",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "vote_average": 6.155,
+        "poster_url": "https://image.tmdb.org/t/p/w500/nRDu3SBQ1hFp2YeLhKa6WONKi3W.jpg"
+      },
+      {
+        "id": 28973,
+        "title": "A King in New York",
+        "release_year": "1957",
+        "overview": "A recently-deposed \"Estrovian\" monarch seeks shelter in New York City, where he becomes an accidental television celebrity. Later, he's wrongly accused of being a Communist and gets caught up in subsequent HUAC hearings.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.721,
+        "poster_url": "https://image.tmdb.org/t/p/w500/e6KtBoiXa5D3LLZtiMCkiqIDnZv.jpg"
+      },
+      {
+        "id": 877817,
+        "title": "Wolfs",
+        "release_year": "2024",
+        "overview": "Hired to cover up a high-profile crime, a fixer soon finds his night spiralling out of control when he's forced to work with an unexpected counterpart.",
+        "genre_ids": [
+          80,
+          35
+        ],
+        "vote_average": 6.545,
+        "poster_url": "https://image.tmdb.org/t/p/w500/vOX1Zng472PC2KnS0B9nRfM8aaZ.jpg"
+      },
+      {
+        "id": 542178,
+        "title": "The French Dispatch of the Liberty, Kansas Evening Sun",
+        "release_year": "2021",
+        "overview": "The staff of an American magazine based in France puts out its last issue, with stories featuring an artist sentenced to life imprisonment, student riots, and a kidnapping resolved by a chef.",
+        "genre_ids": [
+          18,
+          35
+        ],
+        "vote_average": 7.008,
+        "poster_url": "https://image.tmdb.org/t/p/w500/6JXR3KJH5roiBCjWFt09xfgxHZc.jpg"
+      },
+      {
+        "id": 11382,
+        "title": "Bullets Over Broadway",
+        "release_year": "1994",
+        "overview": "After young playwright, David Shayne obtains funding for his play from gangster Nick Valenti, Nick's girlfriend Olive miraculously lands the role of a psychiatrist—but not only is she a bimbo who could never pass for a psychiatrist—she's a dreadful actress. David puts up with the leading man who is a compulsive eater, the grand dame who wants her part jazzed up, and Olive's interfering hitman/bodyguard—but, eventually he must decide whether art or life is more important.",
+        "genre_ids": [
+          35,
+          80
+        ],
+        "vote_average": 7.074,
+        "poster_url": "https://image.tmdb.org/t/p/w500/mY9D1oCLeDKNMdUO8EV7MoCZ3up.jpg"
+      },
+      {
+        "id": 10337,
+        "title": "Bugsy",
+        "release_year": "1991",
+        "overview": "New York gangster Ben 'Bugsy' Siegel takes a brief business trip to Los Angeles. A sharp-dressing womanizer with a foul temper, Siegel doesn't hesitate to kill or maim anyone crossing him. In L.A. the life, the movies, and most of all strong-willed Virginia Hill detain him while his family wait back home. Then a trip to a run-down gambling joint at a spot in the desert known as Las Vegas gives him his big idea.",
+        "genre_ids": [
+          80,
+          18,
+          9648
+        ],
+        "vote_average": 6.339,
+        "poster_url": "https://image.tmdb.org/t/p/w500/hSGncpMByW8zx2aOSXdZB0e70yA.jpg"
+      },
+      {
+        "id": 290,
+        "title": "Barton Fink",
+        "release_year": "1991",
+        "overview": "A renowned New York playwright is enticed to California to write for the movies and discovers the hellish truth of Hollywood.",
+        "genre_ids": [
+          35,
+          18,
+          53
+        ],
+        "vote_average": 7.46,
+        "poster_url": "https://image.tmdb.org/t/p/w500/oDkp5iClJ9WKJGtKHz8BydodHC3.jpg"
+      },
+      {
+        "id": 10381,
+        "title": "Plunkett & Macleane",
+        "release_year": "1999",
+        "overview": "Will Plunkett and Captain James Macleane, two men from different ends of the social spectrum in 18th-century England, enter a gentlemen's agreement: They decide to rid the aristocrats of their belongings. With Plunkett's criminal know-how and Macleane's social connections, they team up to be soon known as \"The Gentlemen Highwaymen\". But when one day these gentlemen hold up Lord Chief Justice Gibson's coach, Macleane instantly falls in love with his beautiful and cunning niece, Lady Rebecca Gibson. Unfortunately, Thief Taker General Chance, who also is quite fond of Rebecca, is getting closer and closer to getting both.",
+        "genre_ids": [
+          28,
+          35,
+          18
+        ],
+        "vote_average": 6.171,
+        "poster_url": "https://image.tmdb.org/t/p/w500/9LASEwSyW2h7Zql0t1ksURC70MG.jpg"
+      },
+      {
+        "id": 259956,
+        "title": "About Alex",
+        "release_year": "2014",
+        "overview": "When a group of old college friends reunite over a long weekend after one of them attempts suicide, old crushes and resentments shine light on their life decisions, and ultimately push friendships and relationships to the brink.",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "vote_average": 6.088,
+        "poster_url": "https://image.tmdb.org/t/p/w500/h2V85AL6bt5jQi7rLHKy9CSLlFd.jpg"
+      },
+      {
+        "id": 190469,
+        "title": "Redirected",
+        "release_year": "2014",
+        "overview": "Four friends become stranded in Eastern Europe and have to become hit men, prostitutes, corrupt cops, smugglers and more to make it home.",
+        "genre_ids": [
+          28,
+          35,
+          80,
+          53
+        ],
+        "vote_average": 5.84,
+        "poster_url": "https://image.tmdb.org/t/p/w500/kA6lnOcfyd5EnSqgv4dRwKYvvo4.jpg"
+      },
+      {
+        "id": 1965,
+        "title": "A Perfect Murder",
+        "release_year": "1998",
+        "overview": "Millionaire industrialist Steven Taylor is a man who has everything but what he craves most: the love and fidelity of his wife. A hugely successful player in the New York financial world, he considers her to be his most treasured acquisition. But she needs more than simply the role of dazzling accessory.",
+        "genre_ids": [
+          80,
+          53,
+          18
+        ],
+        "vote_average": 6.55,
+        "poster_url": "https://image.tmdb.org/t/p/w500/wC0ax12N9GQ8vMXPEs4nES5AAiB.jpg"
+      }
+    ],
+    "tmdb_ids": [
+      1830,
+      15723,
+      42035,
+      1069905,
+      1415,
+      23488,
+      870518,
+      34308,
+      62630,
+      401743,
+      28973,
+      877817,
+      542178,
+      11382,
+      10337,
+      290,
+      10381,
+      259956,
+      190469,
+      1965
+    ],
+    "reranked_ids": [
+      42035,
+      542178,
+      259956,
+      23488,
+      28973,
+      870518,
+      1069905,
+      34308,
+      190469,
+      1415,
+      15723,
+      290,
+      1965,
+      10337,
+      10381,
+      1830,
+      62630,
+      401743,
+      11382,
+      877817
+    ]
+  }
+]
