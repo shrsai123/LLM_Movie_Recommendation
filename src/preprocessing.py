@@ -86,9 +86,7 @@ def build_movie_documents(df: pd.DataFrame) -> list[Document]:
 
         release_date = row.get("release_date")
         release_year = (
-            str(release_date)[:4]
-            if pd.notna(release_date) and str(release_date).strip()
-            else None
+            str(release_date)[:4] if pd.notna(release_date) and str(release_date).strip() else None
         )
         overview = row.get("overview")
         overview = str(overview) if pd.notna(overview) else ""
@@ -99,31 +97,19 @@ def build_movie_documents(df: pd.DataFrame) -> list[Document]:
             "release_year": release_year,
             "overview": overview,
             "genre_ids": [
-                int(item["id"])
-                for item in row.get("genre_data", [])
-                if item.get("id") is not None
+                int(item["id"]) for item in row.get("genre_data", []) if item.get("id") is not None
             ],
-            "genres": [
-                item["name"]
-                for item in row.get("genre_data", [])
-                if item.get("name")
-            ],
+            "genres": [item["name"] for item in row.get("genre_data", []) if item.get("name")],
             "keyword_ids": [
                 int(item["id"])
                 for item in row.get("keyword_data", [])
                 if item.get("id") is not None
             ],
-            "keywords": [
-                item["name"]
-                for item in row.get("keyword_data", [])
-                if item.get("name")
-            ],
+            "keywords": [item["name"] for item in row.get("keyword_data", []) if item.get("name")],
             "collection_id": collection.get("id"),
             "collection_name": collection.get("name"),
             "vote_average": (
-                float(row["vote_average"])
-                if pd.notna(row.get("vote_average"))
-                else None
+                float(row["vote_average"]) if pd.notna(row.get("vote_average")) else None
             ),
             "ranking_metadata_available": True,
             "candidate_sources": ["faiss"],

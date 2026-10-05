@@ -87,8 +87,7 @@ class DiversityReranker:
                 )
                 relevance = float(movie.get("score") or 0.0)
                 selection_score = (
-                    self.relevance_weight * relevance
-                    - (1 - self.relevance_weight) * redundancy
+                    self.relevance_weight * relevance - (1 - self.relevance_weight) * redundancy
                 )
                 key = (selection_score, relevance, -movie["relevance_rank"])
                 if best_key is None or key > best_key:

@@ -152,12 +152,8 @@ class LangGraphMovieAssistant:
     async def _run_trending(self, state: MovieWorkflowState) -> MovieWorkflowState:
         return await self._execute(state, Intent.TRENDING, "run_trending")
 
-    async def _run_watch_providers(
-        self, state: MovieWorkflowState
-    ) -> MovieWorkflowState:
-        return await self._execute(
-            state, Intent.WATCH_PROVIDERS, "run_watch_providers"
-        )
+    async def _run_watch_providers(self, state: MovieWorkflowState) -> MovieWorkflowState:
+        return await self._execute(state, Intent.WATCH_PROVIDERS, "run_watch_providers")
 
     async def _run_movie_details(self, state: MovieWorkflowState) -> MovieWorkflowState:
         return await self._execute(
@@ -167,18 +163,12 @@ class LangGraphMovieAssistant:
         )
 
     async def _run_similar_movie(self, state: MovieWorkflowState) -> MovieWorkflowState:
-        return await self._execute(
-            state, Intent.SIMILAR_MOVIES, "run_similar_movie"
-        )
+        return await self._execute(state, Intent.SIMILAR_MOVIES, "run_similar_movie")
 
-    async def _run_general_question(
-        self, state: MovieWorkflowState
-    ) -> MovieWorkflowState:
+    async def _run_general_question(self, state: MovieWorkflowState) -> MovieWorkflowState:
         return await self._execute(state, Intent.GENERAL, "run_general_question")
 
-    async def _run_preference_request(
-        self, state: MovieWorkflowState
-    ) -> MovieWorkflowState:
+    async def _run_preference_request(self, state: MovieWorkflowState) -> MovieWorkflowState:
         prepare = getattr(self.core_assistant, "prepare_preference", None)
         if prepare is not None:
             result = await prepare(state["query"], state["preferences"])
@@ -196,9 +186,7 @@ class LangGraphMovieAssistant:
     ) -> MovieWorkflowState:
         prepare = getattr(self.core_assistant, "prepare_for_intent", None)
         if prepare is not None:
-            result = await prepare(
-                state["query"], intent, state.get("region", "US")
-            )
+            result = await prepare(state["query"], intent, state.get("region", "US"))
         else:
             result = await self.core_assistant.answer_for_intent(
                 state["query"], intent, state.get("region", "US")
@@ -217,14 +205,11 @@ class LangGraphMovieAssistant:
         return {
             "result": clean_result,
             "fallback_answer": answer,
-            "explanation_context": context
-            or {"kind": "grounded", "verified_answer": answer},
+            "explanation_context": context or {"kind": "grounded", "verified_answer": answer},
             "workflow_steps": self._append_step(state, step),
         }
 
-    async def _generate_explanation(
-        self, state: MovieWorkflowState
-    ) -> MovieWorkflowState:
+    async def _generate_explanation(self, state: MovieWorkflowState) -> MovieWorkflowState:
         generator = getattr(self.core_assistant, "generate_explanation", None)
         steps = self._append_step(state, "generate_explanation")
 
@@ -299,9 +284,7 @@ class LangGraphMovieAssistant:
             "workflow_steps": steps,
         }
 
-    def _deterministic_fallback(
-        self, state: MovieWorkflowState
-    ) -> MovieWorkflowState:
+    def _deterministic_fallback(self, state: MovieWorkflowState) -> MovieWorkflowState:
         result = dict(state.get("result") or {})
         answer = state.get("fallback_answer", "").strip()
         if not answer:
@@ -321,9 +304,7 @@ class LangGraphMovieAssistant:
             sources.append("Deterministic response formatting")
 
         steps = self._append_step(state, "deterministic_fallback")
-        result.update(
-            {"answer": answer, "sources": sources, "workflow_steps": steps}
-        )
+        result.update({"answer": answer, "sources": sources, "workflow_steps": steps})
         return {"result": result, "workflow_steps": steps}
 
     async def answer(self, query: str, region: str = "US") -> dict[str, Any]:

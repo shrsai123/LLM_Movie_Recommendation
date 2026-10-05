@@ -109,9 +109,7 @@ class ResponseSynthesizer:
             from peft import PeftModel
             from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
         except ImportError as exc:
-            raise SynthesisError(
-                "Install the packages in requirements-training.txt"
-            ) from exc
+            raise SynthesisError("Install the packages in requirements-training.txt") from exc
 
         tokenizer_source = adapter_path or base_model
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_source)
@@ -125,9 +123,7 @@ class ResponseSynthesizer:
             "device_map": {"": 0} if use_cuda else {"": "cpu"},
         }
         if quantize_4bit and use_cuda:
-            compute_dtype = (
-                torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
-            )
+            compute_dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
             model_kwargs["quantization_config"] = BitsAndBytesConfig(
                 load_in_4bit=True,
                 bnb_4bit_quant_type="nf4",
@@ -135,9 +131,7 @@ class ResponseSynthesizer:
                 bnb_4bit_compute_dtype=compute_dtype,
             )
         else:
-            model_kwargs["dtype"] = (
-                torch.bfloat16 if use_cuda else torch.float32
-            )
+            model_kwargs["dtype"] = torch.bfloat16 if use_cuda else torch.float32
 
         model = AutoModelForCausalLM.from_pretrained(base_model, **model_kwargs)
         if adapter_path:
@@ -298,9 +292,7 @@ class ResponseSynthesizer:
 
         headings = re.findall(r"(?m)^\s*(\d+)\.\s+(.+?)\s*$", answer)
         if len(headings) != len(recommendations):
-            raise SynthesisError(
-                "Generated response changed the recommendation selection"
-            )
+            raise SynthesisError("Generated response changed the recommendation selection")
 
         for expected_rank, (movie, heading) in enumerate(
             zip(recommendations, headings, strict=True),

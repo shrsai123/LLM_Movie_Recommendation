@@ -77,9 +77,7 @@ class PreferenceRecommender:
             )
             vote_average = movie.get("vote_average")
             quality_score = (
-                max(0.0, min(1.0, float(vote_average) / 10.0))
-                if vote_average is not None
-                else None
+                max(0.0, min(1.0, float(vote_average) / 10.0)) if vote_average is not None else None
             )
             signals = {
                 "query": query_score,

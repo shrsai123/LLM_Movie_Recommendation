@@ -23,7 +23,10 @@ def classify_intent(query: str) -> Intent:
     if any(term in normalized for term in ["where can i watch", "streaming on", "watch provider"]):
         return Intent.WATCH_PROVIDERS
 
-    if any(term in normalized for term in ["similar to", "movies like", "recommendations for", "other movies"]):
+    if any(
+        term in normalized
+        for term in ["similar to", "movies like", "recommendations for", "other movies"]
+    ):
         return Intent.SIMILAR_MOVIES
 
     if any(term in normalized for term in ["ending of", "ending for"]):
@@ -45,8 +48,7 @@ def classify_intent(query: str) -> Intent:
         return Intent.MOVIE_DETAILS
 
     if any(
-        term in normalized
-        for term in ["recommend", "suggest", "looking for", "in the mood for"]
+        term in normalized for term in ["recommend", "suggest", "looking for", "in the mood for"]
     ) or any(
         re.search(pattern, normalized)
         for pattern in [

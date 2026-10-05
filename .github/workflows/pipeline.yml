@@ -26,8 +26,8 @@ jobs:
 
       - name: Run linting
         run: |
-          ruff check src/ app.py scripts/ mcp_server/
-          ruff format --check src/ app.py scripts/ mcp_server/
+          ruff check src/ api/ scripts/ mcp_server/
+          ruff format --check src/ api/ scripts/ mcp_server/
 
   test:
     runs-on: ubuntu-latest
@@ -63,10 +63,10 @@ jobs:
       - name: Smoke test container
         run: |
           docker run --rm movie-recommender:test python -c "
-          from src.embeddings import load_config, get_embedding_model
-          from src.chain import build_chain
+          from api.main import app
+          from src.bootstrap import build_assistant
           from src.preprocessing import robust_parse
-          print('All imports successful')
+          print(app.title, build_assistant.__name__, robust_parse.__name__)
           "
 
       - name: Set up Docker Buildx

@@ -36,8 +36,7 @@ def _build_response_synthesizer(config):
         )
     except (SynthesisError, OSError, ValueError):
         logger.exception(
-            "Fine-tuned synthesis model could not be loaded; "
-            "using deterministic formatting"
+            "Fine-tuned synthesis model could not be loaded; using deterministic formatting"
         )
         return None
 

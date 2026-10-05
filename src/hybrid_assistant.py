@@ -224,14 +224,10 @@ class HybridMovieAssistant:
                         # If the model omits or reorders a movie, generate()
                         # validation fails and the deterministic formatted
                         # answer is returned.
-                        logger.exception(
-                            "Fine-tuned response synthesis failed; using formatter"
-                        )
+                        logger.exception("Fine-tuned response synthesis failed; using formatter")
 
                 duplicates_removed = (
-                    len(tmdb_candidates)
-                    + len(faiss_candidates)
-                    - len(merged_candidates)
+                    len(tmdb_candidates) + len(faiss_candidates) - len(merged_candidates)
                 )
                 data["candidate_counts"] = {
                     "tmdb": len(tmdb_candidates),
@@ -426,9 +422,7 @@ class HybridMovieAssistant:
                 )
                 synthesis_used = True
             except Exception:
-                logger.exception(
-                    "Fine-tuned response synthesis failed; using formatter"
-                )
+                logger.exception("Fine-tuned response synthesis failed; using formatter")
 
         deterministic_answer = self._format_preference_result(
             preferences,

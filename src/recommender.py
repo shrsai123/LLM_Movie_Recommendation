@@ -118,8 +118,7 @@ def _build_comparison(source: dict, candidate: dict, signals: dict) -> str:
 
     if similarities:
         comparison = (
-            f"Compared with {source_title}, {candidate_title} shares "
-            f"{_format_items(similarities)}."
+            f"Compared with {source_title}, {candidate_title} shares {_format_items(similarities)}."
         )
     else:
         comparison = (
@@ -247,9 +246,7 @@ class MovieRecommender:
             matched_signals = [
                 reason_labels[name]
                 for name, value in signals.items()
-                if value is not None
-                and value > 0
-                and self.weights[name] > 0
+                if value is not None and value > 0 and self.weights[name] > 0
             ]
             reason = (
                 f"Signals: {', '.join(matched_signals)}"

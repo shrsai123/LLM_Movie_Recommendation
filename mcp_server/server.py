@@ -38,6 +38,7 @@ async def get_trending_movies(time_window: str = "week", limit: int = 5) -> str:
     results = await tmdb.get_trending_movies(time_window, limit)
     return serialize(results)
 
+
 @mcp.tool()
 async def discover_movies(
     genre_ids: list[int] | None = None,
