@@ -1,32 +1,31 @@
-# React + TypeScript + Vite
+# Movie Blasters frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The React client calls `POST /api/v1/chat`. During development, Vite proxies
+`/api` to FastAPI at `http://localhost:8000`.
 
-Currently, two official plugins are available:
+Start the backend from the repository root with the Python environment that
+contains the fine-tuned model dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```powershell
+.\training\.venv\Scripts\python.exe -m uvicorn api.main:app --reload --port 8000
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Then start the frontend in a second terminal:
+
+```powershell
+cd frontend
+npm.cmd install
+npm.cmd run dev
+```
+
+Open `http://localhost:5173`. Recommendation metadata identifies whether the
+backend used the fine-tuned Gemma explanation or deterministic fallback.
+
+For a separately hosted API, define `VITE_API_URL` with its origin before
+building the frontend. Do not put TMDB or Hugging Face secrets in a Vite
+environment variable.
+
+```powershell
+$env:VITE_API_URL = "https://api.example.com"
+npm.cmd run build
+```

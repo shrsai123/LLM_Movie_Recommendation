@@ -58,6 +58,40 @@ class TMDBClient:
         data = await self._get("/search/movie", params)
         return [self._compact_movie(movie) for movie in data.get("results", [])[:limit]]
 
+    async def discover_movies(
+    self,
+    genre_ids: list[int] | None = None,
+    year_min: int | None = None,
+    year_max: int | None = None,
+    limit: int = 20,) -> list[dict]:
+     if limit < 1:
+        raise ValueError("limit must be positive")
+
+     params = {
+        "include_adult": "false",
+        "include_video": "false",
+        "language": "en-US",
+        "page": 1,
+        "sort_by": "popularity.desc",
+    }
+
+     if genre_ids:
+        # Pipe means any requested genre; use commas to require every genre.
+        params["with_genres"] = "|".join(str(value) for value in genre_ids)
+
+     if year_min is not None:
+        params["primary_release_date.gte"] = f"{year_min}-01-01"
+
+     if year_max is not None:
+        params["primary_release_date.lte"] = f"{year_max}-12-31"
+
+     data = await self._get("/discover/movie", params)
+     candidates = [
+        self._compact_movie(movie)
+        for movie in data.get("results", [])[:limit]
+    ]
+     return await self.enrich_movies(candidates)
+
     async def resolve_movie(self, title: str, year: int | None = None) -> dict:
         results = await self.search_movies(title, year)
         if not results:
@@ -161,6 +195,11 @@ class TMDBClient:
         poster_path = movie.get("poster_path")
         poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else None
         genre_ids = movie.get("genre_ids")
+        genres = [
+            genre["name"]
+            for genre in movie.get("genres", [])
+            if genre.get("name")
+        ]
         if genre_ids is None:
             genre_ids = [
                 genre["id"] for genre in movie.get("genres", []) if genre.get("id") is not None
@@ -172,6 +211,7 @@ class TMDBClient:
             "release_year": release_date[:4] or None,
             "overview": movie.get("overview"),
             "genre_ids": genre_ids,
+            "genres": genres,
             "vote_average": movie.get("vote_average"),
             "poster_url": poster_url,
         }

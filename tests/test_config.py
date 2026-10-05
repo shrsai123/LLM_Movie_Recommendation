@@ -13,9 +13,9 @@ def test_config_has_required_keys():
 
     assert "model" in config
     assert "embedding" in config["model"]
-    assert "llm" in config["model"]
     assert "retrieval" in config
-    assert "top_k" in config["retrieval"]
+    assert "index_path" in config["retrieval"]
+    assert "base_model" in config["post_training"]["synthesis"]
     assert set(config["ranking"]["weights"]) == {
         "overview",
         "keywords",

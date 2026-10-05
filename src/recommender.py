@@ -1,4 +1,4 @@
-"""Rank TMDB candidates using the embedding model already loaded for RAG."""
+"""Rank TMDB candidates using the shared movie embedding model."""
 
 import math
 
@@ -9,6 +9,27 @@ DEFAULT_SIGNAL_WEIGHTS = {
     "collection": 0.05,
 }
 KNOWN_SIGNALS = set(DEFAULT_SIGNAL_WEIGHTS)
+
+GENRE_NAMES = {
+    12: "Adventure",
+    14: "Fantasy",
+    16: "Animation",
+    18: "Drama",
+    27: "Horror",
+    28: "Action",
+    35: "Comedy",
+    36: "History",
+    37: "Western",
+    53: "Thriller",
+    80: "Crime",
+    99: "Documentary",
+    878: "Science Fiction",
+    9648: "Mystery",
+    10402: "Music",
+    10749: "Romance",
+    10751: "Family",
+    10752: "War",
+}
 
 
 def _cosine_similarity(left: list[float], right: list[float]) -> float:
@@ -45,6 +66,73 @@ def _collection_similarity(source: dict, candidate: dict) -> float | None:
     if not source_collection:
         return None
     return 1.0 if source_collection == candidate.get("collection_id") else 0.0
+
+
+def _genre_names(movie: dict) -> list[str]:
+    names = []
+    for genre in movie.get("genres") or []:
+        name = genre.get("name") if isinstance(genre, dict) else str(genre)
+        if name and name not in names:
+            names.append(name)
+    if names:
+        return names
+    return [
+        GENRE_NAMES[genre_id]
+        for genre_id in movie.get("genre_ids") or []
+        if genre_id in GENRE_NAMES
+    ]
+
+
+def _shared_text(left: list[str], right: list[str]) -> list[str]:
+    left_values = {value.casefold() for value in left}
+    return [value for value in right if value.casefold() in left_values]
+
+
+def _format_items(items: list[str], limit: int = 3) -> str:
+    selected = items[:limit]
+    if len(selected) == 1:
+        return selected[0]
+    if len(selected) == 2:
+        return f"{selected[0]} and {selected[1]}"
+    return f"{', '.join(selected[:-1])}, and {selected[-1]}"
+
+
+def _build_comparison(source: dict, candidate: dict, signals: dict) -> str:
+    """Turn ranking metadata into a source-specific explanation."""
+    source_title = source.get("title") or "the source movie"
+    candidate_title = candidate.get("title") or "This movie"
+    shared_genres = _shared_text(_genre_names(source), _genre_names(candidate))
+    shared_keywords = _shared_text(
+        [str(value) for value in source.get("keywords") or []],
+        [str(value) for value in candidate.get("keywords") or []],
+    )
+
+    similarities = []
+    if shared_genres:
+        genre_label = "genre" if len(shared_genres) == 1 else "genres"
+        similarities.append(f"the {_format_items(shared_genres)} {genre_label}")
+    if shared_keywords:
+        similarities.append(f"themes involving {_format_items(shared_keywords)}")
+    if (signals.get("collection") or 0) > 0:
+        similarities.append("the same collection or franchise")
+
+    if similarities:
+        comparison = (
+            f"Compared with {source_title}, {candidate_title} shares "
+            f"{_format_items(similarities)}."
+        )
+    else:
+        comparison = (
+            f"{candidate_title} was matched with {source_title} because their plots "
+            "and themes are semantically similar."
+        )
+
+    overview = str(candidate.get("overview") or "").strip()
+    if overview and (signals.get("overview") or 0) > 0:
+        comparison += f" Its premise—{overview}—is also close in narrative focus."
+    elif (signals.get("overview") or 0) > 0:
+        comparison += " Their story premises also have a similar narrative focus."
+    return comparison
 
 
 def _validate_weights(weights: dict[str, float] | None) -> dict[str, float]:
@@ -176,6 +264,7 @@ class MovieRecommender:
                     {
                         **movie,
                         "reason": reason,
+                        "comparison": _build_comparison(source, movie, signals),
                         "score": round(score, 3),
                         "signals": signals,
                     },

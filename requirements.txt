@@ -1,7 +1,6 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
 gradio
-langchain
 langchain-classic
 langchain-community
 langchain-huggingface
@@ -16,3 +15,10 @@ mlflow
 mcp[cli]>=2,<3
 httpx
 python-dotenv
+torch
+transformers
+accelerate
+peft
+bitsandbytes
+sentence-transformers
+trl

@@ -56,6 +56,9 @@ def test_recommender_accepts_ranking_weights_and_exposes_signals():
         "collection": 1.0,
     }
     assert ranked[0]["score"] == 0.9
+    assert "Compared with the source movie" in ranked[0]["comparison"]
+    assert "Science Fiction" in ranked[0]["comparison"]
+    assert "survival" in ranked[0]["comparison"]
 
 
 def test_keyword_signal_uses_meaning_instead_of_id_overlap():

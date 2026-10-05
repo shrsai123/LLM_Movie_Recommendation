@@ -38,6 +38,17 @@ async def get_trending_movies(time_window: str = "week", limit: int = 5) -> str:
     results = await tmdb.get_trending_movies(time_window, limit)
     return serialize(results)
 
+@mcp.tool()
+async def discover_movies(
+    genre_ids: list[int] | None = None,
+    year_min: int | None = None,
+    year_max: int | None = None,
+    limit: int = 20,
+) -> str:
+    """Discover movie candidates from genres and release-year constraints."""
+    results = await tmdb.discover_movies(genre_ids, year_min, year_max, limit)
+    return serialize(results)
+
 
 @mcp.tool()
 async def get_similar_movies(

@@ -1,247 +1,365 @@
-# 🎬 LLM Movie Recommendation System
+# Movie Blasters — Hybrid LLM Movie Recommender
 
-An LLM-powered movie recommendation chatbot built with RAG architecture, featuring production-grade MLOps practices including experiment tracking, CI/CD pipelines, containerization, and automated testing.
+Movie Blasters is a full-stack movie assistant that combines live TMDB tools,
+local FAISS retrieval, explicit recommendation scoring, diversity reranking,
+LangGraph orchestration, and a QLoRA-fine-tuned Gemma response synthesizer.
+
+The system separates **movie selection** from **language generation**:
+
+- Retrieval and deterministic scoring decide which movies are recommended.
+- The fine-tuned model explains the final ranked movies without changing them.
+- A deterministic formatter remains available if model synthesis fails validation.
+
+## Features
+
+- React and TypeScript chat interface backed by FastAPI
+- LangGraph request orchestration with deterministic intent routing
+- MCP client/server integration for live TMDB tools
+- TMDB and local FAISS candidate generation
+- Four-signal item-to-item reranking
+- Preference-based recommendations for genre and year constraints
+- Diversity reranking to reduce repetitive results
+- QLoRA-fine-tuned Gemma model for grounded recommendation explanations
+- Strict output validation with deterministic fallback formatting
+- MLflow tracking, automated tests, linting, and GitHub Actions
 
 ## Architecture
 
+```mermaid
+flowchart TD
+    QUERY["User query"] --> GRAPH["LangGraph"]
+
+    GRAPH --> TRENDING["Trending<br/>MCP / TMDB"]
+    GRAPH --> PROVIDERS["Watch providers<br/>MCP / TMDB"]
+    GRAPH --> DETAILS["Movie details<br/>MCP / TMDB"]
+    GRAPH --> SIMILAR["Similar movie<br/>MCP + FAISS + reranker"]
+    GRAPH --> PREFERENCE["Preference request<br/>TMDB Discover + FAISS + reranker"]
+    GRAPH --> GENERAL["General movie query<br/>MCP / TMDB search"]
+
+    TRENDING --> GEMMA["Fine-tuned Gemma explanation"]
+    PROVIDERS --> GEMMA
+    DETAILS --> GEMMA
+    SIMILAR --> GEMMA
+    PREFERENCE --> GEMMA
+    GENERAL --> GEMMA
+
+    GEMMA --> VALIDATOR{"Validator"}
+    VALIDATOR -->|Valid| RESPONSE["Response"]
+    VALIDATOR -->|Invalid| FALLBACK["Deterministic fallback"]
+    FALLBACK --> RESPONSE
 ```
-User Query → Gradio UI → FAISS Retriever → LangChain QA Chain → LLM Response
-                              ↑                    ↑
-                     SentenceTransformers    Gemma-3-4B-IT
-                      (all-MiniLM-L6-v2)        (HF)
-                              ↑
-                        TMDB 5000 Dataset
-```
 
-The system uses **Retrieval-Augmented Generation (RAG)** to ground LLM responses in real movie data:
+### Supported routes
 
-1. **Preprocessing** — TMDB movie and credits CSVs are merged, cleaned, and enriched with structured fields (genres, cast, director)
-2. **Indexing** — Movie documents are embedded using SentenceTransformers and stored in a FAISS vector index
-3. **Retrieval** — User queries are embedded and matched against the FAISS index to find the top-k most relevant movies
-4. **Generation** — Retrieved context is passed to the LLM (Gemma-3-4B-IT) with a structured prompt to generate personalized recommendations
+| Intent | Example | Execution path |
+|---|---|---|
+| Similar movies | `Movies like Interstellar` | MCP + FAISS → ranking → synthesis |
+| Preference recommendation | `Recommend recent sci-fi movies` | TMDB Discover + FAISS → preference ranking → synthesis |
+| Trending | `What is trending this week?` | MCP → TMDB |
+| Watch providers | `Where can I watch Dune?` | MCP → TMDB providers |
+| Movie details | `Who directed Arrival?` | MCP → TMDB details |
+| General movie query | `Inception` | MCP → TMDB search → synthesis |
 
-## Tech Stack
+## Recommendation Pipeline
 
-| Layer | Tools |
+For source-movie requests, TMDB and FAISS produce candidate movies. Candidates
+are merged by TMDB ID, deduplicated, and ranked using four signals:
+
+| Signal | Default weight | Purpose |
+|---|---:|---|
+| Overview embedding similarity | 0.60 | Matches plot and themes semantically |
+| TMDB keyword similarity | 0.25 | Captures topics, motifs, and concepts |
+| Genre overlap | 0.10 | Rewards shared genres |
+| Collection match | 0.05 | Identifies franchise or series relationships |
+
+If metadata is missing, the score is normalized over the available signals.
+The diversity stage then applies maximal marginal relevance so the final five
+movies stay relevant without becoming overly repetitive or franchise-heavy.
+
+## Fine-Tuned Response Synthesis
+
+Grounded data and recommendation routes pass their retrieved result to Gemma 3
+1B with a QLoRA adapter. Recommendation routes provide only the query, source movie or
+preferences, and approved recommendation metadata; the model cannot select,
+remove, or reorder movies. TMDB information routes provide the complete
+verified answer and require the model to preserve it verbatim.
+
+Production inference extracts one generated explanation paragraph for each
+approved movie and reconstructs the ranked response deterministically. This
+removes trailing model output while preserving the generated explanations. If
+loading, generation, or validation fails, LangGraph follows the deterministic
+fallback node and returns the formatter's verified response.
+
+## Technology Stack
+
+| Layer | Technology |
 |---|---|
-| LLM | Google Gemma-3-4B-IT via HuggingFace |
-| Embeddings | SentenceTransformers (all-MiniLM-L6-v2) |
-| Vector Store | FAISS |
-| Orchestration | LangChain (RetrievalQA, PromptTemplate, ConversationBufferMemory) |
-| UI | Gradio |
-| Experiment Tracking | MLflow |
-| Containerization | Docker, Docker Compose |
-| CI/CD | GitHub Actions |
-| Code Quality | Ruff, pre-commit hooks |
-| Testing | pytest |
-| Data | TMDB 5000 Movies + Credits dataset |
-
-## Project Structure
-
-```
-LLM_Movie_Recommendation/
-├── .github/
-│   └── workflows/
-│       └── pipeline.yml            # CI/CD: lint → test → build → push
-├── src/
-│   ├── __init__.py
-│   ├── embeddings.py               # Embedding model loading + config
-│   ├── retriever.py                # FAISS index loading + retrieval
-│   ├── chain.py                    # LangChain QA pipeline
-│   ├── preprocessing.py            # TMDB data cleaning + document creation
-│   └── monitoring.py               # MLflow tracking (optional, graceful fallback)
-├── scripts/
-│   ├── __init__.py
-│   └── build_index.py              # Rebuild FAISS index from raw data
-├── tests/
-│   ├── test_config.py              # Config validation
-│   ├── test_preprocessing.py       # Data parsing tests
-│   └── test_embeddings.py          # Embedding + config tests
-├── data/
-│   ├── tmdb_5000_movies.csv
-│   ├── tmdb_5000_credits.csv
-│   └── updated_movies.csv
-├── indexes/
-│   └── faiss_index_/               # FAISS vector index
-├── notebooks/
-│   └── LLM_recommendation.ipynb    # Original exploration notebook
-├── app.py                          # Gradio application entrypoint
-├── config.yaml                     # Centralized configuration
-├── Dockerfile                      # Container build
-├── docker-compose.yml              # Local dev: app + MLflow
-├── docker-compose.prod.yml         # Production deployment
-├── requirements.txt                # Production dependencies
-├── requirements-dev.txt            # Dev/test dependencies
-├── conftest.py                     # pytest path configuration
-├── ruff.toml                       # Linter configuration
-├── .pre-commit-config.yaml         # Pre-commit hooks
-├── .gitignore
-└── README.md
-```
+| Frontend | React 19, TypeScript, Vite |
+| API | FastAPI, Pydantic, Uvicorn |
+| Orchestration | LangGraph |
+| Tool protocol | Model Context Protocol (MCP) |
+| Live movie data | TMDB API |
+| Vector retrieval | FAISS, LangChain |
+| Embeddings | SentenceTransformers `all-MiniLM-L6-v2` |
+| Synthesis model | Gemma 3 1B IT + QLoRA adapter |
+| Training | Transformers, TRL, PEFT, bitsandbytes |
+| Monitoring | MLflow |
+| Quality | pytest, Ruff, pre-commit, GitHub Actions |
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.10+
-- [HuggingFace account](https://huggingface.co/) with access to [Gemma-3-4B-IT](https://huggingface.co/google/gemma-3-4b-it)
+- Python 3.11
+- Node.js 20.19+ or 22.12+
+- A TMDB bearer token
+- A Hugging Face account with access to the configured Gemma synthesis model
+- An NVIDIA GPU for QLoRA training; inference can run on CPU
 
-### Installation
+### 1. Clone and install the backend
+
+#### Windows PowerShell
+
+```powershell
+git clone https://github.com/shrsai123/LLM_Movie_Recommendation.git
+cd LLM_Movie_Recommendation
+
+py -3.11 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+Using the virtual environment's Python executable directly prevents commands
+from accidentally using a different global Python installation. Activation is
+optional.
+
+#### macOS or Linux
 
 ```bash
 git clone https://github.com/shrsai123/LLM_Movie_Recommendation.git
 cd LLM_Movie_Recommendation
 
-# Install dependencies
-pip install -r requirements.txt
-pip install -r requirements-dev.txt
-
-# Authenticate with HuggingFace (required for Gemma)
-huggingface-cli login
+python3.11 -m venv .venv
+./.venv/bin/python -m pip install --upgrade pip
+./.venv/bin/python -m pip install -r requirements.txt
 ```
 
-### Build the FAISS Index
+Create a `.env` file in the repository root:
+
+```env
+TMDB_BEARER_TOKEN=your_tmdb_bearer_token
+HF_TOKEN=your_hugging_face_token
+```
+
+Alternatively, authenticate with the Hugging Face CLI on Windows:
+
+```powershell
+.\.venv\Scripts\hf.exe auth login
+```
+
+### 2. Build the FAISS index
+
+Place the TMDB movies and credits CSV files at the paths configured in
+`config.yaml`.
+
+Windows:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\build_index.py
+```
+
+macOS or Linux:
 
 ```bash
-python scripts/build_index.py
+./.venv/bin/python scripts/build_index.py
 ```
 
-This processes the raw TMDB CSVs, creates embeddings, and saves the FAISS index to `indexes/faiss_index_/`.
+### 3. Start FastAPI
 
-### Run the App
+Run the API from the repository root. The model-heavy backend intentionally
+does not use auto-reload because reload workers can duplicate model processes
+and GPU or system-memory usage.
+
+Windows:
+
+```powershell
+.\.venv\Scripts\python.exe -m uvicorn api.main:app --host 127.0.0.1 --port 8000
+```
+
+macOS or Linux:
 
 ```bash
-python app.py
+./.venv/bin/python -m uvicorn api.main:app --host 127.0.0.1 --port 8000
 ```
 
-Open http://localhost:7860 in your browser.
+Useful endpoints:
 
-### Run with MLflow Tracking
+- API documentation: <http://127.0.0.1:8000/docs>
+- Health check: <http://127.0.0.1:8000/api/v1/health>
+- Chat endpoint: `POST /api/v1/chat`
+
+### 4. Start the React frontend
+
+Open another terminal.
+
+Windows PowerShell:
+
+```powershell
+cd frontend
+npm.cmd ci
+npm.cmd run dev
+```
+
+macOS or Linux:
 
 ```bash
-# Terminal 1: Start MLflow
-python -m mlflow server --host 0.0.0.0 --port 5000
-
-# Terminal 2: Start app
-python app.py
+cd frontend
+npm ci
+npm run dev
 ```
 
-- App: http://localhost:7860
-- MLflow UI: http://localhost:5000
+Open <http://localhost:5173>. Vite proxies `/api` requests to FastAPI on port
+8000.
 
-MLflow is optional — the app runs without it and logs a warning.
+## Configuration
 
-## Docker
-
-### Local Development
-
-```bash
-# Build and run with Docker Compose (app + MLflow)
-docker compose up --build
-```
-
-### Run Pre-built Image
-
-```bash
-# Pull from GitHub Container Registry
-docker pull ghcr.io/shrsai123/movie-recommender:latest
-
-# Run with local FAISS index mounted
-docker run -p 7860:7860 \
-  -e HF_TOKEN=your_token_here \
-  -v "%cd%\indexes\faiss_index_:/usr/src/app/indexes/faiss_index_" \
-  ghcr.io/shrsai123/movie-recommender:latest
-```
-
-## MLOps Features
-
-### CI/CD Pipeline
-
-Every push to `main` triggers the GitHub Actions pipeline:
-
-```
-Push to main → Lint (ruff) → Test (pytest) → Build Docker → Smoke Test → Push to GHCR
-```
-
-The pipeline validates code quality, runs unit tests, builds the Docker image, verifies it starts correctly, and publishes to GitHub Container Registry.
-
-### Experiment Tracking
-
-MLflow tracks every user query with:
-- **Query text** — what the user asked
-- **Latency** — response time in seconds
-- **Response length** — character count of the generated response
-- **History length** — conversation turn count
-
-### Code Quality
-
-Pre-commit hooks enforce standards on every commit:
-- **Ruff** — linting and import sorting
-- **ruff-format** — consistent code formatting
-- **trailing-whitespace** — clean file endings
-- **check-yaml** — valid YAML configuration
-- **check-added-large-files** — prevents accidental large file commits
-
-### Configuration Management
-
-All parameters are centralized in `config.yaml`:
+Ranking and synthesis behavior is controlled in `config.yaml`:
 
 ```yaml
-model:
-  embedding: "all-MiniLM-L6-v2"
-  llm: "google/gemma-3-4b-it"
-retrieval:
-  top_k: 5
-  index_path: "indexes/faiss_index_"
-  chunk_size: 1000
-app:
-  host: "0.0.0.0"
-  port: 7860
-mlflow:
-  tracking_uri: "http://localhost:5000"
-  experiment_name: "movie-recommender"
+ranking:
+  candidates:
+    tmdb: 20
+    faiss: 20
+    final: 5
+  diversity:
+    enabled: true
+    candidate_pool: 15
+    relevance_weight: 0.85
+    max_per_collection: 2
+  weights:
+    overview: 0.60
+    keywords: 0.25
+    genres: 0.10
+    collection: 0.05
+
+post_training:
+  synthesis:
+    enabled: true
+    base_model: "google/gemma-3-1b-it"
+    adapter_path: "artifacts/recommendation-synthesis-adapter"
+    device: "cpu"
+    quantize_4bit: true
+    max_new_tokens: 250
+    fallback_to_formatter: true
 ```
 
-## Development
+Set `post_training.synthesis.enabled` to `false` to use deterministic formatting
+without loading the synthesis model.
 
-### Run Tests
+## Build and Train the Synthesis Adapter
+
+The current `requirements.txt` includes the training dependencies. The dataset
+builder reads source movies from `evaluation/sources.json`, fetches TMDB
+candidates through MCP, applies the production ranking pipeline, and writes
+source-separated JSONL splits.
+
+Windows:
+
+```powershell
+.\.venv\Scripts\python.exe -m training.build_synthesis_dataset
+.\.venv\Scripts\python.exe -m training.train_synthesis_qlora
+.\.venv\Scripts\python.exe -m training.evaluate_synthesis
+```
+
+macOS or Linux:
 
 ```bash
-python -m pytest tests/ -v
+./.venv/bin/python -m training.build_synthesis_dataset
+./.venv/bin/python -m training.train_synthesis_qlora
+./.venv/bin/python -m training.evaluate_synthesis
 ```
 
-### Run Linter
+Generated dataset files:
+
+```text
+data/synthesis/train.jsonl
+data/synthesis/dev.jsonl
+data/synthesis/holdout.jsonl
+```
+
+Review the generated `reference_answer` values before training. The adapter is
+saved to:
+
+```text
+artifacts/recommendation-synthesis-adapter/
+```
+
+Evaluation writes the detailed comparison to:
+
+```text
+evaluation/synthesis_comparison.json
+```
+
+Reported metrics include candidate coverage, rank-order preservation, exact
+format validity, unexpected-heading rate, reference token F1, generation error
+rate, and average latency.
+
+## Tests and Code Quality
+
+Windows:
+
+```powershell
+.\.venv\Scripts\python.exe -m pytest tests -v
+.\.venv\Scripts\python.exe -m ruff check src api scripts mcp_server training
+.\.venv\Scripts\python.exe -m ruff format --check src api scripts mcp_server training
+
+cd frontend
+npm.cmd run lint
+npm.cmd run build
+```
+
+macOS or Linux:
 
 ```bash
-python -m ruff check src/ app.py scripts/
-python -m ruff format src/ app.py scripts/
+./.venv/bin/python -m pytest tests -v
+./.venv/bin/python -m ruff check src api scripts mcp_server training
+./.venv/bin/python -m ruff format --check src api scripts mcp_server training
+
+cd frontend
+npm run lint
+npm run build
 ```
 
-### Evaluate Similar-Movie Rankings
+GitHub Actions runs backend linting and tests, frontend linting and builds, and
+Docker image validation on pushes to `main`.
 
-Create one fixed TMDB candidate snapshot, then use a Gemini API judge to generate provisional relevance labels:
+## Core Project Layout
 
-```bash
-python scripts/evaluate_recommender.py prepare --out evaluation/runs/second
-$env:GEMINI_API_KEY="your_api_key"
-python scripts/evaluate_recommender.py auto-label --run evaluation/runs/second --provider gemini --model gemini-3.8-flash --passes 2
-python scripts/evaluate_recommender.py score --run evaluation/runs/second
+```text
+api/                          FastAPI endpoints and schemas
+frontend/                     React and TypeScript client
+mcp_server/                   TMDB MCP tools and API client
+src/workflow.py               LangGraph orchestration
+src/hybrid_assistant.py       Route execution and recommendation pipeline
+src/recommender.py            Four-signal item-to-item reranker
+src/preference_recommender.py Preference-based ranking
+src/diversity.py              Diversity reranking
+src/response_synthesizer.py   Fine-tuned response generation and validation
+training/                     Dataset, QLoRA training, and evaluation scripts
+tests/                        Backend unit and integration tests
+config.yaml                   Retrieval, ranking, and model configuration
 ```
 
-The judge sees only each source and candidate's title, overview, and genre names. TMDB order and reranker scores are withheld. Gemini structured output uses a JSON Schema for the `relevance` and `reason` fields. `labels.csv` records the LLM label, reason, provider, model, prompt version, and any two-pass disagreement as `needs_review`. Existing non-empty labels are treated as manual overrides and are not overwritten unless `--refresh-llm` is used for labels previously created by the LLM. Review all `needs_review` rows and a random 20â€“30% sample before treating the results as evaluation data.
+## Docker Status
 
-### Rebuild Index After Data Changes
+The existing Dockerfile and Compose configuration still launch the legacy
+Gradio application on port 7860. They must be updated to package FastAPI and
+the React frontend before they should be used for this full-stack interface.
 
-```bash
-python scripts/build_index.py
-```
+## Design Principles
 
-## Dataset
-
-[TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) containing:
-- **tmdb_5000_movies.csv** — titles, overviews, genres, ratings, release dates
-- **tmdb_5000_credits.csv** — cast and crew information
-
-## License
-
-MIT
+1. **Retrieval and ranking select movies; the LLM explains them.**
+2. **MCP isolates external TMDB capabilities behind explicit tools.**
+3. **LangGraph makes routing and execution observable.**
+4. **Validation prevents the synthesis model from silently changing results.**
+5. **Deterministic fallbacks keep recommendation requests available.**

@@ -15,6 +15,23 @@ const suggestions = [
   'Where can I watch Interstellar?',
 ]
 
+function pipelineLabel(metadata: ChatResponse) {
+  if (metadata.route === 'rag') return 'Movie index + Gemma'
+
+  if (metadata.route === 'recommendation') {
+    const usesFineTunedExplanation = metadata.sources.includes(
+      'Fine-tuned Gemma response synthesis',
+    )
+    return usesFineTunedExplanation
+      ? 'TMDB + Movie index + reranking + fine-tuned Gemma explanation'
+      : 'TMDB + Movie index + reranking + formatted explanation'
+  }
+
+  if (metadata.route === 'mcp') return 'Live TMDB'
+  if (metadata.route === 'mcp_error') return 'TMDB unavailable'
+  return 'More detail needed'
+}
+
 function App() {
   const [messages, setMessages] = useState<Message[]>([])
   const [draft, setDraft] = useState('')
@@ -122,17 +139,7 @@ function App() {
                 <div className="message-content">{message.content}</div>
                 {message.metadata && (
                   <div className="message-meta">
-                    <span>
-                      {message.metadata.route === 'rag'
-                        ? 'Movie index + Gemma'
-                        : message.metadata.route === 'recommendation'
-                          ? 'TMDB + Movie index + diversity ranking'
-                        : message.metadata.route === 'mcp'
-                          ? 'Live TMDB'
-                          : message.metadata.route === 'mcp_error'
-                            ? 'TMDB unavailable'
-                            : 'More detail needed'}
-                    </span>
+                    <span>{pipelineLabel(message.metadata)}</span>
                     {message.metadata.tools_used.length > 0 && (
                       <span>{message.metadata.tools_used.join(', ')}</span>
                     )}

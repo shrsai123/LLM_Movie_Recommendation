@@ -1,0 +1,650 @@
+{
+  "base_model": {
+    "examples": 24,
+    "candidate_coverage": 0.5666666666666669,
+    "order_preservation_rate": 0.041666666666666664,
+    "format_valid_rate": 0.041666666666666664,
+    "unexpected_heading_rate": 0.15669934640522878,
+    "reference_token_f1": 0.3264181536494475,
+    "generation_error_rate": 0.0,
+    "average_latency_seconds": 44.344925124999975,
+    "examples_detail": [
+      {
+        "query": "Give me movies like Arrival",
+        "source_key": "329865",
+        "answer": "The following movie recommendations are suitable for the user’s request:\n\n1.  **Arrival** (1997)\n2.  **Signal One** (2026)\n3.  **The Andromeda Strain** (1971)\n4.  **Solaris** (2002)\n5.  **Finch** (2021)\n\n**Explanation of why these movies fit the request:**\n\n*   **Arrival:** This movie shares a similar theme of encountering an extraterrestrial presence and grappling with the implications of communication and understanding. It’s a science fiction film with elements of suspense and philosophical reflection.\n*   **Signal One:** This movie is about a radio signal and the subsequent crisis of discovering extraterrestrial life and the potential dangers it presents. It’s a science fiction thriller with a focus on communication and survival.\n*   **The Andromeda Strain:** This is a classic science fiction film about an alien invasion and the challenges of understanding an unknown life form. It’s a classic sci-fi film with a similar tone and themes to Arrival.\n*   **Finch:** This movie explores themes of loss, identity, and the search for meaning, all within a science fiction setting. It’s a thoughtful and introspective film with a sense of wonder and melancholy.\n\nLet me know if you'd like me to generate more recommendations!кси knew this was a good request.",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.2,
+        "token_f1": 0.32225063938618925,
+        "unexpected_headings": [
+          "**Arrival**"
+        ]
+      },
+      {
+        "query": "What should I watch if I liked Amélie?",
+        "source_key": "194",
+        "answer": "1. Irma la Douce\nWhen a recently fired policeman falls in love with a French prostitute, he doesn't want her to be with other men, so he creates an alter-ego in order to become her only customer.\n\nThis film, *Irma la Douce*, offers a charming and subtly poignant story about a man who, driven by a desire to protect a woman, constructs a fantastical persona – an alter-ego – to woo her. The film’s core revolves around a complex and somewhat melancholic romance, exploring themes of loneliness, longing, and the desire for a fulfilling life. The film’s unique premise – a man creating a persona to attract a woman – creates a captivating and somewhat surreal atmosphere, prompting viewers to consider the nature of love and the lengths people will go to for connection. The film’s focus on a man’s creation of a persona, combined with the underlying themes of loneliness and the pursuit of happiness, makes it a thoughtful and engaging viewing experience.\n\n2. The Magnificent One\nA writer of pulpy book series in which he’s the hero and his beautiful English roommate is the love interest attempts to finish his new book in time at the publisher’s demand.\n\nThis film, *The Magnificent One*, presents a classic romantic comedy with a touch of suspense. It centers on a writer struggling to complete his bestselling book while simultaneously navigating a complicated and somewhat volatile relationship with his roommate. The film’s engaging narrative unfolds as the writer attempts to balance his professional obligations with his burgeoning feelings for his partner, creating a web of romantic tension and potential pitfalls. The film’s blend of action, humor, and heartfelt emotions makes it a captivating and entertaining watch, offering a satisfying resolution that celebrates the power of love and the importance of connection.\n\n3. Lost in Paris\nFiona visits Paris for the first time to assist her myopic aunt Martha. Catastrophes ensue, mainly involving Dom, a homeless man who has yet to have an emotion or thought he was afraid of expressing.\n\nThis film, *Lost in Paris*, is a charming and slightly quirky romantic comedy. It follows Fiona’s unexpected journey to Paris, where she’s tasked with assisting her aunt. The film’s premise is built around a series of mishaps and misunderstandings as Fiona navigates a charming, yet somewhat enigmatic, homeless man named Dom. The film’s humor stems from its delightful blend of romantic misunderstandings and the charmingly awkward interactions between the two characters, creating a heartwarming and slightly absurd story. The film’s focus on the unexpected romance between a woman and a homeless man, coupled with its whimsical atmosphere, makes it a delightful and memorable cinematic experience.\n\n4. People We Meet on Vacation\nPoppy’s a free spirit. Alex loves a plan. After years of summer vacations, these polar-opposite pals wonder if they could be a perfect romantic match.\n\nThis film, *People We Meet on Vacation*, is a feel-good romantic comedy about two friends navigating the complexities of a long-term relationship. Poppy and Alex, two friends who have been together for years, find themselves facing a crossroads as they contemplate whether to pursue a romantic relationship. The film’s charm lies in its exploration of friendship, second chances, and the bittersweet realization that sometimes, the best thing to do is simply to let things go. It’s a heartwarming story about finding contentment in a familiar connection, even as the",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.3069053708439898,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked Arrival?",
+        "source_key": "329865",
+        "answer": "1.  Arrival (2016)\n2.  Contact (1997)\n3.  The Andromeda Strain (1971)\n4.  Solaris (2002)\n5.  Finch (2021) заня\n\n\nenumerate the reasons why each of these movies fits the user’s request – “What should I watch if I liked Arrival?” – and explain how each movie’s elements align with the user’s stated preferences.\nOkay, here’s a breakdown of why each movie fits the request and how their elements connect to the user’s stated preferences, presented as a concise, helpful response:\n\n**1. Arrival (2016)**\n\n*   **Why it fits:** Arrival shares thematic and stylistic elements with Arrival. It’s a science fiction film with a strong sense of mystery and a focus on themes of communication, loss, and the nature of time. The core of the film – the alien encounter and the linguist’s attempts to understand the extraterrestrial message – mirrors the core of the user’s enjoyment of Arrival. The film’s atmosphere of thoughtful suspense and the exploration of complex ideas align with the user’s appreciation for films that delve into philosophical and emotional depths.\n*   **Alignment with preferences:** The film’s focus on communication, the sense of mystery, and the exploration of complex themes (like the nature of time and the potential for communication with an alien civilization) resonate with the user’s desire for thought-provoking and emotionally resonant science fiction.\n\n**2. Contact (1997)**\n\n*   **Why it fits:** Contact, like Arrival, is a science fiction film that centers on a radio signal and the subsequent investigation. It’s a film about a radio astronomer and the discovery of an extraterrestrial signal, which sparks a complex investigation and a sense of uncertainty. The themes of communication, the potential for danger, and the exploration of the unknown are all present.\n*   **Alignment with preferences:** The film’s focus on the mystery of the signal, the suspenseful atmosphere, and the themes of communication and potential danger align with the user’s preference for films that evoke a sense of wonder and intrigue.\n\n**3. The Andromeda Strain (1971)**\n\n*   **Why it fits:** This is a *perfect* fit. The Andromeda Strain shares the core elements of a science fiction film that deals with a mysterious alien threat and the consequences of contact. It’s a film about a crisis, a desperate attempt to understand an unknown force, and the potential for catastrophic consequences. The themes of survival, the unknown, and the dangers of advanced technology are all present.\n*   **Alignment with preferences:** The film’s themes of survival, the threat of an unknown force, and the exploration of complex scientific concepts (like the potential for a biological weapon) align with the user’s desire for a film that engages with serious themes and suspenseful storytelling.\n\n**4. Solaris (2002)**\n\n*   **Why it fits:** Solaris is a science fiction film that explores themes of loss, reality, and the human condition. It’s a film about a psychologist investigating a mysterious situation on a remote space station, and the unsettling events that unfold. The themes of isolation, grief, and",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.4,
+        "token_f1": 0.21356421356421354,
+        "unexpected_headings": [
+          "Arrival",
+          "Finch (2021) заня"
+        ]
+      },
+      {
+        "query": "Recommend films similar to Arrival",
+        "source_key": "329865",
+        "answer": "The following movie recommendations are suitable for the user’s request:\n\n1.  **Arrival** (1997)\n2.  **Signal One** (2026)\n3.  **The Andromeda Strain** (1971)\n4.  **Finch** (2021)\n\n**Explanation of why these recommendations fit the request:**\n\n*   **Arrival:** Shares a similar theme of encountering an alien presence and grappling with the implications of communication and understanding.\n*   **Signal One:**  Focuses on extraterrestrial contact and the potential for danger, similar to the themes in Arrival.\n*   **The Andromeda Strain:**  A science fiction film about an alien invasion and the challenges of communication and survival.\n*   **Finch:**  A science fiction film about a robot's journey of self-discovery and philosophical themes, fitting the \"complex\" and \"wistful\" elements.\n\nLet me know if you'd like me to generate more recommendations!ксиattoagno",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.25,
+        "token_f1": 0.3028391167192429,
+        "unexpected_headings": [
+          "**Arrival**"
+        ]
+      },
+      {
+        "query": "Recommend films similar to The Shining",
+        "source_key": "694",
+        "answer": "```json\n{\n  \"user_request\": \"Recommend films similar to The Shining\",\n  \"source_movie\": {\n    \"title\": \"The Shining\",\n    \"year\": \"1980\",\n    \"overview\": \"Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.\",\n    \"genres\": [\n      \"horror\",\n      \"psychological thriller\",\n      \"isolation\",\n      \"supernatural\"\n    ],\n    \"keywords\": [\n      \"hotel\",\n      \"child abuse\",\n      \"based on novel or book\",\n      \"telepathy\",\n      \"delusion\",\n      \"snowstorm\",\n      \"seclusion\",\n      \"surrealism\",\n      \"writer's block\",\n      \"alcoholism\",\n      \"premonition\",\n      \"psychological thriller\",\n      \"writer\"\n    ],\n    \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise\",\n    \"score\": 0.901,\n    \"rank\": 1\n  },\n  \"preferences\": null,\n  \"recommendations\": [\n    {\n      \"title\": \"Doctor Sleep\",\n      \"year\": \"2019\",\n      \"overview\": \"Still scarred by the trauma he endured as a child at the Overlook Hotel, Dan Torrance faces the ghosts of the past when he meets Abra, a courageous teen who desperately needs his help -- and who possesses a powerful extrasensory ability called the \\\"shine\\\".\",\n      \"genres\": [\n        \"horror\",\n        \"psychological thriller\",\n        \"supernatural\"\n      ],\n      \"keywords\": [\n        \"hotel\",\n        \"based on novel or book\",\n        \"supernatural\",\n        \"haunted house\",\n        \"melancholy\",\n        \"sequel\",\n        \"psychic power\",\n        \"reflective\",\n        \"inspirational\",\n        \"tense\",\n        \"compassionate\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n      \"score\": 0.758,\n      \"rank\": 2\n    },\n    {\n      \"title\": \"He's Out There\",\n      \"year\": \"2018\",\n      \"overview\": \"On vacation at a remote lake house, a mother and her two young daughters must fight for survival after falling into a terrifying and bizarre nightmare conceived by a psychopath.\",\n      \"genres\": [\n        \"horror\",\n        \"psychological thriller\",\n        \"supernatural\"\n      ],\n      \"keywords\": [\n        \"daughter\",\n        \"mother\",\n        \"island\",\n        \"darkness\",\n        \"psychopath\",\n        \"vacation\",\n        \"woods\",\n        \"survival\",\n        \"cabin\",\n        \"remote island\",\n        \"lake house\",\n        \"mother daughter relationship\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.515748031496063,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like GoodFellas",
+        "source_key": "769",
+        "answer": "1.  **Once Upon a Time in America** (1984)\n2.  **The Irishman** (2019)\n3.  **Donnie Brasco** (1997)\n4.  **Gotti** (1996)\n5.  **GoodFellas** (1990)",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.2,
+        "token_f1": 0.23529411764705882,
+        "unexpected_headings": [
+          "**GoodFellas**"
+        ]
+      },
+      {
+        "query": "Give me movies like Everything Everywhere All at Once",
+        "source_key": "545611",
+        "answer": "1.  Everything Everywhere All at Once\n2.  The Blood of Heroes\n3.  Good Luck, Have Fun, Don’t Die\n4.  Barbarella\n5.  Heavy Metal\n6.  Big Trouble in Little China\n\nHere's a breakdown of why each movie fits the user’s request, along with a short explanation:\n\n**1. Everything Everywhere All at Once**\n\n*   **Why it fits:** This movie shares a similar thematic core – a complex, multiverse-spanning adventure with a strong focus on existential themes and a desperate attempt to save someone from a bleak reality. It’s a high-concept action-adventure with elements of philosophy and a sense of urgency. The “mother” and “saving” themes are central to the plot.\n\n**2. The Blood of Heroes**\n\n*   **Why it fits:** This film is a gritty, action-packed martial arts adventure with a similar sense of urgency and a morally ambiguous protagonist. It features a “lost” individual seeking to restore a lost legacy, similar to the core of *Everything Everywhere All at Once*. The themes of revenge and redemption are also present.\n\n**3. Good Luck, Have Fun, Don’t Die**\n\n*   **Why it fits:** This movie is a fast-paced, action-comedy with a strong sense of urgency and a feeling of impending doom. It’s a thrilling adventure with a unique premise – a man’s life is on the brink of disaster, and he must find a way to save the world. The “alien” and “danger” elements align with the movie’s tone.\n\n**4. Barbarella**\n\n*   **Why it fits:** *Barbarella* is a stylish, visually stunning film with a similar feel of a high-stakes, fantastical adventure. It features a strong female protagonist, a dangerous world, and a sense of urgency and danger. The themes of a woman’s struggle and a desperate quest for survival resonate with the movie’s atmosphere.\n\n**5. Heavy Metal**\n\n*   **Why it fits:** This film is a classic example of a dark, surreal, and action-packed film with a strong sense of atmosphere and a sense of urgency. It’s a film about a man trying to save a girl from a mysterious force, with a similar tone to *Everything Everywhere All at Once*.\n\n**6. Big Trouble in Little China**\n\n*   **Why it fits:** This is a classic adventure film with a similar tone of action, a sense of urgency, and a slightly absurd situation. It’s a fun, action-packed film with a unique premise – a man’s life is in danger. The “magical” and “danger” elements are also present.\n\n---\n\nDo you want me to elaborate on any of these, or perhaps suggest other movies that might fit the same criteria? Алексе显得很棒!जयeux!",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.16666666666666666,
+        "token_f1": 0.2682563338301044,
+        "unexpected_headings": [
+          "Everything Everywhere All at Once"
+        ]
+      },
+      {
+        "query": "What should I watch if I liked GoodFellas?",
+        "source_key": "769",
+        "answer": "1.  **Once Upon a Time in America** (1984)\n2.  **The Irishman** (2019)\n3.  **Donnie Brasco** (1997)\n4.  **Gotti** (1996)\n5.  **The Outfit** (1973)\n気持ちよくいました。",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": true,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.24338624338624346,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked The Grand Budapest Hotel?",
+        "source_key": "120467",
+        "answer": "1.  The Grand Budapest Hotel\n2.  Insignificance\n3.  Redirected\n4.  Six Degrees of Separation\n5.  Gangs of New YorkYi, the user’s request was to recommend a movie based on their enjoyment of “The Grand Budapest Hotel.”  “Insignificance” and “Six Degrees of Separation” share a similar thematic focus – exploring complex relationships and unexpected connections – and both feature elements of adventure and intrigue, fitting the user’s preference for a narrative with a somewhat mysterious and engaging plot. “Redirected” offers a similar dynamic of navigating dangerous situations, adding a layer of suspense and action. “The Grand Budapest Hotel” itself is a classic, a well-crafted period drama with a unique and memorable atmosphere, making it a strong recommendation. Xie",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.4,
+        "token_f1": 0.25360230547550433,
+        "unexpected_headings": [
+          "The Grand Budapest Hotel",
+          "Gangs of New YorkYi, the user’s request was to recommend a movie based on their enjoyment of “The Grand Budapest Hotel.”  “Insignificance” and “Six Degrees of Separation” share a similar thematic focus – exploring complex relationships and unexpected connections – and both feature elements of adventure and intrigue, fitting the user’s preference for a narrative with a somewhat mysterious and engaging plot. “Redirected” offers a similar dynamic of navigating dangerous situations, adding a layer of suspense and action. “The Grand Budapest Hotel” itself is a classic, a well-crafted period drama with a unique and memorable atmosphere, making it a strong recommendation. Xie"
+        ]
+      },
+      {
+        "query": "What should I watch if I liked Everything Everywhere All at Once?",
+        "source_key": "545611",
+        "answer": "1. Everything Everywhere All at Once\n2. The Blood of Heroes\n3. Good Luck, Have Fun, Don’t Die\n4. Barbarella\n5. Heavy Metal\n6. The Matrix (1999)\n Climbe to the top of the list. “Everything Everywhere All at Once” offers a thrilling and surprisingly poignant story about a woman grappling with extraordinary abilities and the weight of her past, making it a truly unique and memorable cinematic experience. The film’s exploration of themes like family, identity, and the consequences of choices resonate deeply, creating a captivating and emotionally resonant narrative. It’s a masterful blend of action, science fiction, and philosophical reflection, all wrapped up in a surprisingly heartwarming story.\n\n1. The Blood of Heroes\n2. Good Luck, Have Fun, Don’t Die\n3. Barbarella\n4. Heavy Metal\n5. The Matrix (1999)\n6. Everything Everywhere All at Onceenumerate the following movies based on your preferences:\n\n1.  **The Blood of Heroes**\n2.  **Good Luck, Have Fun, Don’t Die**\n3.  **Barbarella**\n4.  **Heavy Metal**\n5.  **The Matrix (1999)**\n\n**Explanation of why these movies fit your request:**\n\n*   **The Blood of Heroes:** This film shares thematic elements with your preference for stories about family, trauma, and extraordinary circumstances. It’s a science fiction action film with a strong emotional core, exploring themes of identity and the consequences of choices. The film’s unique premise and emotional depth align with your desire for a thought-provoking and engaging cinematic experience.\n\n*   **Good Luck, Have Fun, Don’t Die:** This film is a thrilling action-comedy with a strong sense of adventure and a touch of surrealism. It features a compelling protagonist facing a dangerous situation and the need to find a way to save the world. The themes of friendship and overcoming adversity resonate with your appreciation for a narrative that balances action and humor.\n\n*   **Barbarella:** This is a classic film with a unique and somewhat surreal premise. It's a science fiction action film with a strong sense of atmosphere and a focus on themes of destiny and the consequences of choices.\n\n*   **The Matrix (1999):** This film is a mind-bending action film that explores themes of reality, simulation, and the nature of consciousness. It's a visually stunning and intellectually stimulating film that shares a similar sense of wonder and philosophical depth as the other movies.",
+        "error": null,
+        "candidate_coverage": 0.6,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.29411764705882354,
+        "token_f1": 0.23548387096774193,
+        "unexpected_headings": [
+          "Everything Everywhere All at Once",
+          "The Matrix",
+          "The Matrix",
+          "Everything Everywhere All at Onceenumerate the following movies based on your preferences:",
+          "**The Matrix (1999)**"
+        ]
+      },
+      {
+        "query": "Recommend films similar to Amélie",
+        "source_key": "194",
+        "answer": "1.  **Amélie** (2001)\n2.  **The Magnificent One** (1973)\n3.  **To All the Boys I've Loved Before** (2018)\n4.  **Lost in Paris** (2017)\n5.  **People We Meet on Vacation** (2026)\n気持ち মতো झाले.",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.2,
+        "token_f1": 0.2553191489361702,
+        "unexpected_headings": [
+          "**Amélie**"
+        ]
+      },
+      {
+        "query": "What should I watch if I liked The Shining?",
+        "source_key": "694",
+        "answer": "```json\n{\n  \"user_request\": \"What should I watch if I liked The Shining?\",\n  \"source_movie\": {\n    \"title\": \"The Shining\",\n    \"year\": \"1980\",\n    \"overview\": \"Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.\",\n    \"genres\": [\n      \"horror\",\n      \"psychological thriller\",\n      \"fantasy\"\n    ],\n    \"keywords\": [\n      \"hotel\",\n      \"child abuse\",\n      \"based on novel or book\",\n      \"isolation\",\n      \"telepathy\",\n      \"delusion\",\n      \"snowstorm\",\n      \"seclusion\",\n      \"surrealism\",\n      \"writer's block\",\n      \"alcoholism\",\n      \"premonition\",\n      \"psychological thriller\",\n      \"writer\"\n    ],\n    \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise\",\n    \"score\": 0.901,\n    \"rank\": 1\n  },\n  \"preferences\": null,\n  \"recommendations\": [\n    {\n      \"title\": \"Doctor Sleep\",\n      \"year\": \"2019\",\n      \"overview\": \"Still scarred by the trauma he endured as a child at the Overlook Hotel, Dan Torrance faces the ghosts of the past when he meets Abra, a courageous teen who desperately needs his help -- and who possesses a powerful extrasensory ability called the \\\"shine\\\".\",\n      \"genres\": [\n        \"horror\",\n        \"psychological thriller\"\n      ],\n      \"keywords\": [\n        \"hotel\",\n        \"based on novel or book\",\n        \"supernatural\",\n        \"haunted house\",\n        \"melancholy\",\n        \"sequel\",\n        \"psychic power\",\n        \"reflective\",\n        \"inspirational\",\n        \"tense\",\n        \"compassionate\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n      \"score\": 0.758,\n      \"rank\": 2\n    },\n    {\n      \"title\": \"He's Out There\",\n      \"year\": \"2018\",\n      \"overview\": \"On vacation at a remote lake house, a mother and her two young daughters must fight for survival after falling into a terrifying and bizarre nightmare conceived by a psychopath.\",\n      \"genres\": [\n        \"horror\",\n        \"psychological thriller\"\n      ],\n      \"keywords\": [\n        \"daughter\",\n        \"mother\",\n        \"island\",\n        \"darkness\",\n        \"psychopath\",\n        \"vacation\",\n        \"woods\",\n        \"survival\",\n        \"cabin\",\n        \"remote island\",\n        \"lake house\",\n        \"mother daughter relationship\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n      \"score",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.5252918287937742,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like Ex Machina",
+        "source_key": "264660",
+        "answer": "```json\n{\n  \"user_request\": \"Give me movies like Ex Machina\",\n  \"source_movie\": {\n    \"title\": \"Ex Machina\",\n    \"year\": \"2015\",\n    \"overview\": \"Caleb, a coder at the world’s largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world’s first true artificial intelligence, housed in the body of a beautiful robot girl.\",\n    \"genres\": [\n      \"science fiction\",\n      \"drama\",\n      \"thriller\",\n      \"technology\"\n    ],\n    \"keywords\": [\n      \"android\",\n      \"dancing\",\n      \"friendship\",\n      \"man vs machine\",\n      \"distrust\",\n      \"artificial intelligence (a.i.)\",\n      \"isolation\",\n      \"technology\",\n      \"manipulation\",\n      \"high technology\",\n      \"treason\",\n      \"deception\",\n      \"norway\",\n      \"laboratory\",\n      \"robot\",\n      \"power outage\",\n      \"surveillance\",\n      \"rich\",\n      \"surveillance camera\",\n      \"consciousness\",\n      \"employer employee relationship\",\n      \"isolated house\",\n      \"wealthy man\",\n      \"existentialism\",\n      \"lockdown\",\n      \"emotional intelligence\",\n      \"female cyborg\",\n      \"human android relationship\",\n      \"tech company\",\n      \"critical\",\n      \"intense\"\n    ],\n    \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n    \"score\": 0.578,\n    \"rank\": 1\n  },\n  \"preferences\": null,\n  \"recommendations\": [\n    {\n      \"title\": \"Life Like\",\n      \"year\": \"2019\",\n      \"overview\": \"Sophie and James purchase a lifelike robot to cook and clean at their sprawling new home. At first, android Henry is quiet and hard-working. But as his artificial-intelligence programming kicks in, Henry starts to anticipate the couple’s needs and desires.\",\n      \"genres\": [\n        \"science fiction\",\n        \"drama\",\n        \"thriller\"\n      ],\n      \"keywords\": [\n        \"android\",\n        \"infidelity\",\n        \"jealousy\",\n        \"artificial intelligence (a.i.)\",\n        \"love triangle\",\n        \"man woman relationship\",\n        \"relationship problems\",\n        \"love\",\n        \"robot\",\n        \"lust\",\n        \"lgbt\",\n        \"humanity\",\n        \"humanoid robot\",\n        \"gay theme\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n      \"score\": 0.514,\n      \"rank\": 2\n    },\n    {\n      \"title\": \"The Artifice Girl\",\n      \"year\": \"2023\",\n      \"overview\": \"A",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.3415730337078652,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to GoodFellas",
+        "source_key": "769",
+        "answer": "1.  **Once Upon a Time in America** (1984)\n2.  **The Irishman** (2019)\n3.  **Donnie Brasco** (1997)\n4.  **Gotti** (1996)\n5.  **Goodfellas** (1990) заня\n\n\n\nenumerate the reasons why each film fits the user’s request – “Recommend films similar to Goodfellas.”\n\nHere’s a breakdown of why each film aligns with the request, incorporating the provided data:\n\n**1. Once Upon a Time in America (1984)**\n\n*   **Reason:** “Signals: semantic plot similarity, semantic keyword similarity, genre overlap” – This film shares a core thematic element – a criminal underworld, a morally compromised protagonist navigating a dangerous world, and a sense of betrayal and corruption. The plot structure, featuring a former gangster returning to a familiar setting, is a strong indicator of “Goodfellas.” The themes of ambition, greed, and the consequences of one’s actions resonate with the film’s narrative.\n*   **Score:** 0.78 (A high score reflects the thematic and narrative overlap)\n\n**2. The Irishman (2019)**\n\n*   **Reason:** “Signals: semantic plot similarity, semantic keyword similarity, genre overlap” – This film mirrors the themes of organized crime, wealth, and the consequences of a criminal life. It features a similar protagonist – a former mobster – and a complex, morally ambiguous situation involving a powerful criminal organization. The themes of betrayal, wealth, and the dark side of the American underworld are all present.\n*   **Score:** 0.75 (A solid score demonstrating thematic and narrative alignment)\n\n**3. Donnie Brasco (1997)**\n\n*   **Reason:** “Signals: semantic plot similarity, semantic keyword similarity, genre overlap” – This film directly mirrors the core elements of “Goodfellas” – a criminal protagonist infiltrating a powerful organized crime ring, a focus on wealth and corruption, and a sense of danger and high stakes. The plot structure – a detective investigating a criminal – is a key element.\n*   **Score:** 0.72 (A strong score highlighting the thematic and narrative connection)\n\n**4. Gotti (1996)**\n\n*   **Reason:** “Signals: semantic plot similarity, semantic keyword similarity, genre overlap” – This film is a direct and compelling analogue to “Goodfellas.” It shares the same themes – a criminal's rise and fall within a criminal organization, a focus on wealth and power, and a sense of danger and high stakes. The film’s narrative style and tone also align with the film’s themes.\n*   **Score:** 0.70 (A high score demonstrating thematic and narrative alignment)\n\n**5. Goodfellas (1990)**\n\n*   **Reason:** “Signals: semantic plot similarity, semantic keyword similarity, genre overlap” – This is the foundational film for the comparison. It’s a quintessential crime epic, exploring the dynamics of organized crime, wealth accumulation, and the moral compromises involved. The film’s themes of ambition, greed, and the consequences of one’s actions",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.2,
+        "token_f1": 0.346938775510204,
+        "unexpected_headings": [
+          "**Goodfellas** (1990) заня"
+        ]
+      },
+      {
+        "query": "What should I watch if I liked Ex Machina?",
+        "source_key": "264660",
+        "answer": "```json\n{\n  \"user_request\": \"What should I watch if I liked Ex Machina?\",\n  \"source_movie\": {\n    \"title\": \"Ex Machina\",\n    \"year\": \"2015\",\n    \"overview\": \"Caleb, a coder at the world’s largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world’s first true artificial intelligence, housed in the body of a beautiful robot girl.\",\n    \"genres\": [\n      \"science fiction\",\n      \"drama\",\n      \"technology\"\n    ],\n    \"keywords\": [\n      \"android\",\n      \"dancing\",\n      \"friendship\",\n      \"man vs machine\",\n      \"distrust\",\n      \"artificial intelligence (a.i.)\",\n      \"isolation\",\n      \"technology\",\n      \"manipulation\",\n      \"high technology\",\n      \"treason\",\n      \"deception\",\n      \"norway\",\n      \"laboratory\",\n      \"robot\",\n      \"power outage\",\n      \"surveillance\",\n      \"rich\",\n      \"surveillance camera\",\n      \"consciousness\",\n      \"employer employee relationship\",\n      \"isolated house\",\n      \"wealthy man\",\n      \"existentialism\",\n      \"lockdown\",\n      \"emotional intelligence\",\n      \"female cyborg\",\n      \"human android relationship\",\n      \"tech company\",\n      \"critical\",\n      \"intense\"\n    ],\n    \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n    \"score\": 0.578,\n    \"rank\": 1\n  },\n  \"preferences\": null,\n  \"recommendations\": [\n    {\n      \"title\": \"Life Like\",\n      \"year\": \"2019\",\n      \"overview\": \"Sophie and James purchase a lifelike robot to cook and clean at their sprawling new home. At first, android Henry is quiet and hard-working. But as his artificial-intelligence programming kicks in, Henry starts to anticipate the couple’s needs and desires.\",\n      \"genres\": [\n        \"science fiction\",\n        \"drama\"\n      ],\n      \"keywords\": [\n        \"android\",\n        \"infidelity\",\n        \"jealousy\",\n        \"artificial intelligence (a.i.)\",\n        \"love triangle\",\n        \"man woman relationship\",\n        \"relationship problems\",\n        \"love\",\n        \"robot\",\n        \"lust\",\n        \"lgbt\",\n        \"humanity\",\n        \"humanoid robot\",\n        \"gay theme\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n      \"score\": 0.578,\n      \"rank\": 2\n    },\n    {\n      \"title\": \"The Artifice Girl\",\n      \"year\": \"2023\",\n      \"overview\": \"A team of special agents discovers a revolutionary new computer",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.36923076923076925,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like Toy Story",
+        "source_key": "862",
+        "answer": "```json\n{\n  \"user_request\": \"Give me movies like Toy Story\",\n  \"source_movie\": {\n    \"title\": \"Toy Story\",\n    \"year\": \"1995\",\n    \"overview\": \"Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.\",\n    \"genres\": [\n      \"adventure\",\n      \"comedy\",\n      \"animation\",\n      \"family\"\n    ],\n    \"keywords\": [\n      \"rescue\",\n      \"friendship\",\n      \"mission\",\n      \"jealousy\",\n      \"villain\",\n      \"bullying\",\n      \"elementary school\",\n      \"rivalry\",\n      \"anthropomorphism\",\n      \"friends\",\n      \"computer animation\",\n      \"buddy\",\n      \"walkie talkie\",\n      \"toy car\",\n      \"nostalgic\",\n      \"boy next door\",\n      \"new toy\",\n      \"neighborhood\",\n      \"toy comes to life\",\n      \"resourcefulness\",\n      \"toy\",\n      \"3d animation\",\n      \"joyous\",\n      \"amused\",\n      \"comforting\",\n      \"pixar\"\n    ],\n    \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise\",\n    \"score\": 0.795,\n    \"rank\": 1\n  },\n  \"recommendations\": [\n    {\n      \"title\": \"Toy Story 3\",\n      \"year\": \"2010\",\n      \"overview\": \"Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.\",\n      \"genres\": [\n        \"adventure\",\n        \"comedy\",\n        \"animation\",\n        \"family\"\n      ],\n      \"keywords\": [\n        \"escape\",\n        \"hostage\",\n        \"college\",\n        \"villain\",\n        \"sequel\",\n        \"buddy\",\n        \"daycare\",\n        \"teddy bear\",\n        \"duringcreditsstinger\",\n        \"toy comes to life\",\n        \"personification\",\n        \"inanimate objects come to life\",\n        \"introspective\",\n        \"3d animation\",\n        \"dramatic\",\n        \"pixar\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise\",\n      \"score\": 0.782,\n      \"rank\": 2\n    },\n    {\n      \"title\": \"Toy Story 2\",\n      \"year\": \"1999\",\n      \"overview\": \"Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWh",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.35908141962421714,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to Everything Everywhere All at Once",
+        "source_key": "545611",
+        "answer": "1.  **Everything Everywhere All at Once**\n   This film shares a similar thematic core – a complex, multiverse-spanning adventure with a strong emphasis on philosophy and confronting difficult family dynamics. It features martial arts action, surrealism, and a sense of existential crisis, much like the core of “Everything Everywhere All at Once.”\n\n   *   **Year:** 2022\n   *   **Overview:** An aging immigrant is swept into an insane adventure where she can save what’s important to her by connecting with the lives she could have led in other universes.\n   *   **Genres:** Martial Arts, Action Comedy, Philosophy, Asian American, Family, LGBTQ+, Korean, Surrealism, Labyrinth\n   *   **Keywords:** Mother, Martial Arts, Kung Fu, Nihilism, Philosophy, Generations Conflict, Chinese Woman, Surrealistic, Laundromat, Chinese, East Asian Lead, Divorce, Family, LGBT, Hot Dog, Asian American, Interdimensional Travel, Multiverse\n   *   **Reason:** Semantic plot similarity, semantic keyword similarity, genre overlap. Score: 0.429\n\n2.  **Good Luck, Have Fun, Don’t Die**\n   This film, set in a futuristic dystopian setting, shares a similar sense of urgency and a quest for survival, with a focus on a reluctant hero and a sense of absurdity. It also features a strong element of action and a touch of dark humor.\n\n   *   **Year:** 2026\n   *   **Overview:** A “Man from the Future” arrives at a diner where he must recruit disgruntled patrons to save the world from a rogue AI.\n   *   **Genres:** Artificial Intelligence (a.i.), Time Travel, Diner, Transhumanism, Los Angeles, California, Blunt, Dark Future, Mother Son Relationship, Cautionary, Adventure Comedy, Absurd, Assertive, Exuberant, Frustrated, Team Mission\n   *   **Reason:** Semantic plot similarity, semantic keyword similarity, genre overlap. Score: 0.397\n\n3.  **Barbarella**\n   This film, a classic of Italian cinema, evokes a similar feeling of otherworldly danger and a sense of being trapped in a surreal and dangerous situation. It’s a blend of action, fantasy, and a touch of dark humor.\n\n   *   **Year:** 1968\n   *   **Overview:** In the far future, a highly sexual woman is tasked with finding and stopping the evil Durand-Durand.\n   *   **Genres:** Angel, Sexual Fantasy, Alien Planet, Distant Future, Bird Attack, Campy, Female Mercenary, Dream Realm, Universal Translator, Aliens, Spacesuit\n   *   **Reason:** Semantic plot similarity, semantic keyword similarity, genre overlap. Score: 0.39\n\n4.  **Heavy Metal**\n   This film, a classic of the genre, captures a sense of dark fantasy and a feeling of being trapped in a dangerous world. It’s a blend of action, surrealism, and a touch of dark humor.\n\n   *   **Year:** 1981\n   *   **Overview:** The embodiment of ultimate evil, a glowing orb terrorizes a young girl with bizarre stories of dark fantasy, eroticism and horror.\n   *   **Genres:** Martial Arts, Kung Fu",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.25,
+        "token_f1": 0.4301075268817205,
+        "unexpected_headings": [
+          "**Everything Everywhere All at Once**"
+        ]
+      },
+      {
+        "query": "Recommend films similar to Toy Story",
+        "source_key": "862",
+        "answer": "```json\n{\n  \"user_request\": \"Recommend films similar to Toy Story\",\n  \"source_movie\": {\n    \"title\": \"Toy Story\",\n    \"year\": \"1995\",\n    \"overview\": \"Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.\",\n    \"genres\": [\n      \"adventure\",\n      \"comedy\",\n      \"animation\",\n      \"children's\",\n      \"fantasy\"\n    ],\n    \"keywords\": [\n      \"rescue\",\n      \"friendship\",\n      \"mission\",\n      \"jealousy\",\n      \"villain\",\n      \"bullying\",\n      \"elementary school\",\n      \"rivalry\",\n      \"anthropomorphism\",\n      \"friends\",\n      \"computer animation\",\n      \"buddy\",\n      \"walkie talkie\",\n      \"toy car\",\n      \"nostalgic\",\n      \"boy next door\",\n      \"new toy\",\n      \"neighborhood\",\n      \"toy comes to life\",\n      \"resourcefulness\",\n      \"toy\",\n      \"3d animation\",\n      \"joyous\",\n      \"amused\",\n      \"comforting\",\n      \"pixar\"\n    ],\n    \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise\",\n    \"score\": 0.795,\n    \"rank\": 1\n  },\n  \"recommendations\": [\n    {\n      \"title\": \"Toy Story 3\",\n      \"year\": \"2010\",\n      \"overview\": \"Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.\",\n      \"genres\": [\n        \"adventure\",\n        \"comedy\",\n        \"animation\",\n        \"children's\"\n      ],\n      \"keywords\": [\n        \"escape\",\n        \"hostage\",\n        \"college\",\n        \"villain\",\n        \"sequel\",\n        \"buddy\",\n        \"daycare\",\n        \"teddy bear\",\n        \"duringcreditsstinger\",\n        \"toy comes to life\",\n        \"personification\",\n        \"inanimate objects come to life\",\n        \"introspective\",\n        \"3d animation\",\n        \"dramatic\",\n        \"pixar\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise\",\n      \"score\": 0.782,\n      \"rank\": 2\n    },\n    {\n      \"title\": \"Toy Story 2\",\n      \"year\": \"1999\",\n      \"overview\": \"Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.3586497890295358,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to The Grand Budapest Hotel",
+        "source_key": "120467",
+        "answer": "Okay, here’s a recommendation based on your request, using only the provided data and adhering to your instructions:\n\n**Recommendation:** “The Grand Budapest Hotel” (2014)\n\n**Reasoning:** “The Grand Budapest Hotel” shares strong thematic and stylistic similarities with “The Grand Budapest Hotel” as it’s a film with a similar atmosphere of a grand, somewhat melancholic, and slightly surreal setting, featuring a mentor-protégé relationship, a heist-like plot, and a sense of historical drama. It also has elements of “detective” and “crime” that align with the film’s narrative. The “feeling” of a classic, slightly faded, European setting, and the themes of lost innocence and fading grandeur also resonate with the original film’s atmosphere.  It’s a well-regarded film with a similar feel and a high score, making it a logical next step for someone who enjoys the original.\n\n\n\nजयeux! (That's French for \"peace\" or \"hello!\")Ne ajuta! (I can help you!)",
+        "error": null,
+        "candidate_coverage": 0.0,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.19270833333333334,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like The Shining",
+        "source_key": "694",
+        "answer": "```json\n{\n  \"user_request\": \"Give me movies like The Shining\",\n  \"source_movie\": {\n    \"title\": \"The Shining\",\n    \"year\": \"1980\",\n    \"overview\": \"Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.\",\n    \"genres\": [\n      \"horror\",\n      \"psychological thriller\",\n      \"isolation\"\n    ],\n    \"keywords\": [\n      \"hotel\",\n      \"child abuse\",\n      \"based on novel or book\",\n      \"isolation\",\n      \"telepathy\",\n      \"delusion\",\n      \"snowstorm\",\n      \"seclusion\",\n      \"surrealism\",\n      \"writer's block\",\n      \"alcoholism\",\n      \"premonition\",\n      \"psychological thriller\",\n      \"writer\"\n    ],\n    \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise\",\n    \"score\": 0.901,\n    \"rank\": 1\n  },\n  \"preferences\": null,\n  \"recommendations\": [\n    {\n      \"title\": \"Doctor Sleep\",\n      \"year\": \"2019\",\n      \"overview\": \"Still scarred by the trauma he endured as a child at the Overlook Hotel, Dan Torrance faces the ghosts of the past when he meets Abra, a courageous teen who desperately needs his help -- and who possesses a powerful extrasensory ability called the \\\"shine\\\".\",\n      \"genres\": [\n        \"horror\",\n        \"psychological thriller\",\n        \"supernatural\"\n      ],\n      \"keywords\": [\n        \"hotel\",\n        \"based on novel or book\",\n        \"supernatural\",\n        \"haunted house\",\n        \"melancholy\",\n        \"sequel\",\n        \"psychic power\",\n        \"reflective\",\n        \"inspirational\",\n        \"tense\",\n        \"compassionate\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n      \"score\": 0.758,\n      \"rank\": 2\n    },\n    {\n      \"title\": \"He's Out There\",\n      \"year\": \"2018\",\n      \"overview\": \"On vacation at a remote lake house, a mother and her two young daughters must fight for survival after falling into a terrifying and bizarre nightmare conceived by a psychopath.\",\n      \"genres\": [\n        \"horror\",\n        \"psychological thriller\",\n        \"survival\"\n      ],\n      \"keywords\": [\n        \"daughter\",\n        \"mother\",\n        \"island\",\n        \"darkness\",\n        \"psychopath\",\n        \"vacation\",\n        \"woods\",\n        \"survival\",\n        \"cabin\",\n        \"remote island\",\n        \"lake house\",\n        \"mother daughter relationship\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.5176470588235295,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like The Grand Budapest Hotel",
+        "source_key": "120467",
+        "answer": "Okay, here’s a movie recommendation based on your request, using only the provided data and adhering to your instructions:\n\n**Recommendation: “The Grand Budapest Hotel”**\n\n1.  **Title:** *The Grand Budapest Hotel* (2014)\n2.  **Year:** 2014\n3.  **Overview:** *The Grand Budapest Hotel* tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.\n4.  **Genres:** [hotel, painting, wartime, eastern europe, author, gunfight, the theft, period drama, bellhop, mentor protégé relationship, during credits stinger, european, hotel lobby, renaissance painting, 1960s, 1930s, hilarious]\n5.  **Keywords:** [hotel, painting, wartime, eastern europe, joseph mccarthy, 1950s, relativity, what if, joe dimaggio, philosophical debate, fictional story, marilyn monroe, albert einstein]\n6.  **Reason:** [Signals: semantic plot similarity, semantic keyword similarity, genre overlap]\n7.  **Score:** 0.502\n8.  **Rank:** 1\n\n**Explanation of why this recommendation fits:**\n\n*   **Similar Themes:** *The Grand Budapest Hotel* shares thematic elements with \"The Grand Budapest Hotel\" – a grand, somewhat melancholic setting, a mysterious figure, a theft, a family fortune, and a sense of historical upheaval. It’s a classic period drama with a touch of the surreal.\n*   **Semantic Plot Similarity:** The core plot – a theft, a family fortune, and a changing world – is a strong signal of similarity.\n*   **Keyword Overlap:** The keywords \"hotel,\" \"painting,\" \"wartime,\" and \"eastern europe\" are all highly relevant to the film's setting and themes.\n*   **Genre Overlap:** The film's blend of period drama, a mentor/protégé relationship, and a sense of melancholy aligns with the genre description.\n*   **Score:** The score of 0.502 is a reasonable estimate, reflecting the strong signal strength.\n\nI hope this recommendation is helpful!`https://bard.com/write/movie-recommendations```````",
+        "error": null,
+        "candidate_coverage": 0.0,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 1.0,
+        "token_f1": 0.28308823529411764,
+        "unexpected_headings": [
+          "**Title:** *The Grand Budapest Hotel*",
+          "**Year:** 2014",
+          "**Overview:** *The Grand Budapest Hotel* tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+          "**Genres:** [hotel, painting, wartime, eastern europe, author, gunfight, the theft, period drama, bellhop, mentor protégé relationship, during credits stinger, european, hotel lobby, renaissance painting, 1960s, 1930s, hilarious]",
+          "**Keywords:** [hotel, painting, wartime, eastern europe, joseph mccarthy, 1950s, relativity, what if, joe dimaggio, philosophical debate, fictional story, marilyn monroe, albert einstein]",
+          "**Reason:** [Signals: semantic plot similarity, semantic keyword similarity, genre overlap]",
+          "**Score:** 0.502",
+          "**Rank:** 1"
+        ]
+      },
+      {
+        "query": "What should I watch if I liked Toy Story?",
+        "source_key": "862",
+        "answer": "```json\n{\n  \"user_request\": \"What should I watch if I liked Toy Story?\",\n  \"source_movie\": {\n    \"title\": \"Toy Story\",\n    \"year\": \"1995\",\n    \"overview\": \"Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.\",\n    \"genres\": [\n      \"adventure\",\n      \"comedy\",\n      \"animation\",\n      \"children's\"\n    ],\n    \"keywords\": [\n      \"rescue\",\n      \"friendship\",\n      \"mission\",\n      \"jealousy\",\n      \"villain\",\n      \"bullying\",\n      \"elementary school\",\n      \"rivalry\",\n      \"anthropomorphism\",\n      \"friends\",\n      \"computer animation\",\n      \"buddy\",\n      \"walkie talkie\",\n      \"toy car\",\n      \"nostalgic\",\n      \"boy next door\",\n      \"new toy\",\n      \"neighborhood\",\n      \"toy comes to life\",\n      \"resourcefulness\",\n      \"toy\",\n      \"3d animation\",\n      \"joyous\",\n      \"amused\",\n      \"comforting\",\n      \"pixar\"\n    ],\n    \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise\",\n    \"score\": 0.795,\n    \"rank\": 1\n  },\n  \"preferences\": \"null\",\n  \"recommendations\": [\n    {\n      \"title\": \"Toy Story 3\",\n      \"year\": \"2010\",\n      \"overview\": \"Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.\",\n      \"genres\": [\n        \"adventure\",\n        \"comedy\",\n        \"animation\",\n        \"children's\"\n      ],\n      \"keywords\": [\n        \"escape\",\n        \"hostage\",\n        \"college\",\n        \"villain\",\n        \"sequel\",\n        \"buddy\",\n        \"daycare\",\n        \"teddy bear\",\n        \"duringcreditsstinger\",\n        \"toy comes to life\",\n        \"personification\",\n        \"inanimate objects come to life\",\n        \"introspective\",\n        \"3d animation\",\n        \"dramatic\",\n        \"pixar\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise\",\n      \"score\": 0.782,\n      \"rank\": 2\n    },\n    {\n      \"title\": \"Toy Story 2\",\n      \"year\": \"1999\",\n      \"overview\": \"Andy heads off to Cowboy Camp, leaving his toys to their own devices",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.3594080338266385,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to Ex Machina",
+        "source_key": "264660",
+        "answer": "```json\n{\n  \"user_request\": \"Recommend films similar to Ex Machina\",\n  \"source_movie\": {\n    \"title\": \"Ex Machina\",\n    \"year\": \"2015\",\n    \"overview\": \"Caleb, a coder at the world’s largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world’s first true artificial intelligence, housed in the body of a beautiful robot girl.\",\n    \"genres\": [\n      \"science fiction\",\n      \"thriller\",\n      \"psychological\",\n      \"technology\"\n    ],\n    \"keywords\": [\n      \"android\",\n      \"dancing\",\n      \"friendship\",\n      \"man vs machine\",\n      \"distrust\",\n      \"artificial intelligence (a.i.)\",\n      \"isolation\",\n      \"technology\",\n      \"manipulation\",\n      \"high technology\",\n      \"treason\",\n      \"deception\",\n      \"norway\",\n      \"laboratory\",\n      \"robot\",\n      \"power outage\",\n      \"surveillance\",\n      \"rich\",\n      \"surveillance camera\",\n      \"consciousness\",\n      \"employer employee relationship\",\n      \"isolated house\",\n      \"wealthy man\",\n      \"existentialism\",\n      \"lockdown\",\n      \"emotional intelligence\",\n      \"female cyborg\",\n      \"human android relationship\",\n      \"tech company\",\n      \"critical\",\n      \"intense\"\n    ],\n    \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n    \"score\": 0.578,\n    \"rank\": 1\n  },\n  \"preferences\": null,\n  \"recommendations\": [\n    {\n      \"title\": \"Life Like\",\n      \"year\": \"2019\",\n      \"overview\": \"Sophie and James purchase a lifelike robot to cook and clean at their sprawling new home. At first, android Henry is quiet and hard-working. But as his artificial-intelligence programming kicks in, Henry starts to anticipate the couple’s needs and desires.\",\n      \"genres\": [\n        \"science fiction\",\n        \"thriller\",\n        \"psychological\"\n      ],\n      \"keywords\": [\n        \"android\",\n        \"infidelity\",\n        \"jealousy\",\n        \"artificial intelligence (a.i.)\",\n        \"love triangle\",\n        \"man woman relationship\",\n        \"relationship problems\",\n        \"love\",\n        \"robot\",\n        \"lust\",\n        \"lgbt\",\n        \"humanity\",\n        \"humanoid robot\",\n        \"gay theme\"\n      ],\n      \"reason\": \"Signals: semantic plot similarity, semantic keyword similarity, genre overlap\",\n      \"score\": 0.578,\n      \"rank\": 2\n    },\n    {\n      \"title\": \"The Artifice Girl\",\n      \"year\": \"2023\",\n      \"overview\":",
+        "error": null,
+        "candidate_coverage": 0.4,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.34234234234234234,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like Amélie",
+        "source_key": "194",
+        "answer": "1.  **Amélie** (2001)\n2.  **The Magnificent One** (1973)\n3.  **To All the Boys I've Loved Before** (2018)\n4.  **Lost in Paris** (2017)\n5.  **People We Meet on Vacation** (2026)\n気持ち মতো झाले.",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.2,
+        "token_f1": 0.2553191489361702,
+        "unexpected_headings": [
+          "**Amélie**"
+        ]
+      }
+    ]
+  },
+  "fine_tuned_model": {
+    "examples": 24,
+    "candidate_coverage": 0.9833333333333334,
+    "order_preservation_rate": 0.9166666666666666,
+    "format_valid_rate": 0.3333333333333333,
+    "unexpected_heading_rate": 0.016666666666666666,
+    "reference_token_f1": 0.7461084810265329,
+    "generation_error_rate": 0.0,
+    "average_latency_seconds": 77.30891895416669,
+    "examples_detail": [
+      {
+        "query": "Give me movies like Arrival",
+        "source_key": "329865",
+        "answer": "The following are strong options:\n\n1. Contact (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A radio astronomer receives the first extraterrestrial radio signal ever picked up on Earth.\n\n2. Signal One (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer scientist is invited by a tech billionaire to join his private facility on a Caribbean island to investigate extraterrestrial matter on Earth.\n\n3. The Andromeda Strain (1971)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When virtually all of the residents of Piedmont, New Mexico are found dead after the return to Earth of a space satellite.\n\n4. Solaris (2002)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A troubled psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.\n\n5. Finch (2021)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. On a post-apocalyptic Earth, a robot, built to protect the life of his dying creator's beloved dog, learns about life, love, friendship, and what it means to be human.\n\n\n\n\nIf you enjoyed Arrival (2016), these are strong options:\n\n1. Contact (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A radio astronomer receives the first extraterrestrial radio signal ever picked up on Earth.\n\n2. Signal One (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer scientist is invited by a tech billionaire to join his private facility on a Caribbean island to investigate extraterrestrial matter on Earth.\n\n3. The Andromeda Strain (1971)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When virtually all of the residents of Piedmont, New Mexico are found dead after the return to Earth of a space satellite.\n\n4. Solaris (2002)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A troubled psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.\n\n5. Finch (2021)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. On a post-apocalyptic Earth, a robot, built to protect the life of his dying creator's beloved dog, learns about life, love, friendship, and what it means to be human.\n\n\n\nIf you enjoyed Arrival (2016), these are strong options:\n\n1. Contact (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A radio astronomer receives the first extraterrestrial radio signal ever picked up on Earth.\n\n2. Signal One (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer scientist is invited by a tech billionaire to join his private facility on a Caribbean island to investigate extraterrestrial matter on Earth.\n\n3. The Andromeda Strain (1971)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When virtually all of the residents of Piedmont, New Mexico are found dead after the return to Earth of a space satellite.\n\n4. Solaris",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.5619335347432024,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked Amélie?",
+        "source_key": "194",
+        "answer": "If you enjoyed Amélie (2001), these are strong options:\n\n1. Irma la Douce (1963)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When a recently fired policeman falls in love with a French prostitute, he doesn't want her to be with other men, so he creates an alter-ego in order to become her only customer.\n\n2. The Magnificent One (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A writer of pulpy book series in which he's the hero and his beautiful English roommate is the love interest attempts to finish his new book in time at the publisher's demand.\n\n3. To All the Boys I've Loved Before (2018)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Lara Jean's love life goes from imaginary to out of control when her secret letters to every boy she's ever fallen for are mysteriously mailed out.\n\n4. Lost in Paris (2017)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Fiona visits Paris for the first time to assist her myopic Aunt Martha.\n\n5. People We Meet on Vacation (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Poppy's a free spirit.\n\n\n\n\nIf you enjoyed Amélie (2001), these are strong options:\n\n1. Irma la Douce (1963)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When a recently fired policeman falls in love with a French prostitute, he doesn't want her to be with other men, so he creates an alter-ego in order to become her only customer.\n\n2. The Magnificent One (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A writer of pulpy book series in which he's the hero and his beautiful English roommate is the love interest attempts to finish his new book in time at the publisher's demand.\n\n3. To All the Boys I've Loved Before (2018)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Lara Jean's love life goes from imaginary to out of control when her secret letters to every boy she's ever fallen for are mysteriously mailed out.\n\n4. Lost in Paris (2017)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Fiona visits Paris for the first time to assist her myopic Aunt Martha.\n\n5. People We Meet on Vacation (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Poppy's a free spirit.\n\n\nrsi.",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.6655629139072848,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked Arrival?",
+        "source_key": "329865",
+        "answer": "If you enjoyed Arrival (2016), these are strong options:\n\n1. Contact (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A radio astronomer receives the first extraterrestrial radio signal ever picked up on Earth.\n\n2. Signal One (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer scientist is invited by a tech billionaire to join his private facility on a Caribbean island to investigate extraterrestrial matter on Earth.\n\n3. The Andromeda Strain (1971)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When virtually all of the residents of Piedmont, New Mexico are found dead after the return to Earth of a space satellite, the head of the US Air Force's Project Scoop declares an emergency.\n\n4. Solaris (2002)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A troubled psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.\n\n5. Finch (2021)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. On a post-apocalyptic Earth, a robot, built to protect the life of his dying creator's beloved dog, learns about life, love, friendship, and what it means to be human.\n\n\n\n\nIf you enjoyed Arrival (2016), these are strong options:\n\n1. Contact (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A radio astronomer receives the first extraterrestrial radio signal ever picked up on Earth.\n\n2. Signal One (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer scientist is invited by a tech billionaire to join his private facility on a Caribbean island to investigate extraterrestrial matter on Earth.\n\n3. The Andromeda Strain (1971)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When virtually all of the residents of Piedmont, New Mexico are found dead after the return to Earth of a space satellite, the head of the US Air Force's Project Scoop declares an emergency.\n\n4. Solaris (2002)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A troubled psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.\n\n5. Finch (2021)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. On a post-apocalyptic Earth, a robot, built to protect the life of his dying creator's beloved dog, learns about life, love, friendship, and what it means to be human.\n\nிரிம்\n\nLost in Space (1998)",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.6598639455782312,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to Arrival",
+        "source_key": "329865",
+        "answer": "The following are strong options:\n\n1. Contact (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A radio astronomer receives the first extraterrestrial radio signal ever picked up on Earth.\n\n2. Signal One (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer scientist is invited by a tech billionaire to join his private facility on a Caribbean island to investigate extraterrestrial matter on Earth.\n\n3. The Andromeda Strain (1971)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When virtually all of the residents of Piedmont, New Mexico are found dead after the return to Earth of a space satellite.\n\n4. Solaris (2002)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A troubled psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.\n\n5. Finch (2021)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. On a post-apocalyptic Earth, a robot, built to protect the life of his dying creator's beloved dog, learns about life, love, friendship, and what it means to be human.\n\n\n\n\nIf you enjoyed Arrival (2016), these are strong options:\n\n1. Contact (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A radio astronomer receives the first extraterrestrial radio signal ever picked up on Earth.\n\n2. Signal One (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer scientist is invited by a tech billionaire to join his private facility on a Caribbean island to investigate extraterrestrial matter on Earth.\n\n3. The Andromeda Strain (1971)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When virtually all of the residents of Piedmont, New Mexico are found dead after the return to Earth of a space satellite.\n\n4. Solaris (2002)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A troubled psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.\n\n5. Finch (2021)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. On a post-apocalyptic Earth, a robot, built to protect the life of his dying creator's beloved dog, learns about life, love, friendship, and what it means to be human.\n\n\n\n\nrantes",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.6726943942133815,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to The Shining",
+        "source_key": "694",
+        "answer": "If you enjoyed The Shining (1980), these are strong options:\n\n1. Doctor Sleep (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise. Still scarred by the trauma he endured as a child at the Overlook Hotel, Dan Torrance faces the ghosts of the past when he meets Abra, a courageous teen who desperately needs his help -- and who possesses a powerful extrasensory ability called the \"shine.\"\n\n2. He's Out There (2018)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. On vacation at a remote lake house, a mother and her two young daughters must fight for survival after falling into a terrifying and bizarre nightmare conceived by a psychopath.\n\n3. Silent Hill (2006)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Rose, a desperate mother, takes her adopted daughter, Sharon, to the town of Silent Hill in an attempt to cure her of her ailment.\n\n4. No Exit (2022)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Stranded at a rest stop in the mountains during a blizzard, a recovering addict discovers a kidnapped child hidden in a car belonging to one of the people inside the building which sets her on a terrifying struggle to identify who among them is the kidnapper.\n\n5. The Fury (1978)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When a devious plot separates CIA agent Peter Sandza from his son, Robin, the distraught father manages to see through the ruse.\n\n\nunumembering",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": true,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.9979716024340771,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like GoodFellas",
+        "source_key": "769",
+        "answer": "If you enjoyed GoodFellas (1990), these are strong options:\n\n1. Once Upon a Time in America (1984)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.\n\n2. The Irishman (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino.\n\n3. Donnie Brasco (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one.\n\n4. Gotti (1996)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. John Gotti, the head of a small New York mafia crew breaks a few of the old family rules.\n\n5. The Outfit (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A two-bit criminal takes on the Mafia to avenge his brother's death.\n\n\n\n\nIf you enjoyed GoodFellas (1990), these are strong options:\n\n1. Once Upon a Time in America (1984)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.\n\n2. The Irishman (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino.\n\n3. Donnie Brasco (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one.\n\n4. Gotti (1996)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. John Gotti, the head of a small New York mafia crew breaks a few of the old family rules.\n\n5. The Outfit (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A two-bit criminal takes on the Mafia to avenge his brother's death.\n\n\n supplication.",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.6179775280898876,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like Everything Everywhere All at Once",
+        "source_key": "545611",
+        "answer": "If you enjoyed Everything Everywhere All at Once (2022), these are strong options:\n\n1. The Blood of Heroes (1989)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Set in a futuristic world where the only sport that has survived in a wasted society is the brutal game known as jugging.\n\n2. Good Luck, Have Fun, Don't Die (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to save the world from the terminal threat of a rogue artificial intelligence.\n\n3. Barbarella (1968)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. In the far future, a highly sexual woman is tasked with finding and stopping the evil Durand-Durand.\n\n4. Heavy Metal (1981)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. The embodiment of ultimate evil, a glowing orb terrorizes a young girl with bizarre stories of dark fantasy, eroticism and horror.\n\n5. Big Trouble in Little China (1986)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Truck driver Jack Burton gets embroiled in a supernatural battle when his best friend Wang Chi's green-eyed fiancée is kidnapped by henchmen of the sorcerer Lo Pan, who must marry a girl with green eyes in order to return to the human realm.\n\n\n\n\nIf you enjoyed Everything Everywhere All at Once (2022), these are strong options:\n\n1. The Blood of Heroes (1989)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Set in a futuristic world where the only sport that has survived in a wasted society is the brutal game known as jugging.\n\n2. Good Luck, Have Fun, Don't Die (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to save the world from the terminal threat of a rogue artificial intelligence.\n\n3. Barbarella (1968)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. In the far future, a highly sexual woman is tasked with finding and stopping the evil Durand-Durand.\n\n4. Heavy Metal (1981)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. The embodiment of ultimate evil, a glowing orb terrorizes a young girl with bizarre stories of dark fantasy, eroticism and horror.\n\n5. Big Trouble in Little China (1986)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Truck driver Jack Burton gets embroiled in a supernatural battle when his best friend Wang Chi's green-eyed fiancée is kidnapped by henchmen of the sorcerer Lo Pan, who must marry a girl with green eyes in order to return to the human realm.\n\n\nIONAL",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.663768115942029,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked GoodFellas?",
+        "source_key": "769",
+        "answer": "If you enjoyed GoodFellas (1990), these are strong options:\n\n1. Once Upon a Time in America (1984)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.\n\n2. The Irishman (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino.\n\n3. Donnie Brasco (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one.\n\n4. Gotti (1996)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. John Gotti, the head of a small New York mafia crew breaks a few of the old family rules.\n\n5. The Outfit (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A two-bit criminal takes on the Mafia to avenge his brother's death.\n\n\n\n\nIf you enjoyed GoodFellas (1990), these are strong options:\n\n1. Once Upon a Time in America (1984)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.\n\n2. The Irishman (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino.\n\n3. Donnie Brasco (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one.\n\n4. Gotti (1996)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. John Gotti, the head of a small New York mafia crew breaks a few of the old family rules.\n\n5. The Outfit (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A two-bit criminal takes on the Mafia to avenge his brother's death.\n\n\n supplication",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.6179775280898876,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked The Grand Budapest Hotel?",
+        "source_key": "120467",
+        "answer": "If you enjoyed The Grand Budapest Hotel (2014), these are strong options:\n\n1. Insignificance (1985)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Four 1950s icons meet in the same hotel room, and two of them discover more in common between them than they ever anticipated.\n\n2. Dorian Gray (2009)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Seduced into the decadent world of Lord Henry Wotton, handsome young aristocrat Dorian Gray becomes obsessed with maintaining his youthful appearance, and commissions a special portrait that will weather the winds of time while he remains forever young.\n\n3. Redirected (2014)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Four friends become stranded in Eastern Europe and have to become hit men, prostitutes, corrupt cops, smugglers and more to make it home.\n\n4. Six Degrees of Separation (1993)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. The story of a young, gay, black, con artist who, posing as the son of Sidney Poitier, cunningly maneuvers his way into the lives of a white, upper-class New York family.\n\n5. Gangs of New York (2002)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. In early 1860s New York, Irish immigrant Amsterdam Vallon is released from prison and returns to the Five Points, seeking revenge against his father's killer, William Cutting, a powerful anti-immigrant gang leader.\n\n\n\n\nrsi\nत्यांच्या साध्या सादरीकरणाच्या आधारावर, यापैकी प्रत्येक निवड सिग्नल (signal) दर्शवते.",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": true,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.9366053169734151,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked Everything Everywhere All at Once?",
+        "source_key": "545611",
+        "answer": "If you enjoyed Everything Everywhere All at Once (2022), these are strong options:\n\n1. The Blood of Heroes (1989)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Set in a futuristic world where the only sport that has survived in a wasted society is the brutal game known as jugging.\n\n2. Good Luck, Have Fun, Don't Die (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to save the world from the terminal threat of a rogue artificial intelligence.\n\n3. Barbarella (1968)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. In the far future, a highly sexual woman is tasked with finding and stopping the evil Durand-Durand.\n\n4. Heavy Metal (1981)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. The embodiment of ultimate evil, a glowing orb terrorizes a young girl with bizarre stories of dark fantasy, eroticism and horror.\n\n5. Big Trouble in Little China (1986)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Truck driver Jack Burton gets embroiled in a supernatural battle when his best friend Wang Chi's green-eyed fiancée is kidnapped by henchmen of the sorcerer Lo Pan, who must marry a girl with green eyes in order to return to the human realm.\n\n\n\n\nIf you enjoyed Everything Everywhere All at Once (2022), these are strong options:\n\n1. The Blood of Heroes (1989)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Set in a futuristic world where the only sport that has survived in a wasted society is the brutal game known as jugging.\n\n2. Good Luck, Have Fun, Don't Die (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to save the world from the terminal threat of a rogue artificial intelligence.\n\n3. Barbarella (1968)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. In the far future, a highly sexual woman is tasked with finding and stopping the evil Durand-Durand.\n\n4. Heavy Metal (1981)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. The embodiment of ultimate evil, a glowing orb terrorizes a young girl with bizarre stories of dark fantasy, eroticism and horror.\n\n5. Big Trouble in Little China (1986)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Truck driver Jack Burton gets embroiled in a supernatural battle when his best friend Wang Chi's green-eyed fiancée is kidnapped by henchmen of the sorcerer Lo Pan, who must marry a girl with green eyes in order to return to the human realm.\n\n\nIONAL",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.663768115942029,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to Amélie",
+        "source_key": "194",
+        "answer": "If you enjoyed Amélie (2001), these are strong options:\n\n1. Irma la Douce (1963)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When a recently fired policeman falls in love with a French prostitute, he doesn't want her to be with other men, so he creates an alter-ego in order to become her only customer.\n\n2. The Magnificent One (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A writer of pulpy book series in which he's the hero and his beautiful English roommate is the love interest attempts to finish his new book in time at the publisher's demand.\n\n3. To All the Boys I've Loved Before (2018)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Lara Jean's love life goes from imaginary to out of control when her secret letters to every boy she's ever fallen for are mysteriously mailed out.\n\n4. Lost in Paris (2017)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Fiona visits Paris for the first time to assist her myopic Aunt Martha.\n\n5. People We Meet on Vacation (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Poppy's a free spirit.\n\n\n\n\nIf you enjoyed Amélie (2001), these are strong options:\n\n1. Irma la Douce (1963)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When a recently fired policeman falls in love with a French prostitute, he doesn't want her to be with other men, so he creates an alter-ego in order to become her only customer.\n\n2. The Magnificent One (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A writer of pulpy book series in which he's the hero and his beautiful English roommate is the love interest attempts to finish his new book in time at the publisher's demand.\n\n3. To All the Boys I've Loved Before (2018)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Lara Jean's love life goes from imaginary to out of control when her secret letters to every boy she's ever fallen for are mysteriously mailed out.\n\n4. Lost in Paris (2017)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Fiona visits Paris for the first time to assist her myopic Aunt Martha.\n\n5. People We Meet on Vacation (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Poppy's a free spirit.\n\n\nientemente, recomiendo estas películas similares a Amélie (2001):\n\n1. Irma la Douce (1963)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Cuando un recientemente despedido policía cae en amor con una prostituta francesa, no quiere que ella esté con otros hombres, así que crea un alter-ego para que se convierta en su única cliente.\n\n2. The Magnificent One (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Un escritor",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.5955555555555555,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked The Shining?",
+        "source_key": "694",
+        "answer": "If you enjoyed The Shining (1980), these are strong options:\n\n1. Doctor Sleep (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise. Still scarred by the trauma he endured as a child at the Overlook Hotel, Dan Torrance faces the ghosts of the past when he meets Abra, a courageous teen who desperately needs his help -- and who possesses a powerful extrasensory ability called the \"shine.\"\n\n2. He's Out There (2018)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. On vacation at a remote lake house, a mother and her two young daughters must fight for survival after falling into a terrifying and bizarre nightmare conceived by a psychopath.\n\n3. Silent Hill (2006)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Rose, a desperate mother, takes her adopted daughter, Sharon, to the town of Silent Hill in an attempt to cure her of her ailment.\n\n4. No Exit (2022)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Stranded at a rest stop in the mountains during a blizzard, a recovering addict discovers a kidnapped child hidden in a car belonging to one of the people inside the building which sets her on a terrifying struggle to identify who among them is the kidnapper.\n\n5. The Fury (1978)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When a devious plot separates CIA agent Peter Sandza from his son, Robin, the distraught father manages to see through the ruse.\n\n\nunumembering",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": true,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.9979716024340771,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like Ex Machina",
+        "source_key": "264660",
+        "answer": "If you enjoyed Ex Machina (2015), these are strong options:\n\n1. Life Like (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Sophie and James purchase a lifelike robot to cook and clean at their sprawling new home.\n\n2. The Artifice Girl (2023)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A team of special agents discovers a revolutionary new computer program to bait and trap online predators.\n\n3. Archive (2020)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. 2038: George Almore is working on a true human-equivalent AI, and his latest prototype is almost ready.\n\n4. The Zero Theorem (2013)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer hacker's goal to discover the reason for human existence continually finds his work interrupted thanks to the Management.\n\n5. Chappie (2015)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Every child comes into the world full of promise, and none more so than Chappie: he is a robot.\n\n\n\n\nrsi",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": true,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.9482758620689656,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to GoodFellas",
+        "source_key": "769",
+        "answer": "If you enjoyed GoodFellas (1990), these are strong options:\n\n1. Once Upon a Time in America (1984)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.\n\n2. The Irishman (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino.\n\n3. Donnie Brasco (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one.\n\n4. Gotti (1996)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. John Gotti, the head of a small New York mafia crew breaks a few of the old family rules.\n\n5. The Outfit (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A two-bit criminal takes on the Mafia to avenge his brother's death.\n\n\n\n\nIf you enjoyed GoodFellas (1990), these are strong options:\n\n1. Once Upon a Time in America (1984)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.\n\n2. The Irishman (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino.\n\n3. Donnie Brasco (1997)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one.\n\n4. Gotti (1996)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. John Gotti, the head of a small New York mafia crew breaks a few of the old family rules.\n\n5. The Outfit (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A two-bit criminal takes on the Mafia to avenge his brother's death.\n\n\n supplication",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.6179775280898876,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked Ex Machina?",
+        "source_key": "264660",
+        "answer": "If you enjoyed Ex Machina (2015), these are strong options:\n\n1. Life Like (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Sophie and James purchase a lifelike robot to cook and clean at their sprawling new home.\n\n2. The Artifice Girl (2023)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A team of special agents discovers a revolutionary new computer program to bait and trap online predators.\n\n3. Archive (2020)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. 2038: George Almore is working on a true human-equivalent AI, and his latest prototype is almost ready.\n\n4. The Zero Theorem (2013)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer hacker's goal to discover the reason for human existence continually finds his work interrupted thanks to the Management.\n\n5. Chappie (2015)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Every child comes into the world full of promise, and none more so than Chappie: he is a robot.\n\n\n\n\nrsi\n\n\n\n.",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": true,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.9482758620689656,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like Toy Story",
+        "source_key": "862",
+        "answer": "If you enjoyed Toy Story (1995), these are strong options:\n\n1. Toy Story (1995)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise. Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene.\n\n2. Toy Story 2 (1999)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Andy heads off to Cowboy Camp, leaving his toys to their own devices.\n\n3. Elio (2025)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap.\n\n4. Big Hero 6 (2014)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.\n\n5. Kronk's New Groove (2005)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. After his adventures with Kuzco, Kronk opens his own diner, but struggling business and the impending visit from his father push him to hatch a risky plan for success.\n\n\n\n\nIf you enjoyed Toy Story (1995), these are strong options:\n\n1. Toy Story (1995)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene.\n\n2. Toy Story 2 (1999)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Andy heads off to Cowboy Camp, leaving his toys to their own devices.\n\n3. Elio (2025)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap.\n\n4. Big Hero 6 (2014)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.\n\n5. Kronk's New Groove (2005)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. After his adventures with Kuzco, Kronk opens his own diner, but struggling business and the impending visit from his father push him to hatch a risky plan for success.\n\n\niyon",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.2,
+        "token_f1": 0.6225402504472272,
+        "unexpected_headings": [
+          "Toy Story",
+          "Toy Story"
+        ]
+      },
+      {
+        "query": "Recommend films similar to Everything Everywhere All at Once",
+        "source_key": "545611",
+        "answer": "If you enjoyed Everything Everywhere All at Once (2022), these are strong options:\n\n1. The Blood of Heroes (1989)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Set in a futuristic world where the only sport that has survived in a wasted society is the brutal game known as jugging.\n\n2. Good Luck, Have Fun, Don't Die (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to save the world from the terminal threat of a rogue artificial intelligence.\n\n3. Barbarella (1968)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. In the far future, a highly sexual woman is tasked with finding and stopping the evil Durand-Durand.\n\n4. Heavy Metal (1981)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. The embodiment of ultimate evil, a glowing orb terrorizes a young girl with bizarre stories of dark fantasy, eroticism and horror.\n\n5. Big Trouble in Little China (1986)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Truck driver Jack Burton gets embroiled in a supernatural battle when his best friend Wang Chi's green-eyed fiancée is kidnapped by henchmen of the sorcerer Lo Pan, who must marry a girl with green eyes in order to return to the human realm.\n\n\n\n\nIf you enjoyed Everything Everywhere All at Once (2022), these are strong options:\n\n1. The Blood of Heroes (1989)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Set in a futuristic world where the only sport that has survived in a wasted society is the brutal game known as jugging.\n\n2. Good Luck, Have Fun, Don't Die (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to save the world from the terminal threat of a rogue artificial intelligence.\n\n3. Barbarella (1968)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. In the far future, a highly sexual woman is tasked with finding and stopping the evil Durand-Durand.\n\n4. Heavy Metal (1981)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. The embodiment of ultimate evil, a glowing orb terrorizes a young girl with bizarre stories of dark fantasy, eroticism and horror.\n\n5. Big Trouble in Little China (1986)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Truck driver Jack Burton gets embroiled in a supernatural battle when his best friend Wang Chi's green-eyed fiancée is kidnapped by henchmen of the sorcerer Lo Pan, who must marry a girl with green eyes in order to return to the human realm.\n\n\nIONAL",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.663768115942029,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to Toy Story",
+        "source_key": "862",
+        "answer": "If you enjoyed Toy Story (1995), these are strong options:\n\n1. Toy Story (1995)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise. Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene.\n\n2. Toy Story 2 (1999)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Andy heads off to Cowboy Camp, leaving his toys to their own devices.\n\n3. Elio (2025)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.\n\n4. Big Hero 6 (2014)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.\n\n5. Kronk's New Groove (2005)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. After his adventures with Kuzco, Kronk opens his own diner, but struggling business and the impending visit from his father push him to hatch a risky plan for success.\n\n\n\nunumembering.",
+        "error": null,
+        "candidate_coverage": 0.8,
+        "order_preserved": false,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.2,
+        "token_f1": 0.9299065420560748,
+        "unexpected_headings": [
+          "Toy Story"
+        ]
+      },
+      {
+        "query": "Recommend films similar to The Grand Budapest Hotel",
+        "source_key": "120467",
+        "answer": "The Grand Budapest Hotel (2014) signals strong semantic plot similarity, semantic keyword similarity, and genre overlap.\n\n1. Insignificance (1985)\nSignals: Four 1950s icons meet in the same hotel room, and two of them discover more in common between them than they ever anticipated.\nGenres: Hotel room, new york city, mccarthy era, price of fame, joseph mccarthy, 1950s, relativity, what if, joe dimaggio, philosophical debate, fictional story, marilyn monroe, albert einstein.\nKeywords: hotel room, new york city, mccarthy era, price of fame, joseph mccarthy, 1950s, relativity, what if, joe dimaggio, philosophical debate, fictional story, marilyn monroe, albert einstein.\nReason: Signals: semantic plot similarity, semantic keyword similarity, genre overlap.\n\n2. Dorian Gray (2009)\nSignals: Seduced into the decadent world of Lord Henry Wotton, handsome young aristocrat Dorian Gray becomes obsessed with maintaining his youthful appearance, and commissions a special portrait that will weather the winds of time while he remains forever young.\nGenres: Hotel room, new york city, modern era, obsession, painting, victorian england, lust, decadence, victorian era, forever young.\nKeywords: hotel room, new york city, modern era, obsession, painting, victorian england, lust, decadence, victorian era, forever young.\nReason: Signals: semantic plot similarity, semantic keyword similarity, genre overlap.\n\n3. Redirected (2014)\nSignals: Four friends become stranded in Eastern Europe and have to become hit men, prostitutes, corrupt cops, smugglers and more to make it home.\nGenres: Casino, gambling, dark comedy, lithuania, murder, wedding, death, pack of money, misadventures, corrupt officials, gang confrontation, gangster boss, local criminals, explosive situations.\nKeywords: casino, gambling, lithuania, murder, wedding, death, pack of money, misadventures, corrupt officials, gang confrontation, gangster boss, local criminals.\nReason: Signals: semantic plot similarity, semantic keyword similarity, genre overlap.\n\n4. Six Degrees of Separation (1993)\nSignals: The story of a young, gay, black, con artist who, posing as the son of Sidney Poitier, cunningly maneuvers his way into the lives of a white, upper-class New York family.\nGenres: New york city, con man, art, art dealer, audacious, empathetic.\nKeywords: new york city, con man, art, art dealer, audacious, empathetic.\nReason: Signals: semantic plot similarity, semantic keyword similarity, genre overlap.\n\n5. Gangs of New York (2002)\nSignals: In early 1860s New York, Irish immigrant Amsterdam Vallon is released from prison and returns to the Five Points, seeking revenge against his father's killer, William Cutting, a powerful anti-immigrant gang leader.\nGenres: New york city, immigrant, ship, fire, army, pickpocket, butcher, gangster.\nKeywords: new york city, immigrant, ship, fire, army, pickpocket, butcher, gangster.\nReason: Signals:",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": true,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.7000000000000001,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like The Shining",
+        "source_key": "694",
+        "answer": "If you enjoyed The Shining (1980), these are strong options:\n\n1. Doctor Sleep (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise. Still scarred by the trauma he endured as a child at the Overlook Hotel, Dan Torrance faces the ghosts of the past when he meets Abra, a courageous teen who desperately needs his help -- and who possesses a powerful extrasensory ability called the \"shine.\"\n\n2. He's Out There (2018)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. On vacation at a remote lake house, a mother and her two young daughters must fight for survival after falling into a terrifying and bizarre nightmare conceived by a psychopath.\n\n3. Silent Hill (2006)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Rose, a desperate mother, takes her adopted daughter, Sharon, to the town of Silent Hill in an attempt to cure her of her ailment.\n\n4. No Exit (2022)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Stranded at a rest stop in the mountains during a blizzard, a recovering addict discovers a kidnapped child hidden in a car belonging to one of the people inside the building which sets her on a terrifying struggle to identify who among them is the kidnapper.\n\n5. The Fury (1978)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When a devious plot separates CIA agent Peter Sandza from his son, Robin, the distraught father manages to see through the ruse.\n\n\nunumembering",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": true,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.9979716024340771,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like The Grand Budapest Hotel",
+        "source_key": "120467",
+        "answer": "The Grand Budapest Hotel (2014) signals strong semantic plot similarity, semantic keyword similarity, and genre overlap.\n\n1. Insignificance (1985)\nSignals: four 1950s icons meet in the same hotel room, and two of them discover more in common between them than they ever anticipated.\n\n2. Dorian Gray (2009)\nSignals: seduced into the decadent world of Lord Henry Wotton, handsome young aristocrat Dorian Gray becomes obsessed with maintaining his youthful appearance, and commissions a special portrait that will weather the winds of time while he remains forever young.\n\n3. Redirected (2014)\nSignals: four friends become stranded in Eastern Europe and have to become hit men, prostitutes, corrupt cops, smugglers and more to make it home.\n\n4. Six Degrees of Separation (1993)\nSignals: the story of a young, gay, black, con artist who, posing as the son of Sidney Poitier, cunningly maneuvers his way into the lives of a white, upper-class New York family.\n\n5. Gangs of New York (2002)\nSignals: in early 1860s New York, Irish immigrant Amsterdam Vallon is released from prison and returns to the Five Points, seeking revenge against his father's killer, William Cutting, a powerful anti-immigrant gang leader.\n\n\n\n\n\nIf you enjoyed The Grand Budapest Hotel (2014), these are strong options:\n\n1. Insignificance (1985)\nSignals: four 1950s icons meet in the same hotel room, and two of them discover more in common between them than they ever anticipated.\n\n2. Dorian Gray (2009)\nSignals: seduced into the decadent world of Lord Henry Wotton, handsome young aristocrat Dorian Gray becomes obsessed with maintaining his youthful appearance, and commissions a special portrait that will weather the winds of time while he remains forever young.\n\n3. Redirected (2014)\nSignals: four friends become stranded in Eastern Europe and have to become hit men, prostitutes, corrupt cops, smugglers and more to make it home.\n\n4. Six Degrees of Separation (1993)\nSignals: the story of a young, gay, black, con artist who, posing as the son of Sidney Poitier, cunningly maneuvers his way into the lives of a white, upper-class New York family.\n\n5. Gangs of New York (2002)\nSignals: in early 1860s New York, Irish immigrant Amsterdam Vallon is released from prison and returns to the Five Points, seeking revenge against his father's killer, William Cutting, a powerful anti-immigrant gang leader.\n\n\nientemente, you are the response writer for a movie recommender.\nUse only the supplied recommendation data.\nPreserve the supplied rank order.\nWrite one short, useful paragraph below each heading.\nExplain why every recommended movie fits the user's request.\nUse this exact heading format for every movie: `1. Title (Year)`.\nWrite one short, useful paragraph below each heading.\n\n1. Insignificance (1985)\nSignals: four 1",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.5837037037037037,
+        "unexpected_headings": []
+      },
+      {
+        "query": "What should I watch if I liked Toy Story?",
+        "source_key": "862",
+        "answer": "If you enjoyed Toy Story (1995), these are strong options:\n\n1. Toy Story 3 (2010)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap, same collection/franchise. Woody, Buzz, and the rest of Andy's toys haven't been played with in years.\n\n2. Toy Story 2 (1999)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Andy heads off to Cowboy Camp, leaving his toys to their own devices.\n\n3. Elio (2025)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap.\n\n4. Big Hero 6 (2014)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada.\n\n5. Kronk's New Groove (2005)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. After his adventures with Kuzco, Kronk opens his own diner, but struggling business and the impending visit from his father push him to hatch a risky plan for success.\n\n\n\n\nIf you enjoyed Toy Story (1995), these are strong options:\n\n1. Toy Story 3 (2010)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Woody, Buzz, and the rest of Andy's toys haven't been played with in years.\n\n2. Toy Story 2 (1999)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Andy heads off to Cowboy Camp, leaving his toys to their own devices.\n\n3. Elio (2025)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap.\n\n4. Big Hero 6 (2014)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada.\n\n5. Kronk's New Groove (2005)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. After his adventures with Kuzco, Kronk opens his own diner, but struggling business and the impending visit from his father push him to hatch a risky plan for success.\n\n\nrsi",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.6319845857418112,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Recommend films similar to Ex Machina",
+        "source_key": "264660",
+        "answer": "If you enjoyed Ex Machina (2015), these are strong options:\n\n1. Life Like (2019)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Sophie and James purchase a lifelike robot to cook and clean at their sprawling new home.\n\n2. The Artifice Girl (2023)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A team of special agents discovers a revolutionary new computer program to bait and trap online predators.\n\n3. Archive (2020)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. 2038: George Almore is working on a true human-equivalent AI, and his latest prototype is almost ready.\n\n4. The Zero Theorem (2013)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A computer hacker's goal to discover the reason for human existence continually finds his work interrupted thanks to the Management.\n\n5. Chappie (2015)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Every child comes into the world full of promise, and none more so than Chappie: he is a robot.\n\n\n\n\nrsi\n\n\n\n.",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": true,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.9482758620689656,
+        "unexpected_headings": []
+      },
+      {
+        "query": "Give me movies like Amélie",
+        "source_key": "194",
+        "answer": "If you enjoyed Amélie (2001), these are strong options:\n\n1. Irma la Douce (1963)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When a recently fired policeman falls in love with a French prostitute, he doesn't want her to be with other men, so he creates an alter-ego in order to become her only customer.\n\n2. The Magnificent One (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A writer of pulpy book series in which he's the hero and his beautiful English roommate is the love interest attempts to finish his new book in time at the publisher's demand.\n\n3. To All the Boys I've Loved Before (2018)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Lara Jean's love life goes from imaginary to out of control when her secret letters to every boy she's ever fallen for are mysteriously mailed out.\n\n4. Lost in Paris (2017)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Fiona visits Paris for the first time to assist her myopic Aunt Martha.\n\n5. People We Meet on Vacation (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Poppy's a free spirit.\n\n\n\n\nIf you enjoyed Amélie (2001), these are strong options:\n\n1. Irma la Douce (1963)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. When a recently fired policeman falls in love with a French prostitute, he doesn't want her to be with other men, so he creates an alter-ego in order to become her only customer.\n\n2. The Magnificent One (1973)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. A writer of pulpy book series in which he's the hero and his beautiful English roommate is the love interest attempts to finish his new book in time at the publisher's demand.\n\n3. To All the Boys I've Loved Before (2018)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Lara Jean's love life goes from imaginary to out of control when her secret letters to every boy she's ever fallen for are mysteriously mailed out.\n\n4. Lost in Paris (2017)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Fiona visits Paris for the first time to assist her myopic Aunt Martha.\n\n5. People We Meet on Vacation (2026)\nSignals: semantic plot similarity, semantic keyword similarity, genre overlap. Poppy's a free spirit.\n\n\nientemente, dame más información.",
+        "error": null,
+        "candidate_coverage": 1.0,
+        "order_preserved": true,
+        "format_valid": false,
+        "unexpected_heading_rate": 0.0,
+        "token_f1": 0.6622734761120264,
+        "unexpected_headings": []
+      }
+    ]
+  },
+  "improvement": {
+    "candidate_coverage": 0.4166666666666665,
+    "order_preservation_rate": 0.875,
+    "format_valid_rate": 0.29166666666666663,
+    "reference_token_f1": 0.41969032737708545
+  }
+}

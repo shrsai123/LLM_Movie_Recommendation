@@ -13,11 +13,34 @@ class FaissMovieCandidateRetriever:
         # Request one extra result because the source movie may retrieve itself.
         documents = self.vector_store.similarity_search(query, k=limit + 1)
         source_id = source_movie.get("id")
+        return self._candidates_from_documents(
+            documents,
+            limit=limit,
+            excluded_movie_id=source_id,
+        )
+
+    def search_query(self, query: str, limit: int = 20) -> list[dict]:
+        if limit < 1:
+            raise ValueError("limit must be positive")
+
+        query = query.strip()
+        if not query:
+            return []
+
+        documents = self.vector_store.similarity_search(query, k=limit)
+        return self._candidates_from_documents(documents, limit=limit)
+
+    @staticmethod
+    def _candidates_from_documents(
+        documents,
+        limit: int,
+        excluded_movie_id=None,
+    ) -> list[dict]:
         candidates = []
 
         for document in documents:
             movie = dict(document.metadata)
-            if source_id is not None and movie.get("id") == source_id:
+            if excluded_movie_id is not None and movie.get("id") == excluded_movie_id:
                 continue
             if not movie.get("title"):
                 continue
