@@ -4,6 +4,7 @@ gradio
 langchain-classic
 langchain-community
 langchain-huggingface
+langgraph>=1.2,<2
 transformers
 accelerate
 sentence-transformers
